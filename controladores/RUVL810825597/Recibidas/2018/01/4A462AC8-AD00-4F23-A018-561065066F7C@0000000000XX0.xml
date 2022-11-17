@@ -1,0 +1,42 @@
+<cfdi:Comprobante Certificado="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" Fecha="2018-01-10T12:15:43" Folio="18382" FormaPago="01" LugarExpedicion="29080" MetodoPago="PUE" Moneda="MXN" NoCertificado="00001000000401205081" Sello="HYqcvn2Hx5hLMTCFNoBYfna0lsHS8IqIzejLCdW8qrzRmMA7xFlQ/3gRdqt1NT0tZxF+UVYzPqQWKa7LDgA0hTGpjKcXAEvbL+u9VbA71HmRannre73RlcHp2WHPj9mJIzm7ioEpKftKyZmQmBiOLHY4By3wr/Hf1/2Xtf1XoTCHcli3gkBbd0sK32RmNP0CHJVeU7x5RfmsN1jhIhG7Zskkjb3Btfl9JC2a9jv/T4ZoQtz7jaBAPTg6rP/Hp2ksc9PsWmUN1PVRyLDr3hrS2tqyzN2AtGYNiDspBYyRvMO5IkO/+ArTa4uNPYhuAZE9ApxQaklW5T6fE/8MeraKDg==" Serie="WEI" SubTotal="999.14" TipoCambio="1" TipoDeComprobante="I" Total="1159.00" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <cfdi:Emisor Nombre="CIA SHERWIN WILLIAMS SA DE CV" RegimenFiscal="601" Rfc="SWI5210141J5" />
+    <cfdi:Receptor Nombre="LUISA MARIA  RUIZ VARGAS" Rfc="RUVL810825597" UsoCFDI="G03" />
+    <cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="31211505" ClaveUnidad="H87" Descripcion="F75 AMARILLO CROMO" Importe="477.59" NoIdentificacion="F75YJ28-4" Unidad="EA" ValorUnitario="477.59">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="477.59" Importe="76.41" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="31211505" ClaveUnidad="H87" Descripcion="METALEX ROJO POSTE" Importe="404.31" NoIdentificacion="F75RJ37-4" Unidad="EA" ValorUnitario="404.31">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="404.31" Importe="64.69" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="2" ClaveProdServ="31211904" ClaveUnidad="H87" Descripcion="BROCHA S.W. USO DOMESTICO 4&amp;quot;" Importe="65.52" NoIdentificacion="AP3051" Unidad="EA" ValorUnitario="32.76">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="65.52" Importe="10.48" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="31211604" ClaveUnidad="H87" Descripcion="REDUCTOR 73" Importe="51.72" NoIdentificacion="R02KA04-QT" Unidad="EA" ValorUnitario="51.72">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="51.72" Importe="8.28" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="159.86">
+        <cfdi:Traslados>
+            <cfdi:Traslado Importe="159.86" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital Version="1.1" SelloCFD="HYqcvn2Hx5hLMTCFNoBYfna0lsHS8IqIzejLCdW8qrzRmMA7xFlQ/3gRdqt1NT0tZxF+UVYzPqQWKa7LDgA0hTGpjKcXAEvbL+u9VbA71HmRannre73RlcHp2WHPj9mJIzm7ioEpKftKyZmQmBiOLHY4By3wr/Hf1/2Xtf1XoTCHcli3gkBbd0sK32RmNP0CHJVeU7x5RfmsN1jhIhG7Zskkjb3Btfl9JC2a9jv/T4ZoQtz7jaBAPTg6rP/Hp2ksc9PsWmUN1PVRyLDr3hrS2tqyzN2AtGYNiDspBYyRvMO5IkO/+ArTa4uNPYhuAZE9ApxQaklW5T6fE/8MeraKDg==" UUID="4A462AC8-AD00-4F23-A018-561065066F7C" FechaTimbrado="2018-01-10T11:16:05" RfcProvCertif="STO020301G28" NoCertificadoSAT="00001000000404627119" SelloSAT="gwrUA24I3b93+432DqRP5bgpz+9S65cwOL2+xEaKM8JRzJIiJRHmf3hqLViZXiIg3qERmkLmCQKURXwFbjpnb+jAxLrBlX/dW5tJ9Bv/3f0KXKPGqte4fOnQP/DCl/I83n0ifxJQm1lzJSxtXjNwsidvSfcGdXcCOXM+tyhf+YC+5MZnnAI3xMynWz/4jjqdRJnLnPr2B10AL7XRSXT/WvRnDly6xQalveymVDJV+9K3TgumJDzeq+h8KefZOeyZmKAtQxg9YM8AXx8FTP6Kl3QHJowPixBldJk15V0towM+DE9/x+h2h7x+EY7bvLw9gRuPeZcjkgNKailkHBpekQ==" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" />
+    </cfdi:Complemento>
+</cfdi:Comprobante>

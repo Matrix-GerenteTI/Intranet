@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante Version="3.3" Folio="00000500" Fecha="2018-05-10T10:25:52" Sello="FYG6SEuR/9vOGuJhaZF4kRan0huiX3v5NkIV+Eq6NVEIIXiqqmNecwfPdrDvY47qXYz2JWnXsH0MRLd/Vaj88YS9wybMPw2zNBGNtwEsoXTRxf1xL2ulLpqjv0fb7fE7FcIg4xIn9IuaFxQS2mxA5wps4oCB1ZAHNabD6F4yiyxQGFAzulJzJHHMNZILvQEeY7gI/6RTUQOCfnZ7ds8wuIfZY+KT24st83BuQIKlWWSzBZtyOlfGO1+vbDp8wDVy9BA41H32KzWMDMapuObl2dlMf6MKzljyd7KwKe202stc7VwWiCAVBfGOmDmKlDxmfA47vSYpdnN//sLzKX1Krw==" FormaPago="99" NoCertificado="00001000000404131293" Certificado="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" CondicionesDePago="60 DIAS" SubTotal="804747.29" Total="933506.86" MetodoPago="PPD" TipoDeComprobante="I" Moneda="MXN" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" TipoCambio="1" LugarExpedicion="37170" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:catCFDI="http://www.sat.gob.mx/sitio_internet/cfd/catalogos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tdCFDI="http://www.sat.gob.mx/sitio_internet/cfd/tipoDatos/tdCFDI">
+  <cfdi:Emisor Rfc="TDI030516L26" Nombre="Tire Direct SA de CV" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="RUVL810825597" Nombre="LUISA MARIA RUIZ VARGAS" UsoCFDI="G01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="15.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 185/70R13 86T BLACKLION CILERRO BH15 AUTO" ValorUnitario="492.37" Importe="7385.55">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="7385.55" Impuesto="002" TipoFactor="Tasa" Importe="1181.69" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3964  7004565" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="42.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 185/70R13 86T BLACKLION CILERRO BH15 AUTO" ValorUnitario="492.37" Importe="20679.54">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="20679.54" Impuesto="002" TipoFactor="Tasa" Importe="3308.73" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3964  7004566" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="52.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 185/70R13 86T BLACKLION CILERRO BH15 AUTO" ValorUnitario="492.37" Importe="25603.24">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="25603.24" Impuesto="002" TipoFactor="Tasa" Importe="4096.52" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3964  7004592" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="14.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 185/70R13 86T BLACKLION CILERRO BH15 AUTO" ValorUnitario="492.37" Importe="6893.18">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="6893.18" Impuesto="002" TipoFactor="Tasa" Importe="1102.91" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3964  7004593" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="27.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 185/70R13 86T BLACKLION CILERRO BH15 AUTO" ValorUnitario="492.37" Importe="13293.99">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="13293.99" Impuesto="002" TipoFactor="Tasa" Importe="2127.04" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8000432" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="6.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT35X12.50R15-6 113Q MAXTREK MUD TRAC CAMIONETA" ValorUnitario="2346.08" Importe="14076.48">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="14076.48" Impuesto="002" TipoFactor="Tasa" Importe="2252.24" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8000809" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="20.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 155/70R14 77T MAXTREK INGENS A1 AUTO" ValorUnitario="481.43" Importe="9628.60">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="9628.60" Impuesto="002" TipoFactor="Tasa" Importe="1540.58" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8000796" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="14.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 175/70R13 82T GOODYEAR ASSURANCE AUTO" ValorUnitario="558.92" Importe="7824.88">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="7824.88" Impuesto="002" TipoFactor="Tasa" Importe="1251.98" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="20.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 175/70R14 84H ANTARES INGENS A1 AUTO" ValorUnitario="499.34" Importe="9986.80">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="9986.80" Impuesto="002" TipoFactor="Tasa" Importe="1597.89" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8001519" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="30.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 185/70R13 86T GOODYEAR ASSURANCE AUTO" ValorUnitario="639.88" Importe="19196.40">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="19196.40" Impuesto="002" TipoFactor="Tasa" Importe="3071.42" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="30.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 185R14C-8 102/100Q MAXTREK SU810 CAMIONETA" ValorUnitario="689.73" Importe="20691.90">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="20691.90" Impuesto="002" TipoFactor="Tasa" Importe="3310.70" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8000796" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="30.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 205/55R16  94V XL MAXTREK MAXIMUS M1 AUTO" ValorUnitario="600.19" Importe="18005.70">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="18005.70" Impuesto="002" TipoFactor="Tasa" Importe="2880.91" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  84  9037  8007956" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="12.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 205/55R16 91V DUNLOP DIREZZA DZ102 AUTO" ValorUnitario="899.00" Importe="10788.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="10788.00" Impuesto="002" TipoFactor="Tasa" Importe="1726.08" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="4.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 215/55R17 94V DUNLOP DIREZZA DZ102 AUTO" ValorUnitario="1474.51" Importe="5898.04">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="5898.04" Impuesto="002" TipoFactor="Tasa" Importe="943.69" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="8.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 215/55R17 94V GOODYEAR ASSURANCE COMFORTRED TOURING AUTO" ValorUnitario="1679.12" Importe="13432.96">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="13432.96" Impuesto="002" TipoFactor="Tasa" Importe="2149.27" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="4.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 215/60R17 96H GOODYEAR ASSURANCE COMFORTRED TOURING AUTO" ValorUnitario="1839.19" Importe="7356.76">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="7356.76" Impuesto="002" TipoFactor="Tasa" Importe="1177.08" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="2.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 225/45R19 92W DUNLOP SP SPORT 5000 AUTO" ValorUnitario="2850.19" Importe="5700.38">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="5700.38" Impuesto="002" TipoFactor="Tasa" Importe="912.06" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="12.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 225/50R18 95V MAXTREK SIERRA S6 CAMIONETA" ValorUnitario="959.47" Importe="11513.64">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="11513.64" Impuesto="002" TipoFactor="Tasa" Importe="1842.18" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8001654" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="12.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 225/55R18  98V MAXTREK SIERRA S6 CAMIONETA" ValorUnitario="1016.59" Importe="12199.08">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="12199.08" Impuesto="002" TipoFactor="Tasa" Importe="1951.85" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  81  3954  8000499" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="4.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 225/55R18 97V DUNLOP SP SPORT 7000 AS CAMIONETA" ValorUnitario="2326.66" Importe="9306.64">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="9306.64" Impuesto="002" TipoFactor="Tasa" Importe="1489.06" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="8.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 235/60R16  100H MAXTREK SIERRA S6 CAMIONETA" ValorUnitario="881.43" Importe="7051.44">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="7051.44" Impuesto="002" TipoFactor="Tasa" Importe="1128.23" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8001512" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="4.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 245/45R18  100W XL MAXTREK MAXIMUS M1 CAMIONETA" ValorUnitario="915.93" Importe="3663.72">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3663.72" Impuesto="002" TipoFactor="Tasa" Importe="586.20" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8000968" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="4.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 255/55R19 111V ANTARES COMFORT A5 CAMIONETA" ValorUnitario="1403.95" Importe="5615.80">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="5615.80" Impuesto="002" TipoFactor="Tasa" Importe="898.53" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8000811" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="4.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 255/70R15  108S MAXTREK SU800 CAMIONETA" ValorUnitario="1392.64" Importe="5570.56">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="5570.56" Impuesto="002" TipoFactor="Tasa" Importe="891.29" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8001512" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="8.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 265/60R18  110H MAXTREK SU800 CAMIONETA" ValorUnitario="1343.63" Importe="10749.04">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="10749.04" Impuesto="002" TipoFactor="Tasa" Importe="1719.85" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8000968" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="12.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 265/70R15  112S MAXTREK SU800 CAMIONETA" ValorUnitario="1729.49" Importe="20753.88">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="20753.88" Impuesto="002" TipoFactor="Tasa" Importe="3320.62" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  84  9037  8007847" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="8.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 275/45R22 112V ANTARES MAJORIS M5 CAMIONETA" ValorUnitario="1728.74" Importe="13829.92">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="13829.92" Impuesto="002" TipoFactor="Tasa" Importe="2212.79" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8001660" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="12.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 275/55R20 117V XL MAXTREK FORTIS T5 CAMIONETA" ValorUnitario="1340.24" Importe="16082.88">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="16082.88" Impuesto="002" TipoFactor="Tasa" Importe="2573.26" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8001654" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="6.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 285/60R18 116T MAXTREK SU800 CAMIONETA" ValorUnitario="1703.10" Importe="10218.60">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="10218.60" Impuesto="002" TipoFactor="Tasa" Importe="1634.98" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8001064" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="4.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 285/65R16C 128N/118R GOODYEAR CARGO VECTOR AUTO" ValorUnitario="2726.05" Importe="10904.20">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="10904.20" Impuesto="002" TipoFactor="Tasa" Importe="1744.67" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="1.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 295/35R21  107Y XL MAXTREK FORTIS T5 CAMIONETA" ValorUnitario="1112.15" Importe="1112.15">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1112.15" Impuesto="002" TipoFactor="Tasa" Importe="177.94" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8000039" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="1.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 295/40R21  111W XL MAXTREK FORTIS T5 CAMIONETA" ValorUnitario="1965.49" Importe="1965.49">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1965.49" Impuesto="002" TipoFactor="Tasa" Importe="314.48" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  84  9037  8007897" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="2.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT275/65R20 126/123Q MAXTREK MUD TRAC CAMIONETA" ValorUnitario="2325.72" Importe="4651.44">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4651.44" Impuesto="002" TipoFactor="Tasa" Importe="744.23" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="16  84  9037  6016321" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="10.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT275/65R20 126/123Q MAXTREK MUD TRAC CAMIONETA" ValorUnitario="2325.72" Importe="23257.20">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="23257.20" Impuesto="002" TipoFactor="Tasa" Importe="3721.15" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3964  7001368" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="11.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT275/65R20-10 (34X10.50R20) 126S MICKEY THOMPSON BAJA STZ  CAMIONETA" ValorUnitario="2167.75" Importe="23845.25">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="23845.25" Impuesto="002" TipoFactor="Tasa" Importe="3815.24" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="14  24  3139  4007877" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="20.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT275/65R20-10 126/123Q ANTARES DEEP DIGGER CAMIONETA" ValorUnitario="2325.72" Importe="46514.40">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="46514.40" Impuesto="002" TipoFactor="Tasa" Importe="7442.30" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  84  9037  8007893" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="20.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT275/65R20-10 126/123S BLACKLION VORACIO BA80 CAMIONETA" ValorUnitario="1973.22" Importe="39464.40">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="39464.40" Impuesto="002" TipoFactor="Tasa" Importe="6314.30" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8000517" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="20.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT275/70R18 125/122Q ANTARES DEEP DIGGER CAMIONETA" ValorUnitario="2764.73" Importe="55294.60">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="55294.60" Impuesto="002" TipoFactor="Tasa" Importe="8847.14" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8000960" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="8.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT305/70R16-8 118/115Q MAXTREK MUD TRAC CAMIONETA" ValorUnitario="2511.01" Importe="20088.08">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="20088.08" Impuesto="002" TipoFactor="Tasa" Importe="3214.09" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  84  9037  8007906" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="40.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT30X9.50R15-6 104S MAXTREK MUD TRAC CAMIONETA" ValorUnitario="1603.57" Importe="64142.80">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="64142.80" Impuesto="002" TipoFactor="Tasa" Importe="10262.85" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  84  9037  8007815" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="40.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT30X9.50R15-6 104S MAXTREK SU800 CAMIONETA" ValorUnitario="1351.93" Importe="54077.20">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="54077.20" Impuesto="002" TipoFactor="Tasa" Importe="8652.35" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  84  9037  8007825" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="4.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT315/75R16-8 121Q ANTARES DEEPDIGGER CAMIONETA" ValorUnitario="2872.18" Importe="11488.72">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="11488.72" Impuesto="002" TipoFactor="Tasa" Importe="1838.20" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  84  9037  8007892" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="8.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT33X12.50R18-10 118Q ANTARES DEEPDIGGER CAMIONETA" ValorUnitario="1986.61" Importe="15892.88">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="15892.88" Impuesto="002" TipoFactor="Tasa" Importe="2542.86" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8001511" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="4.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT33X12.50R20-10 114Q ANTARES DEEPDIGGER CAMIONETA" ValorUnitario="2102.72" Importe="8410.88">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="8410.88" Impuesto="002" TipoFactor="Tasa" Importe="1345.74" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8000966" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="30.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 185/60R14 82H ANTARES INGENS A1 AUTO" ValorUnitario="490.20" Importe="14706.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="14706.00" Impuesto="002" TipoFactor="Tasa" Importe="2352.96" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3964  7004230" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="150.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llantas 175/70R13 82T GOODYEAR KELLY METRIC XTRA AUTO" ValorUnitario="439.56" Importe="65934.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="65934.00" Impuesto="002" TipoFactor="Tasa" Importe="10549.44" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="128759.57">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" Importe="128759.57" TipoFactor="Tasa" TasaOCuota="0.160000" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="1AFAEED9-B48E-4807-96F9-6D5E41BC8C10" FechaTimbrado="2018-05-10T10:25:54" RfcProvCertif="INT020124V62" SelloCFD="FYG6SEuR/9vOGuJhaZF4kRan0huiX3v5NkIV+Eq6NVEIIXiqqmNecwfPdrDvY47qXYz2JWnXsH0MRLd/Vaj88YS9wybMPw2zNBGNtwEsoXTRxf1xL2ulLpqjv0fb7fE7FcIg4xIn9IuaFxQS2mxA5wps4oCB1ZAHNabD6F4yiyxQGFAzulJzJHHMNZILvQEeY7gI/6RTUQOCfnZ7ds8wuIfZY+KT24st83BuQIKlWWSzBZtyOlfGO1+vbDp8wDVy9BA41H32KzWMDMapuObl2dlMf6MKzljyd7KwKe202stc7VwWiCAVBfGOmDmKlDxmfA47vSYpdnN//sLzKX1Krw==" NoCertificadoSAT="00001000000404598147" SelloSAT="etxMgGyLwR+lZZFFNr4NifaWBeWnbkjjRgah/l+mW8xwzfWU8dmQP2Uw32VXYfmlWpEskpgc2VBQDpmTQSNYWj7nmpJCx+Y47o9cTDyEyYiPavwQ/hce2IiEbGnKR3dZz4PDWna4DoOI0TxokeJnOOsEs6UdeqLkIKWPYCyIH2V5hIVmwMC/Wm/9lKKq3jTad8k7dSFjBHlSDYSccKrTjCGMjqoM97ejlVnIP7mzGi6AH9JA0NkKz3Q1UtgMmPBcvzVrTUhq2CFGQZi3LiTJaHpEbNajqSlyBm7yYLlBlX/TzfQmaMW687gxcCq7kuvGQfvqmJDNaezs5rKBQGcjkA==" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

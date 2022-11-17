@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante Version="3.3" Folio="00000412" Fecha="2018-01-09T05:09:26" Sello="ASCNaaoU0AdFEf6WEyH6qOysBeKu4+5GSOH3YB1ZbjlaENiVbrYPBW1/NSA1XMB5FJNNaAkILPhdAHu+KVGGUJbFqcNByd3YeoYbRQUCEyu1zlZyhpqDcigJPU7oJxvhXWExTb9qDxxqDmWDVcMzXUklkuAAHyh3FRs3izw67EDHuA3u4jT1aCDLu6NPj5q3QZHo2gYPHNXEEopjnmf0EzXX0qdkdB6suV82xnicL6pmRe+d5sWq9jYeBeWx+vMjQJPM5NkEicYy4HHRnGGYAKVXrKB0t3W8CBnsmB4hGXCBuzyOirHMxZt/OuvW3J2BjrifCZeWZSRgWSyggG5FMg==" FormaPago="99" NoCertificado="00001000000404131293" Certificado="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" CondicionesDePago="60 DIAS" SubTotal="51615.98" Total="59874.53" MetodoPago="PPD" TipoDeComprobante="I" Moneda="MXN" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" TipoCambio="1.0" LugarExpedicion="07020" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:catCFDI="http://www.sat.gob.mx/sitio_internet/cfd/catalogos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tdCFDI="http://www.sat.gob.mx/sitio_internet/cfd/tipoDatos/tdCFDI">
+  <cfdi:Emisor Rfc="TDI030516L26" Nombre="Tire Direct SA de CV" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="RUVL810825597" Nombre="LUISA MARIA RUIZ VARGAS" UsoCFDI="G01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="8.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 195/65R15 91H FUZION (BRIDGESTONE) TOURING AUTO" ValorUnitario="668.40" Importe="5347.20">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="5347.20" Impuesto="002" TipoFactor="Tasa" Importe="855.55" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="11.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 205/55R16 91H BRIDGESTONE ECOPIA EP422  AUTO" ValorUnitario="866.74" Importe="9534.14">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="9534.14" Impuesto="002" TipoFactor="Tasa" Importe="1525.46" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="24.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 205/55R16 91V PIRELLI P7 AUTO" ValorUnitario="913.11" Importe="21914.64">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="21914.64" Impuesto="002" TipoFactor="Tasa" Importe="3506.34" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="8.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 265/70R16 (31X10.50R16) 121R MICKEY THOMPSON BAJA STZ CAMIONETA" ValorUnitario="1852.50" Importe="14820.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="14820.00" Impuesto="002" TipoFactor="Tasa" Importe="2371.20" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  24  3139  7002580" />
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosRetenidos="0.00" TotalImpuestosTrasladados="8258.55">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" Importe="8258.55" TipoFactor="Tasa" TasaOCuota="0.160000" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="C806CFDD-5CB7-49B4-B38D-E9AF51618142" FechaTimbrado="2018-01-09T17:09:26" RfcProvCertif="INT020124V62" SelloCFD="ASCNaaoU0AdFEf6WEyH6qOysBeKu4+5GSOH3YB1ZbjlaENiVbrYPBW1/NSA1XMB5FJNNaAkILPhdAHu+KVGGUJbFqcNByd3YeoYbRQUCEyu1zlZyhpqDcigJPU7oJxvhXWExTb9qDxxqDmWDVcMzXUklkuAAHyh3FRs3izw67EDHuA3u4jT1aCDLu6NPj5q3QZHo2gYPHNXEEopjnmf0EzXX0qdkdB6suV82xnicL6pmRe+d5sWq9jYeBeWx+vMjQJPM5NkEicYy4HHRnGGYAKVXrKB0t3W8CBnsmB4hGXCBuzyOirHMxZt/OuvW3J2BjrifCZeWZSRgWSyggG5FMg==" NoCertificadoSAT="00001000000404598147" SelloSAT="FgafxS54fzpWdY2j+VaijeSivqph8YgOl/vblnBAwCjYx3z2i9glFdzpUOd7IiuWAjOnr9DObhDZgiv59t6jYdSkCD3O2N1szIMcOcFTb3nYQYvVwKp9Of9uTrMTpO3ntqKVMA0VVu4RDRCRJIJvc0q8JLCpJ/dEQ02Gsb/tgbMbkcUmISAQWQIPWgPriiZGebsgIgZDtJq2sRrtA8R7weoG012BHnVVSj+6yZSPEdgWv9WcIrQsm5s/XHtbYTyq2c4N1lBTm5N8qrgB0JrLerMCyPu3lg/2RtVWHbgd73xyZt+9bZkbvLk04wFiEAs5lBJfocfLhQQuk8BNU1jqlQ==" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

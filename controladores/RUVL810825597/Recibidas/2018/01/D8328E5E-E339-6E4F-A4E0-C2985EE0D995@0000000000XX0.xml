@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" Version="3.3" Serie="GF" Folio="6162" Fecha="2018-01-03T11:21:26" Sello="OAd+G8CoGs6xjCBV70eUbrYwTH/Tf+vDTGiKuAOoSm2GWxgvehZdQe0iUDCb9OmwwReftkDM2iq26Nw4WN3coQJmoOEXX+wqWcEvktL/Yjz8+Fn7yCBOqCr92UwIeR15tuRt/BmCbm6H1aDYYh+VfKzwKfF4CKM1pfam1HV57Qk=" FormaPago="01" NoCertificado="00001000000306213713" Certificado="MIIEWjCCA0KgAwIBAgIUMDAwMDEwMDAwMDAzMDYyMTM3MTMwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xNTAzMDQyMjQ2MTRaFw0xOTAzMDQyMjQ2MTRaMIGmMR0wGwYDVQQDExRHVUlMRUJBTERPIFJVSVogQ1JVWjEdMBsGA1UEKRMUR1VJTEVCQUxETyBSVUlaIENSVVoxHTAbBgNVBAoTFEdVSUxFQkFMRE8gUlVJWiBDUlVaMRYwFAYDVQQtEw1SVUNHNjgwODEwQkcxMRswGQYDVQQFExJSVUNHNjgwODEwSFBMWlJMMDIxEjAQBgNVBAsTCUdSVVBPIExDSDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0MhPyCdUUqEOig3eQlfeHgBdFjqh2/Ehb7v684XyOfEil0q/eiXM6GJuVRc+oSZhiI7D9RX0Ciw8epfmVLybDvF7edU2RoaO3MzzhAYFIm5kCJWiyk1zvuCjVQfAYst8WICA2oU0+fHrf2rssBSL4Ir7187/CATepvbDkkecTecCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAH1np/4JwtmwaBdY59mKI7a6IvkjdkjMYzE307vsbX/ib8wu9D3rRXvwD9CZqpJ/pcbzOkwBKyBQqxjFAk/BzKNcdJ/TuG1BSI8SwOwMLb1+vy4VTYCh0XWsQTeVv2CE9eA6QjptBiJU8+JJnwUvCPUy5SeBoP21CQBKIWWB/V0Hv1ZY0iPobhfjiTUCiG32Tr21bVyy5fvZzjlpzWiLXaH+kuSOwlbhVYJWw3+dRYEQQPehPhF7ydot28xeY5Y2rATZAwznNVrgHtRkDx+/O//zminhn9dLpf5HTPtmtK6ZxRoXVkbSvYrTfhHx1vhVBPjX1DQ1Dw59spqe7ESPdXQ=" SubTotal="1618.96" Moneda="MXN" Total="1877.99" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="29000">
+  <cfdi:Emisor Rfc="RUCG680810BG1" Nombre="Guilebaldo Ruiz Cruz" RegimenFiscal="612" />
+  <cfdi:Receptor Rfc="RUVL810825597" Nombre="RUIZ VARGAS LUISA MARIA" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="25172004" NoIdentificacion="7000034" Cantidad="2" ClaveUnidad="H87" Unidad="PZA" Descripcion="SYD Tornado Tras. 04-07" ValorUnitario="461.21" Importe="922.42">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="922.42" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="147.5872" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172007" NoIdentificacion="90468554" Cantidad="2" ClaveUnidad="H87" Unidad="PZA" Descripcion="SYD Base De Amortiguador Del Astra 00/06 Corsa 02/08 Meriva 03/08 Tornado 04/11 Zafira 00/06" ValorUnitario="168.10" Importe="336.20">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="336.20" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="53.792" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172000" NoIdentificacion="2203001-1" Cantidad="2" ClaveUnidad="H87" Unidad="PZA" Descripcion="Grob Balero Doble Corsa 02/08 Matiz 10/14 Meriva 03/08 Tornado 04/11 Matiz 04/05 Med 67X34X37" ValorUnitario="180.17" Importe="360.34">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="360.34" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="57.6544" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="259.03">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="259.03" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.1" UUID="D8328E5E-E339-6E4F-A4E0-C2985EE0D995" FechaTimbrado="2018-01-03T11:21:39" RfcProvCertif="SCD110105654" SelloCFD="OAd+G8CoGs6xjCBV70eUbrYwTH/Tf+vDTGiKuAOoSm2GWxgvehZdQe0iUDCb9OmwwReftkDM2iq26Nw4WN3coQJmoOEXX+wqWcEvktL/Yjz8+Fn7yCBOqCr92UwIeR15tuRt/BmCbm6H1aDYYh+VfKzwKfF4CKM1pfam1HV57Qk=" NoCertificadoSAT="00001000000401041203" SelloSAT="gggqIgFElSUVVA6BvR4Z4BM2NMLEPsPkEKWICNB93PYHiToCXbq39om/lMB4pnNHGr2P4NPwJ3XGzzinTy2G9MqnZgMjwG6mWiaVcEKeWcFfFhdW42/fp8JStqs5zQFtNDe3f4XEHCjxHYPmeWNyG1BDEBAAT5iwENQ5wlA+g5Shi+d0g19Mfr9R15BtK06TirQzBh5IQn8E5wS1TbDFKJtDH+3Gd2P5FucXRu+7Zhs6tY7mN68Vp0ZMOSZku3ttP9H9AVXKeOtAujSclYjVWlgA2obiF4fZuXdBYnbmhCeg1aPHvDV+XINpEmrVF0nIIHO0TGkOqLG+6zqELxnslA==" />
+</cfdi:Complemento></cfdi:Comprobante>

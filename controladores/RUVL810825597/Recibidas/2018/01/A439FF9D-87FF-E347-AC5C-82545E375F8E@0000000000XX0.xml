@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" Version="3.3" Serie="GF" Folio="6200" Fecha="2018-01-11T10:53:26" Sello="dWY6xAZjaO0r1bsVv1Tln2thzsp1BdgfLVoraD85AHnsu1pKQlEU5GiRpwDJGZ8djPNIpRfZjiUUBjlaYT0DdKMNik8S1/88YgpdW4uQiGDx4ErZApqxbSu8SaC74jHid0yNVLFwee7kq1QpXUxDdzc56r5ECfYrM9ik10EyJtM=" FormaPago="03" NoCertificado="00001000000306213713" Certificado="MIIEWjCCA0KgAwIBAgIUMDAwMDEwMDAwMDAzMDYyMTM3MTMwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xNTAzMDQyMjQ2MTRaFw0xOTAzMDQyMjQ2MTRaMIGmMR0wGwYDVQQDExRHVUlMRUJBTERPIFJVSVogQ1JVWjEdMBsGA1UEKRMUR1VJTEVCQUxETyBSVUlaIENSVVoxHTAbBgNVBAoTFEdVSUxFQkFMRE8gUlVJWiBDUlVaMRYwFAYDVQQtEw1SVUNHNjgwODEwQkcxMRswGQYDVQQFExJSVUNHNjgwODEwSFBMWlJMMDIxEjAQBgNVBAsTCUdSVVBPIExDSDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0MhPyCdUUqEOig3eQlfeHgBdFjqh2/Ehb7v684XyOfEil0q/eiXM6GJuVRc+oSZhiI7D9RX0Ciw8epfmVLybDvF7edU2RoaO3MzzhAYFIm5kCJWiyk1zvuCjVQfAYst8WICA2oU0+fHrf2rssBSL4Ir7187/CATepvbDkkecTecCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAH1np/4JwtmwaBdY59mKI7a6IvkjdkjMYzE307vsbX/ib8wu9D3rRXvwD9CZqpJ/pcbzOkwBKyBQqxjFAk/BzKNcdJ/TuG1BSI8SwOwMLb1+vy4VTYCh0XWsQTeVv2CE9eA6QjptBiJU8+JJnwUvCPUy5SeBoP21CQBKIWWB/V0Hv1ZY0iPobhfjiTUCiG32Tr21bVyy5fvZzjlpzWiLXaH+kuSOwlbhVYJWw3+dRYEQQPehPhF7ydot28xeY5Y2rATZAwznNVrgHtRkDx+/O//zminhn9dLpf5HTPtmtK6ZxRoXVkbSvYrTfhHx1vhVBPjX1DQ1Dw59spqe7ESPdXQ=" SubTotal="7232.75" Moneda="MXN" Total="8389.99" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="29000">
+  <cfdi:Emisor Rfc="RUCG680810BG1" Nombre="Guilebaldo Ruiz Cruz" RegimenFiscal="612" />
+  <cfdi:Receptor Rfc="RUVL810825597" Nombre="RUIZ VARGAS LUISA MARIA" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="25172004" NoIdentificacion="3009027" Cantidad="1" ClaveUnidad="H87" Unidad="PZA" Descripcion="Grob Cirrus, Sebring 07-08 Del. Izq." ValorUnitario="1056.03" Importe="1056.03">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1056.03" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="168.9648" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172004" NoIdentificacion="3009028" Cantidad="1" ClaveUnidad="H87" Unidad="PZA" Descripcion="Grob Cirrus, Sebring 07-08 Del. Der." ValorUnitario="1021.55" Importe="1021.55">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1021.55" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="163.448" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172007" NoIdentificacion="3019001" Cantidad="2" ClaveUnidad="H87" Unidad="PZA" Descripcion="Grob Base De Amortiguador Del 200 11/14 Avenger 07/13 Cirrus 07/11" ValorUnitario="728.45" Importe="1456.90">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1456.90" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="233.104" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172013" NoIdentificacion="1506071-1" Cantidad="1" ClaveUnidad="H87" Unidad="PZA" Descripcion="Grob Horquilla Inf Journey 09/13 Izq" ValorUnitario="1714.66" Importe="1714.66">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1714.66" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="274.3456" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172000" NoIdentificacion="EV-362-15" Cantidad="2" ClaveUnidad="H87" Unidad="PZA" Descripcion="Trak Bieleta Int Caravan 96/00 Grand Caravan 96/00 Grand Voyager 96/00 Journey 09/13 Town &amp; Country " ValorUnitario="116.38" Importe="232.76">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="232.76" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="37.2416" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25174203" NoIdentificacion="1106005-1" Cantidad="2" ClaveUnidad="H87" Unidad="PZA" Descripcion="Grob Terminal 200 11/14 Avenger 07/13 Caliber 07/12 Caravan 01/07 Cirrus 07/11" ValorUnitario="176.72" Importe="353.44">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="353.44" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="56.5504" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172000" NoIdentificacion="1006019-S-1" Cantidad="1" ClaveUnidad="H87" Unidad="PZA" Descripcion="S_Grob Rotula Inf 200 11/14 Avenger 07/13 Cirrus 07/11 Journey 09/13" ValorUnitario="318.10" Importe="318.10">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="318.10" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="50.896" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172009" NoIdentificacion="1406055-1" Cantidad="1" ClaveUnidad="H87" Unidad="PZA" Descripcion="Grob Buje Horquilla Inf 200 11/14 Avenger 07/13 Cirrus 07/11 Grand Caravan 08/14 Journey 09/13" ValorUnitario="262.93" Importe="262.93">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="262.93" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="42.0688" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172000" NoIdentificacion="2106016-1" Cantidad="2" ClaveUnidad="H87" Unidad="PZA" Descripcion="Grob Tornillo Estabilizador 200 11/14 Avenger 07/13 Caliber 07/12 Cirrus 07/11 Compass 07/14" ValorUnitario="249.14" Importe="498.28">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="498.28" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="79.7248" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172000" NoIdentificacion="1006019-S-1" Cantidad="1" ClaveUnidad="H87" Unidad="PZA" Descripcion="S_Grob Rotula Inf 200 11/14 Avenger 07/13 Cirrus 07/11 Journey 09/13" ValorUnitario="318.10" Importe="318.10">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="318.10" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="50.896" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="1157.24">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1157.24" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.1" UUID="A439FF9D-87FF-E347-AC5C-82545E375F8E" FechaTimbrado="2018-01-11T10:53:39" RfcProvCertif="SCD110105654" SelloCFD="dWY6xAZjaO0r1bsVv1Tln2thzsp1BdgfLVoraD85AHnsu1pKQlEU5GiRpwDJGZ8djPNIpRfZjiUUBjlaYT0DdKMNik8S1/88YgpdW4uQiGDx4ErZApqxbSu8SaC74jHid0yNVLFwee7kq1QpXUxDdzc56r5ECfYrM9ik10EyJtM=" NoCertificadoSAT="00001000000401041203" SelloSAT="Z/o31MBUS3p4Z8DN3C5Xrp44mg3zROGs9UdQFxB+oGML9lcODO6uBzYoKhNXmD/Cbp3FHufCumOqPo94jiE3CVQi5Ofw/np5vixEZ1VhmkKaSEEFHQejoydAiwoCznVFuE3f5keRyES8X3rFkLFSxiEk47/fzSGg34AI9WpBcbXNfTsow89Q2CnaphHCGLuOhwNpyM3/gChmh01myDxALe3l1P2TmnDTN81MNSePPagX8jzpIyx4o24y9wmyF+6UxlyoNo8+0DQNF65YoXIutn75j2mF9hBWH/ZlPIYjw1SFHJv+Mw4WnUSMCPRckQOJ7oEw+VTW3OzPtDiKBsNwpw==" />
+</cfdi:Complemento></cfdi:Comprobante>

@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "PhpCfdi\\SatWsDescargaMasiva\\Shared" :  "phpcfdi/sat-ws-descarga-masiva/src/Shared"
+    },
+    "require": {
+        "blacktrue/sat-scraper": "^2.1",
+        "mehrdad-dadkhah/php-file-finder": "^1.1",
+        "mike42/escpos-php": "^2.0",
+        "kreait/firebase-php": "4.29",
+        "league/plates": "^3.3",
+        "klein/klein": "^2.1",
+        "dompdf/dompdf": "^0.8.5",
+        "spipu/html2pdf": "^5.2",
+        "phpcfdi/sat-ws-descarga-masiva": "^0.2.5"
+    }
+
+}

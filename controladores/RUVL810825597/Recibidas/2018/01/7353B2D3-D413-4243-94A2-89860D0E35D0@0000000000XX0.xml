@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:pago10="http://www.sat.gob.mx/Pagos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" Fecha="2018-01-11T16:41:54" Folio="1014564" FormaPago="99" LugarExpedicion="45220" MetodoPago="PPD" Moneda="MXN" NoCertificado="00001000000401556736" Sello="TL6wXrhMrPOGoQVBPq5Kdb4jT4VVqXUrkjz/uB8zlS1qcKZHoLrlP79pcAM5Lfe35iU89XcFrylCnhY9MXq6iGtkJ3Aa/mP5wk1rddm/KMVdd4xnlEUpRVXYMMB/Iw/wPtNIJJ2isAxJEjxdLBtEw9CHyRPDRGkT6eLrJY9pIUqHppkUz4vCYe8vv0dNYPf8zsm3qGJQ5gjb9Cw44MOXppxMocRC0GIonHr/H2vnSjgxF7/Mu7Nwi/i8JXaugJRjKNAKf74JgMCjBCCZUOi3xGcj83Cv3OCEjGQsrQoNz5BSPQKfIh7ygPq71Ar94slUCFx7xxMAUZCCoof7E/exVw==" Serie="BC" SubTotal="2173.50" TipoDeComprobante="I" Total="2521.26" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/Pagos http://www.sat.gob.mx/sitio_internet/cfd/Pagos/Pagos10.xsd">
+  <cfdi:Emisor Nombre="Aldo autopartes, S.A. de C.V." RegimenFiscal="601" Rfc="AAU0102162D9" />
+  <cfdi:Receptor Nombre="LUISA MARIA RUIZ VARGAS" Rfc="RUVL810825597" UsoCFDI="G01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Cantidad="1.00" ClaveProdServ="25172600" ClaveUnidad="H87" Descripcion="DTVGL134 - DEFENSA TRAS GOL 13-16 4P T155 2017.06.21" Importe="1255.50" Unidad="PIEZA" ValorUnitario="1255.50">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1255.50" Importe="200.88" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3719  7004621" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1.00" ClaveProdServ="25172900" ClaveUnidad="H87" Descripcion="11-C813-05-2B - CALAVERA GRAND I10 15-17 4P C/ARNES TYC T154 DER 2017.06.18" Importe="918.00" Unidad="PIEZA" ValorUnitario="918.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="918.00" Importe="146.88" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3719  7004600" />
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="347.76">
+    <cfdi:Traslados>
+      <cfdi:Traslado Importe="347.76" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" FechaTimbrado="2018-01-11T16:42:35" NoCertificadoSAT="00001000000405607284" RfcProvCertif="FCG840618N51" SelloCFD="TL6wXrhMrPOGoQVBPq5Kdb4jT4VVqXUrkjz/uB8zlS1qcKZHoLrlP79pcAM5Lfe35iU89XcFrylCnhY9MXq6iGtkJ3Aa/mP5wk1rddm/KMVdd4xnlEUpRVXYMMB/Iw/wPtNIJJ2isAxJEjxdLBtEw9CHyRPDRGkT6eLrJY9pIUqHppkUz4vCYe8vv0dNYPf8zsm3qGJQ5gjb9Cw44MOXppxMocRC0GIonHr/H2vnSjgxF7/Mu7Nwi/i8JXaugJRjKNAKf74JgMCjBCCZUOi3xGcj83Cv3OCEjGQsrQoNz5BSPQKfIh7ygPq71Ar94slUCFx7xxMAUZCCoof7E/exVw==" SelloSAT="dJUU4Cn39t+DfoNATI5fKaS6mk9GfH5kng2jTBBhgq3GyqPJLuVrdo23oJpbIKSnK0z2CiPiHyp+BkppawWLstVv7EpzhfxjMpuepGZX7dFnwuT6sxx0QyJOyurp7AwMRecNWxrnsK7fXE5YmLf2MT4hAyKiZZJjiGWu2QntUFl7qMIkHmmaGvvRnmRmg2gFklY+xQcsOgV24xM1xy1bbCL6ZxPtxEP0nSNC26h/S9aUKIhCx39uViLX4JVr0s9MX4asQM6lyx6DcBlTMHI5aOFIDtZIq4sgHVIk89PLSPd5T3hgreCQgFy1RmfpnpNt+eUCV+JHPIYnwf4mbyni8Q==" UUID="7353B2D3-D413-4243-94A2-89860D0E35D0" Version="1.1" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/timbrefiscaldigital/TimbreFiscalDigitalv11.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
+

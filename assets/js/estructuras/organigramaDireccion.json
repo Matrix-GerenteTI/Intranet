@@ -1,0 +1,7 @@
+[
+    {"key":1, "puesto": "Direccion"},
+    {"key":2, "parent": 1,"puesto": "Gerente Tasks Force"},
+    {"key":3, "parent":2, "puesto": "Instalador"},
+    {"key":4, "parent":3, "puesto": "Gerencia de TI"},
+    {"key":5,"parent":4, "puesto": "Desarrollador"}
+]

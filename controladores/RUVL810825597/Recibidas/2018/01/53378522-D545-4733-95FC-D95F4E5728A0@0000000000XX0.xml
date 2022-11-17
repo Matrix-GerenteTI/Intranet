@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:pago10="http://www.sat.gob.mx/Pagos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" Fecha="2018-01-19T20:27:18" Folio="1020855" FormaPago="99" LugarExpedicion="45220" MetodoPago="PPD" Moneda="MXN" NoCertificado="00001000000401556736" Sello="VrgkRAA4/O65VYkA9ViMctxXqPurIEweMBJb2l3KtaKvaRmXIdHy3OCYq43qU6H/YIlaifmi+VsfOvBJy/jiq4b9Vhcu1kEyawso27ItNaGE7xiMKPsb9pLo4tUttksnA/1tGXG7DAyx06LbbKFmBI4iwaBLfm78ssYs89TzpfilZ59KlNnEfzCSe1WPztBvDmudMVO8k5zKA7tC+vQb6jUTkvNg40jRoiI8QgCYTupe5loLn1qyCjxSb8klIWrP5/MMkY1n5s0/jok7A1kC9Nh0u+B1I5H2YecDTJe/zn4kwXmv+3cEWYL0C03nM4ilgIRD1nBCknd8s0fZt7bDWA==" Serie="BC" SubTotal="14277.60" TipoDeComprobante="I" Total="16562.06" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/Pagos http://www.sat.gob.mx/sitio_internet/cfd/Pagos/Pagos10.xsd">
+  <cfdi:Emisor Nombre="Aldo autopartes, S.A. de C.V." RegimenFiscal="601" Rfc="AAU0102162D9" />
+  <cfdi:Receptor Nombre="LUISA MARIA RUIZ VARGAS" Rfc="RUVL810825597" UsoCFDI="G01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="25172600" ClaveUnidad="H87" Descripcion="ELCCH94CL - ESPEJO CHEVY 94-08 C/CONT MAN C/BASE ALD T153 IZQ 2017.05.01" Importe="264.60" Unidad="PIEZA" ValorUnitario="132.30">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="264.60" Importe="42.34" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3719  7003540" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="25172600" ClaveUnidad="H87" Descripcion="ELCCH94CR - ESPEJO CHEVY 94-08 C/CONT MAN C/BASE ALD T153 DER 2017.10.24" Importe="264.60" Unidad="PIEZA" ValorUnitario="132.30">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="264.60" Importe="42.34" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3719  7005404" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="25172600" ClaveUnidad="H87" Descripcion="MACCH04TR3 - MOLDURA ARCO TRAS CHEVY C2 04-08 3/ 5P P/PINTAR T153 288 DER 2017.07.09" Importe="270.00" Unidad="PIEZA" ValorUnitario="135.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="270.00" Importe="43.20" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3719  7004738" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="25172600" ClaveUnidad="H87" Descripcion="MACCH04TL3 - MOLDURA ARCO TRAS CHEVY C2 04-08 3/ 5P P/PINTAR T153 288 IZQ 2017.03.16" Importe="270.00" Unidad="PIEZA" ValorUnitario="135.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="270.00" Importe="43.20" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3719  7002268" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="25172600" ClaveUnidad="H87" Descripcion="MACCH04TR4 - MOLDURA ARCO TRAS CHEVY C2 04-08 4P P/PINTAR T153 288 DER 2016.06.19" Importe="270.00" Unidad="PIEZA" ValorUnitario="135.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="270.00" Importe="43.20" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="16  16  3719  6004000" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="25172600" ClaveUnidad="H87" Descripcion="MACCH04TL4 - MOLDURA ARCO TRAS CHEVY C2 04-08 4P P/PINTAR T153 288 IZQ 2017.03.16" Importe="270.00" Unidad="PIEZA" ValorUnitario="135.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="270.00" Importe="43.20" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3719  7002268" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="25172900" ClaveUnidad="H87" Descripcion="19-C273-00-9B - FARO NIEBLA TRAX 13-16 C/BASE C/FOCO TYC T154 DER 2016.07.31" Importe="1090.80" Unidad="PIEZA" ValorUnitario="545.40">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1090.80" Importe="174.53" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="16  16  3719  6005162" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="25172900" ClaveUnidad="H87" Descripcion="19-C274-00-9B - FARO NIEBLA TRAX 13-16 C/BASE C/FOCO TYC T154 IZQ 2016.07.31" Importe="1090.80" Unidad="PIEZA" ValorUnitario="545.40">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1090.80" Importe="174.53" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="16  16  3719  6005162" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="25172900" ClaveUnidad="H87" Descripcion="20-E305-05-1A - FARO TRAX 13-16 TYC T154 DER 2017.07.02" Importe="3342.60" Unidad="PIEZA" ValorUnitario="1671.30">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3342.60" Importe="534.82" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3719  7004709" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="25172900" ClaveUnidad="H87" Descripcion="20-E306-05-1A - FARO TRAX 13-16 TYC T154 IZQ 2017.07.02" Importe="3342.60" Unidad="PIEZA" ValorUnitario="1671.30">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3342.60" Importe="534.82" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3719  7004715" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="25172600" ClaveUnidad="H87" Descripcion="PCTX13FL - PARRILLA TRAX 13-16 CROM P/FARO NIEBLA T154 IZQ 2017.07.02" Importe="1360.80" Unidad="PIEZA" ValorUnitario="680.40">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1360.80" Importe="217.73" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3719  7004725" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="25172600" ClaveUnidad="H87" Descripcion="PCTX13FR - PARRILLA TRAX 13-16 CROM P/FARO NIEBLA T154 DER 2017.06.19" Importe="1360.80" Unidad="PIEZA" ValorUnitario="680.40">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1360.80" Importe="217.73" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3719  7004602" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="25172600" ClaveUnidad="H87" Descripcion="3033004 - GUIA DEFENSA TRAS CHEVY 94-01 T153 5662 DER 2016.12.27" Importe="129.60" Unidad="PIEZA" ValorUnitario="64.80">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="129.60" Importe="20.74" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="16  81  3078  6001939" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="25172600" ClaveUnidad="H87" Descripcion="3033005 - GUIA DEFENSA TRAS CHEVY 94-01 T153 5662 IZQ 2016.12.27" Importe="129.60" Unidad="PIEZA" ValorUnitario="64.80">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="129.60" Importe="20.74" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="16  81  3078  6001939" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="25172600" ClaveUnidad="H87" Descripcion="GDCCH04R - GUIA DEFENSA DEL CHEVY C2 04-08 T153 674 DER" Importe="118.80" Unidad="PIEZA" ValorUnitario="59.40">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="118.80" Importe="19.01" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="25172600" ClaveUnidad="H87" Descripcion="GDCCH04L - GUIA DEFENSA DEL CHEVY C2 04-08 T153 674 IZQ" Importe="118.80" Unidad="PIEZA" ValorUnitario="59.40">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="118.80" Importe="19.01" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="25172600" ClaveUnidad="H87" Descripcion="94669468 - GUIA DEFENSA DEL CHEVY C3 09-12 T153 5662 180112 DER 2017.12.28" Importe="291.60" Unidad="PIEZA" ValorUnitario="145.80">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="291.60" Importe="46.66" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  81  3719  7004132" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="25172600" ClaveUnidad="H87" Descripcion="94669467 - GUIA DEFENSA DEL CHEVY C3 09-12 T153 5662 180112 IZQ 2017.12.28" Importe="291.60" Unidad="PIEZA" ValorUnitario="145.80">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="291.60" Importe="46.66" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  81  3719  7004132" />
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="2284.46">
+    <cfdi:Traslados>
+      <cfdi:Traslado Importe="2284.46" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" FechaTimbrado="2018-01-19T20:28:30" NoCertificadoSAT="00001000000405607284" RfcProvCertif="FCG840618N51" SelloCFD="VrgkRAA4/O65VYkA9ViMctxXqPurIEweMBJb2l3KtaKvaRmXIdHy3OCYq43qU6H/YIlaifmi+VsfOvBJy/jiq4b9Vhcu1kEyawso27ItNaGE7xiMKPsb9pLo4tUttksnA/1tGXG7DAyx06LbbKFmBI4iwaBLfm78ssYs89TzpfilZ59KlNnEfzCSe1WPztBvDmudMVO8k5zKA7tC+vQb6jUTkvNg40jRoiI8QgCYTupe5loLn1qyCjxSb8klIWrP5/MMkY1n5s0/jok7A1kC9Nh0u+B1I5H2YecDTJe/zn4kwXmv+3cEWYL0C03nM4ilgIRD1nBCknd8s0fZt7bDWA==" SelloSAT="9MLLFvC/PPM/F31jUTecVNRAasEskUfNmAmLrFv0TsbZO0aHoUuxvstyaDeq3+wjM9+EdaNQ9XmtqLcl/YIJpBfQn/GjoWbdtGJK1S4aEkmG+E43+ydJpoga9YUbLRZNgrGhZBCYDri8ZsbRzb5hMUpXjwlWZ/mBiZZnunZy9tuDAvU/xDc6C3LDYrecIRYEWcWWC720eEltRRD8GyTOyR+XK9djx/GXJEg2uRUf1weo9pW7SOKAZaXVkIjVdVgFOg8csMNZzmdJWCfsG506kGYyfXvmU5Q8ff2SnniS2UPAzATVMqJ94EBsMOqQOApHaECEq0J+d7Kiwis9SngC1Q==" UUID="53378522-D545-4733-95FC-D95F4E5728A0" Version="1.1" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/timbrefiscaldigital/TimbreFiscalDigitalv11.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
+

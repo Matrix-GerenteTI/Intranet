@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante Version="3.3" Fecha="2018-05-10T12:00:35" Sello="RzuK3wKHwJ68iTkewinxEc6Dqu6zr7Xx/yUq8zys8TI73QTWB0frYOoqud5cGK4Wk6W/8yzvPT1I3XBBbkZq3jugsDSqwlm3RryaLARVnxQT94HvplwZHhxKZ2XRHImcfMtRVmiqnDEO74BV268MWSTRCSgeyihmfQPmBfWsizvG3Vks0qCr/T1C4JczA+P76GIjU08ZDNKLERr3fL5eDA+fkveXiA7zzWKTLh7/b7de652z2cmnV+y6+PTBUm7PQd1hRJJt/3qT8U25wg1/EcHvZKAbzFOeKiSW38+zG9gUoZrFi4U7UPrJtr4EGOpRRNbcZTCVB8BO6xnVpLxugw==" FormaPago="99" NoCertificado="00001000000404131490" Certificado="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" CondicionesDePago="60 DIAS" SubTotal="139205.09" Total="161477.90" MetodoPago="PPD" TipoDeComprobante="I" Moneda="MXN" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" TipoCambio="1" LugarExpedicion="37170" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:catCFDI="http://www.sat.gob.mx/sitio_internet/cfd/catalogos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tdCFDI="http://www.sat.gob.mx/sitio_internet/cfd/tipoDatos/tdCFDI">
+  <cfdi:Emisor Rfc="MET090309KB1" Nombre="Market Expert Tire S de RL de CV" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="RUVL810825597" Nombre="LUISA MARIA RUIZ VARGAS" UsoCFDI="G01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="13101601" Cantidad="30.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 185/55 R15 82H RADBURG V71 AUTO" ValorUnitario="400.38" Importe="12011.40">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="12011.40" Impuesto="002" TipoFactor="Tasa" Importe="1921.82" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  81  3954  7002694" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="8.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 195/55R16 (RUNFLAT) 87V GOWIND SUPER SPORT CHASER-SSC5 AUTO" ValorUnitario="1068.23" Importe="8545.84">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="8545.84" Impuesto="002" TipoFactor="Tasa" Importe="1367.33" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8000420" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="17.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 195/70R15C-8 104/102S SAFERICH FRC96 CAMIONETA" ValorUnitario="732.14" Importe="12446.38">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="12446.38" Impuesto="002" TipoFactor="Tasa" Importe="1991.42" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8001199" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="13101601" Cantidad="40.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 205/55 R16 91W RADBURG POWER AUTO" ValorUnitario="450.14" Importe="18005.60">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="18005.60" Impuesto="002" TipoFactor="Tasa" Importe="2880.90" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  81  3954  7002485" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="50.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 205/70R15C-8 106/104S SAFERICH FRC96 CAMIONETA" ValorUnitario="839.77" Importe="41988.50">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="41988.50" Impuesto="002" TipoFactor="Tasa" Importe="6718.16" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8001259" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="9.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 205/75R16C-8 110/108S SAFERICH FRC96 CAMIONETA" ValorUnitario="872.01" Importe="7848.09">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="7848.09" Impuesto="002" TipoFactor="Tasa" Importe="1255.69" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8001200" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="20.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 225/45R18 95W XL HAIDA HD927 AUTO" ValorUnitario="812.63" Importe="16252.60">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="16252.60" Impuesto="002" TipoFactor="Tasa" Importe="2600.42" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8001404" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="8.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 235/40R19 (SF) 96Y XL ACCELERA PHI CAMIONETA" ValorUnitario="1303.86" Importe="10430.88">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="10430.88" Impuesto="002" TipoFactor="Tasa" Importe="1668.94" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8000056" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="8.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 235/50R17 96W SAFERICH FRC26 AUTO" ValorUnitario="813.57" Importe="6508.56">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="6508.56" Impuesto="002" TipoFactor="Tasa" Importe="1041.37" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  16  3964  8001256" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="4.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 255/40R19 (SF) 100Y XL ACCELERA PHI CAMIONETA" ValorUnitario="1291.81" Importe="5167.24">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="5167.24" Impuesto="002" TipoFactor="Tasa" Importe="826.76" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  84  9037  8007751" />
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="22272.81">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" Importe="22272.81" TipoFactor="Tasa" TasaOCuota="0.160000" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="A187495D-45EE-498A-A7EE-C14FB9666BC9" FechaTimbrado="2018-05-10T12:00:36" RfcProvCertif="INT020124V62" SelloCFD="RzuK3wKHwJ68iTkewinxEc6Dqu6zr7Xx/yUq8zys8TI73QTWB0frYOoqud5cGK4Wk6W/8yzvPT1I3XBBbkZq3jugsDSqwlm3RryaLARVnxQT94HvplwZHhxKZ2XRHImcfMtRVmiqnDEO74BV268MWSTRCSgeyihmfQPmBfWsizvG3Vks0qCr/T1C4JczA+P76GIjU08ZDNKLERr3fL5eDA+fkveXiA7zzWKTLh7/b7de652z2cmnV+y6+PTBUm7PQd1hRJJt/3qT8U25wg1/EcHvZKAbzFOeKiSW38+zG9gUoZrFi4U7UPrJtr4EGOpRRNbcZTCVB8BO6xnVpLxugw==" NoCertificadoSAT="00001000000404598147" SelloSAT="E3g6rTlLk21AriXN4RqzCQ6P8kFxfaL+pWLaksv3Dw125J8dfpWrOsB51rIkr59oc73U1NVlJ+fS7TbriuFA6Pje4u6Kdu+WSoHSrvyQ3EC7waaKakm3y9PQWImXBwikXVzTKKOf3a8PjqmU1mtiIT7uXnxAUgOMWlrHuyW8mH4TM61fRwYfCep2IKgxm3i4AebbW0Vcsrn/OXnhsN6FBpzeVouJs6ihj3ramIYoF9/FdIMkRVi+5JnH00s1ZbDDxvtXk5FQ6PRilP+CIKVnirHMZADD0sxKrvVWyvBTukQCAMDbkBAf/6JQBWWxB9g7GMoCPG+ZCYTQvTluxgs3lw==" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

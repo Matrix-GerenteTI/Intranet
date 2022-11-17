@@ -1,0 +1,20 @@
+.contenedor_campos{
+    display: inline-block;
+}
+
+.conteiner_name{
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    display: inline-block;
+}
+
+.conteiner_date{
+    width: 40%;
+    display: inline-block;
+}
+
+.conteiner_button{
+    display: inline-block;
+}

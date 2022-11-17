@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    <input type="text" name="buscaUuid" id="buscaUuid">
+    <input type="text" name="buscaFecha" id="buscaFecha">
+    <input type="text" name="buscaFolio" id="buscaFolio">
+    <button type="button" id="buscarXml">Buscar</button>
+
+    <div id="resultados">
+            <table id="xml-facturas">
+                <tr>
+                    <th>UUID</th>
+                    <th>Concepto</th>
+                    <th>Fecha</th>
+                    <th>SubTotal</th>
+                    <th>Total</th>
+                </tr>
+            </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        $("#buscarXml").click(function () { 
+            const uuid = $("#buscaUuid").val()
+            const fecha = $("#buscaFecha").val()
+            const folio = $("#buscaFolio").val()
+           
+            $.get("buscadorXml.php", {uuid:uuid,fecha:fecha,folio:folio},
+                function (data, textStatus, jqXHR) {
+ console.log(data[1])
+                    $(".row-Uuid").remove();
+                    $.each(data, function (i, item) { 
+                         let resultaddos = data[i]
+                         if ( !$.isEmptyObject(resultaddos) ) {
+                             $("#xml-facturas tbody").append(`
+                                    <tr class="row-Uuid" onclick="setGastosXml(${resultaddos.uuid})"> 
+                                        <td>${resultaddos.uuid}</td>
+                                        <td>${resultaddos.concepto[0]}</td>
+                                        <td>${resultaddos.fecha}</td>
+                                        <td>${resultaddos.subtotal[0]}</td>
+                                        <td>${resultaddos.total[0]}
+                                    </tr>
+                             `);
+                         } else {
+                             
+                         }
+                    });
+                },
+                "json"
+            );
+        });
+
+ function setGastosXml (gastoUuid) { 
+     console.log(gastoUuid)
+ }
+    </script>
+    </body>
+</html>

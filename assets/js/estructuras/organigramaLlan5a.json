@@ -1,0 +1,6 @@
+[
+    {"key":1,"puesto": "Jefe de Sucursal"},
+    {"key":2, "parent": 1, "puesto": "Instalador"},
+    {"key":3,"parent":1,"puesto": "Cajera"},
+    {"key":4,"parent":1,"puesto":"Alineador"}
+]

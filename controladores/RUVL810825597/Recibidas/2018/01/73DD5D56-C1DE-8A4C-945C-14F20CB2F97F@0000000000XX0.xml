@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" Version="3.3" Serie="GF" Folio="6173" Fecha="2018-01-04T17:51:27" Sello="tCW1GVm0PqjnNC8ZU3WpIBWFkdN3iRRQKCteIME7nkdHeyqW57SCFPHv/92bW9RUnuCvoMCFcqCKMkjzNSPGMHxQf5BFNSEJ8450HD3WPT2cAMPdnTzHu5u2EFPhoOcGkR4q0a2Thobp1oNkp9cUpRHg0eVgh8Cqv07jzx3oBi4=" FormaPago="01" NoCertificado="00001000000306213713" Certificado="MIIEWjCCA0KgAwIBAgIUMDAwMDEwMDAwMDAzMDYyMTM3MTMwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xNTAzMDQyMjQ2MTRaFw0xOTAzMDQyMjQ2MTRaMIGmMR0wGwYDVQQDExRHVUlMRUJBTERPIFJVSVogQ1JVWjEdMBsGA1UEKRMUR1VJTEVCQUxETyBSVUlaIENSVVoxHTAbBgNVBAoTFEdVSUxFQkFMRE8gUlVJWiBDUlVaMRYwFAYDVQQtEw1SVUNHNjgwODEwQkcxMRswGQYDVQQFExJSVUNHNjgwODEwSFBMWlJMMDIxEjAQBgNVBAsTCUdSVVBPIExDSDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0MhPyCdUUqEOig3eQlfeHgBdFjqh2/Ehb7v684XyOfEil0q/eiXM6GJuVRc+oSZhiI7D9RX0Ciw8epfmVLybDvF7edU2RoaO3MzzhAYFIm5kCJWiyk1zvuCjVQfAYst8WICA2oU0+fHrf2rssBSL4Ir7187/CATepvbDkkecTecCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAH1np/4JwtmwaBdY59mKI7a6IvkjdkjMYzE307vsbX/ib8wu9D3rRXvwD9CZqpJ/pcbzOkwBKyBQqxjFAk/BzKNcdJ/TuG1BSI8SwOwMLb1+vy4VTYCh0XWsQTeVv2CE9eA6QjptBiJU8+JJnwUvCPUy5SeBoP21CQBKIWWB/V0Hv1ZY0iPobhfjiTUCiG32Tr21bVyy5fvZzjlpzWiLXaH+kuSOwlbhVYJWw3+dRYEQQPehPhF7ydot28xeY5Y2rATZAwznNVrgHtRkDx+/O//zminhn9dLpf5HTPtmtK6ZxRoXVkbSvYrTfhHx1vhVBPjX1DQ1Dw59spqe7ESPdXQ=" SubTotal="723.28" Moneda="MXN" Total="839.00" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="29000">
+  <cfdi:Emisor Rfc="RUCG680810BG1" Nombre="Guilebaldo Ruiz Cruz" RegimenFiscal="612" />
+  <cfdi:Receptor Rfc="RUVL810825597" Nombre="RUIZ VARGAS LUISA MARIA" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="25172007" NoIdentificacion="90468018" Cantidad="1" ClaveUnidad="H87" Unidad="PZA" Descripcion="SYD Tope De Suspension Del Astra 00/06 Zafira 00/06" ValorUnitario="723.28" Importe="723.28">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="723.28" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="115.7248" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="115.72">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="115.72" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.1" UUID="73DD5D56-C1DE-8A4C-945C-14F20CB2F97F" FechaTimbrado="2018-01-04T17:51:37" RfcProvCertif="SCD110105654" SelloCFD="tCW1GVm0PqjnNC8ZU3WpIBWFkdN3iRRQKCteIME7nkdHeyqW57SCFPHv/92bW9RUnuCvoMCFcqCKMkjzNSPGMHxQf5BFNSEJ8450HD3WPT2cAMPdnTzHu5u2EFPhoOcGkR4q0a2Thobp1oNkp9cUpRHg0eVgh8Cqv07jzx3oBi4=" NoCertificadoSAT="00001000000401041203" SelloSAT="nLQUPGlJxz1mEVancIOSe2F2MI3SmTEmx7nigX+OREyw6B9fgvDJt6st0ghDulGraYI8tS0eEADm6ydN4hC+qsm7VjlNhuDq3AqMfGo+S4Y0Eqck1pkvc/7y75JIAi5KQGPPdVH4M/FaViyi8cmkzc23ods1E+GKwf/ZIAUOj/Y0ASBEDEI+jxO0fAp1P3FHHWHmG8LzLxqKGP6eKOnR/uYHjzNwIGpKuPRMIBcgp8S0LVM41DC51DNtsdQ+uWUBvLzsZeh/QYP41PBK1yKXzrcYLcG5qhGc8blUYesJ2eFaFJ8EBtgpGUwAql/pTFhVr54kJxs7OqkwqI3syKpvbQ==" />
+</cfdi:Complemento></cfdi:Comprobante>

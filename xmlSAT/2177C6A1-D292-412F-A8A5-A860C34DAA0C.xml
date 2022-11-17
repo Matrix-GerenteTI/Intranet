@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante Version="3.3" Folio="00000517" Fecha="2018-05-10T12:57:24" Sello="iaIloNz2uo++dMRXUxoDWYbh29InmPTZq1LgE1FOKpdo09bslDXdKlg6h1/bJW3w0IdINbnHIqQ3CaARDWYKtUn/4mycdBo1COn5c/yypEaLgtS3lX15tXevtBKgylu+prVhAfkQ98pK0ctsY1O+koUDoG6/Tclorya1oGHohugMuUHJBJq73K4HJbkK9xJIXnQYGJUqF+hBp4Seb7ohqQgXmtMEB1gMVfHym8Q4RKCUdqa/+mY6NLVrqkGREUSl6vQFmsEcPWCvG2ZfjH5molvgbI+uUaSVvKSyr/+Hzmhphqv2b607rWV5zy9QJlp7ad17nXHD5angDoLV6T0rMw==" FormaPago="99" NoCertificado="00001000000404131293" Certificado="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" CondicionesDePago="60 DIAS" SubTotal="333730.37" Total="387127.22" MetodoPago="PPD" TipoDeComprobante="I" Moneda="MXN" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" TipoCambio="1" LugarExpedicion="37170" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:catCFDI="http://www.sat.gob.mx/sitio_internet/cfd/catalogos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tdCFDI="http://www.sat.gob.mx/sitio_internet/cfd/tipoDatos/tdCFDI">
+  <cfdi:Emisor Rfc="TDI030516L26" Nombre="Tire Direct SA de CV" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="RUVL810825597" Nombre="LUISA MARIA RUIZ VARGAS" UsoCFDI="G01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="20.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 195R15C 106/104R PIRELLI CARRIER CAMIONETA" ValorUnitario="1431.52" Importe="28630.40">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="28630.40" Impuesto="002" TipoFactor="Tasa" Importe="4580.86" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="9.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 205/55R16 91H BRIDGESTONE ECOPIA EP422  AUTO" ValorUnitario="926.61" Importe="8339.49">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="8339.49" Impuesto="002" TipoFactor="Tasa" Importe="1334.32" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="6.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 255/70R17 112T MICKEY THOMPSON BAJA STZ CAMIONETA" ValorUnitario="1696.50" Importe="10179.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="10179.00" Impuesto="002" TipoFactor="Tasa" Importe="1628.64" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  24  3139  7002580" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="12.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 265/60R18 (30X10.50R18) 110T MICKEY THOMPSON BAJA STZ CAMIONETA" ValorUnitario="1696.50" Importe="20358.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="20358.00" Impuesto="002" TipoFactor="Tasa" Importe="3257.28" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  24  3139  7002620" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="8.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 265/65R18 114H MICKEY THOMPSON DEEGAN 38 ALL-TERRAIN CAMIONETA" ValorUnitario="2527.98" Importe="20223.84">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="20223.84" Impuesto="002" TipoFactor="Tasa" Importe="3235.81" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  24  3139  8002199" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="12.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 275/55R20 117H MICKEY THOMPSON DEEGAN 38 ALL-TERRAIN CAMIONETA" ValorUnitario="2120.44" Importe="25445.28">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="25445.28" Impuesto="002" TipoFactor="Tasa" Importe="4071.24" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  24  3139  8002239" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="6.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 285/45R22 114T MICKEY THOMPSON DEEGAN 38  ALL-TERRAIN CAMIONETA" ValorUnitario="2623.74" Importe="15742.44">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="15742.44" Impuesto="002" TipoFactor="Tasa" Importe="2518.79" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  24  3139  8002239" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="3.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT265/75R16-10 123Q MICKEY THOMPSON BAJA MTZP3 CAMIONETA" ValorUnitario="2776.42" Importe="8329.26">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="8329.26" Impuesto="002" TipoFactor="Tasa" Importe="1332.68" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  24  3139  7009123" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="12.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT265/75R16-10 123Q MICKEY THOMPSON DEEGAN38 CAMIONETA" ValorUnitario="2641.08" Importe="31692.96">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="31692.96" Impuesto="002" TipoFactor="Tasa" Importe="5070.87" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  24  3139  8002199" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="4.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT295/70R18 129R MICKEY THOMPSON DEEGAN 38 ALL-TERRAIN CAMIONETA" ValorUnitario="3776.04" Importe="15104.16">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="15104.16" Impuesto="002" TipoFactor="Tasa" Importe="2416.67" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  24  3139  7009180" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="20.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT305/55R20-10 (33X12.50R20) 121Q MICKEY THOMPSON DEEGAN38 CAMIONETA" ValorUnitario="3700.26" Importe="74005.20">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="74005.20" Impuesto="002" TipoFactor="Tasa" Importe="11840.83" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  24  3139  8002432" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="4.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT305/65R17-10 (33X12.50R17) 121Q MICKEY THOMPSON DEEGAN38 CAMIONETA" ValorUnitario="3115.34" Importe="12461.36">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="12461.36" Impuesto="002" TipoFactor="Tasa" Importe="1993.82" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  24  3139  8002199" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="8.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT315/70R17-8 (35X12.50R17) 121Q MICKEY THOMPSON DEEGAN38 CAMIONETA" ValorUnitario="3547.76" Importe="28382.08">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="28382.08" Impuesto="002" TipoFactor="Tasa" Importe="4541.13" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  24  3139  8002432" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="2.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT315/70R17-8 121S MICKEY THOMPSON BAJA STZ CAMIONETA" ValorUnitario="1300.00" Importe="2600.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="2600.00" Impuesto="002" TipoFactor="Tasa" Importe="416.00" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="15  16  3964  5004312" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="2.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT32X11.50R15-6 (295/75R15) 113Q MICKEY THOMPSON DEEGAN38 CAMIONETA" ValorUnitario="2489.15" Importe="4978.30">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4978.30" Impuesto="002" TipoFactor="Tasa" Importe="796.53" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="18  24  3139  8002199" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="20.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 225/65R17 101H BRIDGESTONE DUELER HT 470 CAMIONETA" ValorUnitario="1362.93" Importe="27258.60">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="27258.60" Impuesto="002" TipoFactor="Tasa" Importe="4361.38" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="53396.85">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" Importe="53396.85" TipoFactor="Tasa" TasaOCuota="0.160000" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="2177C6A1-D292-412F-A8A5-A860C34DAA0C" FechaTimbrado="2018-05-10T12:57:25" RfcProvCertif="INT020124V62" SelloCFD="iaIloNz2uo++dMRXUxoDWYbh29InmPTZq1LgE1FOKpdo09bslDXdKlg6h1/bJW3w0IdINbnHIqQ3CaARDWYKtUn/4mycdBo1COn5c/yypEaLgtS3lX15tXevtBKgylu+prVhAfkQ98pK0ctsY1O+koUDoG6/Tclorya1oGHohugMuUHJBJq73K4HJbkK9xJIXnQYGJUqF+hBp4Seb7ohqQgXmtMEB1gMVfHym8Q4RKCUdqa/+mY6NLVrqkGREUSl6vQFmsEcPWCvG2ZfjH5molvgbI+uUaSVvKSyr/+Hzmhphqv2b607rWV5zy9QJlp7ad17nXHD5angDoLV6T0rMw==" NoCertificadoSAT="00001000000404598147" SelloSAT="NYZv7dcHdinjomg3JQUGZyHnBHRi1hvqgXD+sICKxyHSUNI79r2WIjARsxBm7nopXJQv1MxTPWtKSwYPCQaRrwlCpzsBQrNMNpc1dHCNti0Pon+mC+MmXkYQDBz60pblQRhIyoOZev7EbvjR2xvpTXbIfTj3lx17PcJk63eNZk0n1XwuYg7+9SYoe/CXNf3KVzhHMlZh/DQatsn1P0HCIodmfdaHEOMC75dOG+kZwg/DVATf6FMR/LFzPCcrGDh19kNhKcDAes9nJML0CHj035/251629BiLg5ysNkm7+VXVtO+ECPoSS3/ehAfRGyg1jsZZVTN/sieYJt6vW1dGNw==" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

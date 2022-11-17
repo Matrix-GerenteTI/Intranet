@@ -1,0 +1,38 @@
+.inputFileModificado input {
+    background: url('/intranet/assets/img/network.svg') no-repeat;
+    border: none;
+    width: 200px;
+    height: 200px;
+    padding-left: 5px;
+    padding-top: 2px;
+    margin-right: -95px;
+}
+
+.inputFileModificado {
+    position: relative;
+    margin-bottom: 20px;
+        width: 200px;
+        height: 200px;
+}
+
+.inputFileOculto {
+    position: relative;
+    text-align: right;
+    -moz-opacity: 0;
+    opacity: 0;
+    z-index: 2;
+}
+.inputFileOculto:hover {
+    cursor: pointer;
+}
+
+.inputParaMostrar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 600px;
+    z-index: 1;
+}
+
+
+ 

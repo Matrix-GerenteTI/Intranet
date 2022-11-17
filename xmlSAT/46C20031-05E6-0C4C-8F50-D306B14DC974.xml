@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" Version="3.3" Serie="B" Folio="20780" Fecha="2018-05-02T15:40:39" Sello="JbPQ4cxuHF1DCFjJ/59YzC8lxKo+4unrRS/VuV8TrkTULO6+8ZXu93a1pEGdu5H27i6LuPgjF9jVTo8dYbHlX6KXG/2rpwY+NsMpS3B2JpPHYyxpr4vyykh/BIZP9GVLZXLr5tFXcNa8mgQ3oYLKMaxtHwz+VtRXfl9aOU8nz8EvTrYkD1P83Ra4VeLTm6oRM+B0fWZ1keLb748242ZJ/y/XSf7jic28VPcHBaz+Q6YmCQFdv5C7XjB2HGx+88ZXvAJbHgvvFtJ3ajK7/Q+l7lEwQ0e8LGbNsye6KgChfjcNOmEYZTUgzfsLcXYup5qKzhsVcqIkedgzs66Km02cTA==" FormaPago="01" NoCertificado="00001000000404339173" Certificado="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" CondicionesDePago="Contado" SubTotal="852.75" Moneda="MXN" Total="989.19" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="29030">
+  <cfdi:Emisor Rfc="FUVJ5304296X8" Nombre="JOSEFINA FUNES VILLATORO" RegimenFiscal="612" />
+  <cfdi:Receptor Rfc="RUVL810825597" Nombre="LUISA MARIA RUIZ VARGAS" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="44122000" NoIdentificacion="7501742193317" Cantidad="10" ClaveUnidad="H87" Unidad="Pieza" Descripcion="RECOPILADOR PRINTAFORM T/C REGNEGOFI" ValorUnitario="23.45" Importe="234.50">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="234.50" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="37.52" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="60121535" NoIdentificacion="7501015213193" Cantidad="2" ClaveUnidad="H87" Unidad="Pieza" Descripcion="GOMA PELIKAN BLANCA WS20 06140200" ValorUnitario="3.30" Importe="6.60">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="6.60" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1.056" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="44101809" NoIdentificacion="7501249889645" Cantidad="3" ClaveUnidad="H87" Unidad="Pieza" Descripcion="CALCULADORA MATHEMA MDC-01-BK 10 DIGITOS LCD TAX" ValorUnitario="152.59" Importe="457.77">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="457.77" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="73.2432" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="44101707" NoIdentificacion="7501428709184" Cantidad="2" ClaveUnidad="H87" Unidad="Pieza" Descripcion="ENGRAPADORA PEGASO 204 MEDIA TIRA " ValorUnitario="76.94" Importe="153.88">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="153.88" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="24.6208" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="136.44">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="136.44" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.1" UUID="46C20031-05E6-0C4C-8F50-D306B14DC974" FechaTimbrado="2018-05-02T15:43:17" RfcProvCertif="SCD110105654" SelloCFD="JbPQ4cxuHF1DCFjJ/59YzC8lxKo+4unrRS/VuV8TrkTULO6+8ZXu93a1pEGdu5H27i6LuPgjF9jVTo8dYbHlX6KXG/2rpwY+NsMpS3B2JpPHYyxpr4vyykh/BIZP9GVLZXLr5tFXcNa8mgQ3oYLKMaxtHwz+VtRXfl9aOU8nz8EvTrYkD1P83Ra4VeLTm6oRM+B0fWZ1keLb748242ZJ/y/XSf7jic28VPcHBaz+Q6YmCQFdv5C7XjB2HGx+88ZXvAJbHgvvFtJ3ajK7/Q+l7lEwQ0e8LGbNsye6KgChfjcNOmEYZTUgzfsLcXYup5qKzhsVcqIkedgzs66Km02cTA==" NoCertificadoSAT="00001000000401041203" SelloSAT="vuSSpLBaTD+sP7o3wP+Mjlpc5WR/BJVCTgIS2Csb6bSy6k04zb/WoP/B2G5LbG6Hj/NSTL5G1YW7leS+X2LEWt0YoyOHFWw0JTbdKAge3eZtPpKbYqKKCexm07fVoUBFQ2lFA/OhkFzTywuF5OKPT+dbhg1YWhAc2T4yug8z4XRoToR/5mLKGBHni2Y+Yo3zqnNtUQo0sjjhXFUf2cfK8OXuse8BCEVe5W4V07j4S2elh5w83xRMMOwZaV7n0HIbfacYwb0oRXHNBbiPA3SuoG+ILIzsQiIRKAX5It+GG9SiFbphBR9djZyw2g4IrXCC2A36OLoleswK6BUfhkXLzw==" />
+</cfdi:Complemento></cfdi:Comprobante>

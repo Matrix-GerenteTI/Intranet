@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" Version="3.3" Serie="B" Folio="17503" Fecha="2018-01-05T15:22:16" Sello="F/dhe7L8QES9LM9HMyHnJljWmjHRrwtGs4bUehlzSXpsli0a1NNXZmct1+/xKEKT0fuPNeRTzZccrOxksGqprwY8naOqLLrzaPOzRHStfbhkQts7n8G9i3ZdTPL6Zl4C+VISYmYuBgMSiGiHC19SF8J47dMYIoIg0mZYfuAYk8rDkDl+F8Rb5AyIfAaizfpx9CwR8JRNv26/W8cUqNIVVO6OCVLo1suNl4v6O20cCKpnvlGXaBjxiubiI8ubEhJGpK3RIJ0w1yOu5MU2qQiEwF/P6kNhykUP22OgcwiAZsMSDI+nMhMVHCtrgtyF32DRsjAaRkX3toXO3zHBe+J1tg==" FormaPago="01" NoCertificado="00001000000404339173" Certificado="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" CondicionesDePago="Contado" SubTotal="732.46" Moneda="MXN" Total="849.65" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="29030">
+  <cfdi:Emisor Rfc="FUVJ5304296X8" Nombre="JOSEFINA FUNES VILLATORO" RegimenFiscal="612" />
+  <cfdi:Receptor Rfc="RUVL810825597" Nombre="LUISA MARIA RUIZ VARGAS" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="14111507" NoIdentificacion="7502237370565" Cantidad="10" ClaveUnidad="XPK" Unidad="PAQUETE" Descripcion="PAPEL BOND ECOBOND T/C 500HJS 93% BLANCURA 75G/M2" ValorUnitario="42.67" Importe="426.70">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="426.70" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="68.272" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="44101707" NoIdentificacion="7501214910008" Cantidad="3" ClaveUnidad="H87" Unidad="Pieza" Descripcion="ENGRAPADORA BARRILITO TOP75 MEDIA TIRA" ValorUnitario="41.04" Importe="123.12">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="123.12" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="19.6992" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="44121701" NoIdentificacion="7501014511023" Cantidad="12" ClaveUnidad="H87" Unidad="Pieza" Descripcion="BOLIGRAFO BIC PUNTO MEDIANO NEGRO DURA + 923995" ValorUnitario="2.93" Importe="35.16">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="35.16" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="5.6256" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="44122016" NoIdentificacion="7501357014793" Cantidad="2" ClaveUnidad="XBX" Unidad="Caja" Descripcion="BROCHE ARCHIVO ACCO 8CM C/50 P1479" ValorUnitario="25.64" Importe="51.28">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="51.28" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="8.2048" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="44121708" NoIdentificacion="7501015213568" Cantidad="1" ClaveUnidad="H87" Unidad="Pieza" Descripcion="MARCATEXTO PELIKAN 414 AMARILLO 30160005" ValorUnitario="3.86" Importe="3.86">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3.86" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="0.6176" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="44121708" NoIdentificacion="7501015213582" Cantidad="1" ClaveUnidad="H87" Unidad="Pieza" Descripcion="MARCATEXTO PELIKAN 414 AZUL 30160008" ValorUnitario="3.86" Importe="3.86">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3.86" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="0.6176" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="44121708" NoIdentificacion="7501015213551" Cantidad="1" ClaveUnidad="H87" Unidad="Pieza" Descripcion="MARCATEXTO PELIKAN 414 NARANJA 30160004" ValorUnitario="3.86" Importe="3.86">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3.86" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="0.6176" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="44121708" NoIdentificacion="7501015213544" Cantidad="1" ClaveUnidad="H87" Unidad="Pieza" Descripcion="MARCATEXTO PELIKAN 414 ROSA 30160001" ValorUnitario="3.86" Importe="3.86">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3.86" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="0.6176" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="44121708" NoIdentificacion="7501015213575" Cantidad="1" ClaveUnidad="H87" Unidad="Pieza" Descripcion="MARCATEXTO PELIKAN 414 VERDE 30160006" ValorUnitario="3.86" Importe="3.86">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3.86" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="0.6176" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="44122107" NoIdentificacion="7501214979449" Cantidad="5" ClaveUnidad="XBX" Unidad="Caja" Descripcion="GRAPA BARRILITO ESTANDAR 26/6  C/5000 1010GBA" ValorUnitario="15.38" Importe="76.90">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="76.90" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="12.304" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="117.19">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="117.19" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.1" UUID="49DC731B-D8E0-2F46-9463-3A4410D080BA" FechaTimbrado="2018-01-05T15:22:19" RfcProvCertif="SCD110105654" SelloCFD="F/dhe7L8QES9LM9HMyHnJljWmjHRrwtGs4bUehlzSXpsli0a1NNXZmct1+/xKEKT0fuPNeRTzZccrOxksGqprwY8naOqLLrzaPOzRHStfbhkQts7n8G9i3ZdTPL6Zl4C+VISYmYuBgMSiGiHC19SF8J47dMYIoIg0mZYfuAYk8rDkDl+F8Rb5AyIfAaizfpx9CwR8JRNv26/W8cUqNIVVO6OCVLo1suNl4v6O20cCKpnvlGXaBjxiubiI8ubEhJGpK3RIJ0w1yOu5MU2qQiEwF/P6kNhykUP22OgcwiAZsMSDI+nMhMVHCtrgtyF32DRsjAaRkX3toXO3zHBe+J1tg==" NoCertificadoSAT="00001000000401041203" SelloSAT="HgOtanY6AKu5lYVt/kn7CWPH8rj+RG60mWOF6uH26GWgLmE0wanDFSef7uCj4OSKnNxFy+tzpH2onAB80KLhN972LCBsy/CE+PpMZVTIT0O/wvBHOt88zBgdyn5xu3MPaCLGBYT4hwBfp8C0NsO9F9Js/78+DnisVwq1YYn3b89HX0JpeNivWglXbI1hXQC0FB2PhDKBIKIYUVGj/xqalfRJH44VWH2JJtTfHuMB7izLQOPxlqoCL/YstdnSRrxKWDvWkZFqqM4YmC/59SZeiaNvHtz/v1YZNW0xSPoyKFPIf+ee1MJJQUP6ItFwK+gFPB6CXA8Gi8B2rNRsBzXG8Q==" />
+</cfdi:Complemento></cfdi:Comprobante>

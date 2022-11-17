@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" CondicionesDePago="2 meses" Fecha="2018-01-12T12:35:52" Folio="9567" FormaPago="99" LugarExpedicion="45019" MetodoPago="PUE" Moneda="MXN" NoCertificado="00001000000403127749" Sello="jiPbNqa+it3Ng0AkXN3PI7eNRogwlKuh9LE50zTqtFWXw1altWFiKhQiRmp48TEKIha4WP/IHwMruuMvaX4+E75UvsidTNj1lfK5KSh3HDfVoQI1pglRk4DYb5RCX12ZAHuKAUc5Xhm+dYnTaUPpwnVWcwtfCU+Ft8FCHPwvio3uGVftDhWe2obcyZk3mun9JpfK404Qxxd/OmRpxWuNzJPaP7cpif40TEq5IX6SA7k7nZaezo/1ZABeGd9ai0fC5U5e0uMDAZIxi3dJugY6T8on9/SVZglqp4SGbMyaDcrZLv1tobg+Tn8GnX8ogSBwakRzJ09J34SUa/kdjouBEQ==" SubTotal="19008.62" TipoCambio="1" TipoDeComprobante="I" Total="22050" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+  <cfdi:Emisor Nombre="ACCESORIOS E ILUMINACION DE OCCIDENTE SA DE CV" RegimenFiscal="601" Rfc="AEI121109PL4" />
+  <cfdi:Receptor Nombre="LUISA MARIA RUIZ VARGAS" Rfc="RUVL810825597" UsoCFDI="G01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Cantidad="20" ClaveProdServ="25172901" ClaveUnidad="KT" Descripcion="BILED 4 SIDE" Importe="10258.62" NoIdentificacion="N4S H/L H4" ValorUnitario="512.931">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="10258.62" Importe="1641.38" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  48  3669  7000536" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="20" ClaveProdServ="25172901" ClaveUnidad="KT" Descripcion="LED 4 SIDE" Importe="8362.07" NoIdentificacion="N4S H7" ValorUnitario="418.1034">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="8362.07" Importe="1337.93" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  48  3669  7000536" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1" ClaveProdServ="78121603" ClaveUnidad="H87" Descripcion="ENVIO" Importe="387.93" NoIdentificacion="ENVIO" Unidad="PZA" ValorUnitario="387.931">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="387.93" Importe="62.07" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="3041.38">
+    <cfdi:Traslados>
+      <cfdi:Traslado Importe="3041.38" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" FechaTimbrado="2018-01-12T12:36:02" NoCertificadoSAT="00001000000405607284" RfcProvCertif="FCG840618N51" SelloCFD="jiPbNqa+it3Ng0AkXN3PI7eNRogwlKuh9LE50zTqtFWXw1altWFiKhQiRmp48TEKIha4WP/IHwMruuMvaX4+E75UvsidTNj1lfK5KSh3HDfVoQI1pglRk4DYb5RCX12ZAHuKAUc5Xhm+dYnTaUPpwnVWcwtfCU+Ft8FCHPwvio3uGVftDhWe2obcyZk3mun9JpfK404Qxxd/OmRpxWuNzJPaP7cpif40TEq5IX6SA7k7nZaezo/1ZABeGd9ai0fC5U5e0uMDAZIxi3dJugY6T8on9/SVZglqp4SGbMyaDcrZLv1tobg+Tn8GnX8ogSBwakRzJ09J34SUa/kdjouBEQ==" SelloSAT="0n2rCaqXQ8dR2tbzT+4FdnxdzDRVc+vklLnbBsvNn1O9DBiSFdyg8R/I7icBglg/SLw3bRUrn28LPp3LH5YmrAekWU4MF0hZ/+S5LXTyGtJAMlcYw0UZ7v2c7/jHTdkyYgY67H35T8G17scngDBL6/NtuyubhUGC0MkXJs+E4VbzQkYCjLS53Zdnrhi+olaN5P6gfieJTxAwKFbHy9UY4MuZuGoEhFdkFdoRqx2JDIB1aWvMGBBdU2XXVNqU2+jk9Kx58VBmtITtaRvIonLhOll6TzNTsiosRti+qhE2GbZ0Rp6Cu3MahyKuyWmFWLhryouESIFROwNpkeCMSNExwQ==" UUID="F132CD36-B70F-4FA6-B70E-610367746F81" Version="1.1" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/timbrefiscaldigital/TimbreFiscalDigitalv11.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
+

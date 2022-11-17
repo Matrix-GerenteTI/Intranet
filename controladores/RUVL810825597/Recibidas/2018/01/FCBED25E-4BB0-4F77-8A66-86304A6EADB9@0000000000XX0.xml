@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante Version="3.3" Folio="00000367" Fecha="2018-01-09T04:55:36" Sello="cUgcNrpjUHQMJ3u8nlHJMi7GB1/XgaynLlnOV5w45vbaOT0RyvRa9OtfESP3rojfWnNM6CcyoFvyxY/0kw9njBWkP5zu2fSuF3VV1M18L2vtDTqYBSWkxh9zQP7Pm+Qrg84JRC5yglOKRsKxkz89+45dT28RuSCVw2k1Kih4wg61jbSBaw/ZkoC4PmpX6reynITwLmoZZ6XUykV0/rKH8g7pc5baHI51k6SOMt8N9AhUzHghLzftAtUsvf9uDGoU0+JTAt3Pd+qUJ23bfTb7PudvjmIOb8AAALa+C0PRdO/TfLEIeHpA33RfR4+P/aNxXfdc137CIzp2aO4MV1RMRQ==" FormaPago="99" NoCertificado="00001000000404131293" Certificado="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" CondicionesDePago="60 DIAS" SubTotal="204318.21" Total="237009.13" MetodoPago="PPD" TipoDeComprobante="I" Moneda="MXN" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" TipoCambio="1.0" LugarExpedicion="07020" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:catCFDI="http://www.sat.gob.mx/sitio_internet/cfd/catalogos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tdCFDI="http://www.sat.gob.mx/sitio_internet/cfd/tipoDatos/tdCFDI">
+  <cfdi:Emisor Rfc="TDI030516L26" Nombre="Tire Direct SA de CV" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="RUVL810825597" Nombre="LUISA MARIA RUIZ VARGAS" UsoCFDI="G01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="30.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 175/60R13 77H IMPERIAL F114 AUTO" ValorUnitario="331.11" Importe="9933.30">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="9933.30" Impuesto="002" TipoFactor="Tasa" Importe="1589.33" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  84  9037  7013464" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="50.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 185/60R14  82H MAXTREK MAXIMUS M1 AUTO" ValorUnitario="468.39" Importe="23419.50">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="23419.50" Impuesto="002" TipoFactor="Tasa" Importe="3747.12" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3964  7004665" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="60.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 185/70R13  86T MAXTREK SU830 AUTO" ValorUnitario="486.53" Importe="29191.80">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="29191.80" Impuesto="002" TipoFactor="Tasa" Importe="4670.69" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3964  7004695" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="17.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 195/55R15  85V MAXTREK MAXIMUS M1 AUTO" ValorUnitario="573.69" Importe="9752.73">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="9752.73" Impuesto="002" TipoFactor="Tasa" Importe="1560.44" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3964  7004489" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="30.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 195/60R14 86H BLACKLION CILERRO BH15 AUTO" ValorUnitario="522.02" Importe="15660.60">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="15660.60" Impuesto="002" TipoFactor="Tasa" Importe="2505.70" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3964  7004567" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="30.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 195/65R15 91H MAXTREK MAXIMUS M1 AUTO" ValorUnitario="559.46" Importe="16783.80">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="16783.80" Impuesto="002" TipoFactor="Tasa" Importe="2685.41" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3964  7004665" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="6.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 195/70R14 91T MAXTREK SU830 AUTO" ValorUnitario="578.96" Importe="3473.76">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3473.76" Impuesto="002" TipoFactor="Tasa" Importe="555.80" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3964  7004489" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="30.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 205/40R17 84W XL MAXTREK MAXIMUS M1 AUTO" ValorUnitario="616.01" Importe="18480.30">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="18480.30" Impuesto="002" TipoFactor="Tasa" Importe="2956.85" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3964  7004695" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="30.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 205/70R14  95H MAXTREK SU830 AUTO" ValorUnitario="629.85" Importe="18895.50">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="18895.50" Impuesto="002" TipoFactor="Tasa" Importe="3023.28" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3964  7004696" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="8.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 215/35R18  84W  MAXTREK INGENS A1 AUTO" ValorUnitario="678.41" Importe="5427.28">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="5427.28" Impuesto="002" TipoFactor="Tasa" Importe="868.36" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3964  7004696" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="20.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 225/45R17  94W XL MAXTREK MAXIMUS M1 AUTO" ValorUnitario="705.51" Importe="14110.20">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="14110.20" Impuesto="002" TipoFactor="Tasa" Importe="2257.63" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3964  7004587" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25172504" Cantidad="58.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta LT185R14C-8 97/95S MAXTREK SU810 CAMIONETA" ValorUnitario="675.68" Importe="39189.44">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="39189.44" Impuesto="002" TipoFactor="Tasa" Importe="6270.31" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  16  3964  7004665" />
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosRetenidos="0.00" TotalImpuestosTrasladados="32690.92">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" Importe="32690.92" TipoFactor="Tasa" TasaOCuota="0.160000" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="FCBED25E-4BB0-4F77-8A66-86304A6EADB9" FechaTimbrado="2018-01-09T16:55:36" RfcProvCertif="INT020124V62" SelloCFD="cUgcNrpjUHQMJ3u8nlHJMi7GB1/XgaynLlnOV5w45vbaOT0RyvRa9OtfESP3rojfWnNM6CcyoFvyxY/0kw9njBWkP5zu2fSuF3VV1M18L2vtDTqYBSWkxh9zQP7Pm+Qrg84JRC5yglOKRsKxkz89+45dT28RuSCVw2k1Kih4wg61jbSBaw/ZkoC4PmpX6reynITwLmoZZ6XUykV0/rKH8g7pc5baHI51k6SOMt8N9AhUzHghLzftAtUsvf9uDGoU0+JTAt3Pd+qUJ23bfTb7PudvjmIOb8AAALa+C0PRdO/TfLEIeHpA33RfR4+P/aNxXfdc137CIzp2aO4MV1RMRQ==" NoCertificadoSAT="00001000000404598147" SelloSAT="Dcxfl629k8X5Iv7fttfF9ip+y8qqOYCURe/yreaTACbWu5Zi3USuvqsVGkN9fJ0Yn8LB9E6LpN+SARb8o52pl9AtEQB2kKN9epMeDBbcvYr61g96giTDm6xQKlH2W8OqIYiyESflQ71lsBnv0WOCnDBbSXPGbVUXd/eFj8TYEdB5LeV8qskeSdYwZjN5ePGlyKIY7vSkkQecGsHR1mGYsHQo9EPtUres2Bavi/xXjonIki2f+CatZg4dVMUEziwnILLVONn8Vb2ezdi0bbhXWT3G6qjSd3skDEYMJQY/czzI8OqX4UAUJ9xSJwvXpQRWSfUSxuYmmzmbJ2j1lIk7kA==" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

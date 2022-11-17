@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sitex-defenitive-app",
+  "private_key_id": "76d81bc9ae35acec71d35b9ac8974480d2178da2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDAraHqDOpdKB4g\n8qgDtkR0eiiwTmlJTSrUslqCqQGAalZLorAAGct1Lv6iO7FWKmI8jgb6nBy3Z7jj\ngFSwejo2QrcBfTdCTpXZNjf404DFSZL9JhcpIkK+WWiSQKavge3T8GyXg3sGxm35\nbhsir1D6QPgRtTcx9XYUdRKr0pekygNQggN2Nqcetj8Yiyt4qWkGLrs8+gfqm8jN\nG4PefoXB3X+wNkY8g33vqg7ANXTcR+++MAh/+lVDjhNChuPi89KMtLDsscTexjeO\nuevc10UiF1mDAjs5c/BPR+4XUfRkTNeyUGAtTopSlvuR9MN4ggnc2N2UE2id4e+h\n38dPMsWHAgMBAAECggEAE7BqkEk7lcNouMMzKhXxDtoA2Gta1PO+wbdsClgM4Dt9\nkAMS6x+3q8TenmNtLrnsCfYVfnx/brp5qT3O6a3DzxGoM83A3NS8+VJSC+pJCWAI\nVjgTO8/VdDAcwH08y0iCrhqubhkwdDPIvyliOnwh0UDcWKrk9gT4SQThoI9Hkb4p\ng1p3Ks77sSzCd6nZ01X0T5ReuOUVu+e1cMrWvJnJEqhqKEOyyJIMIossJoKek3oM\nTt683h+Z11GAqnl3F+fz/uSZ2Vjpkckx2kW+f6dAxysoMapWQ3etR0emtjuz4tw1\n4jQMan/1B2ryv/lGSkGYG2ifQt+QsEifghdzoaDxOQKBgQDoDRi6APcRDvM4S1LN\nikb7ounyylvePMp3Nfck+hUeCtMYQOCHA5NeTnf/RrxZWKTzX2sPx9ErI5WmHFZz\n5q8U9PJKjc0ya3gRcFJSB+BcGsbIPrcUtgwxVIcwXP1bka+EtuEt/d3EqfDb+LLD\nUUUs+V9lpMDu/JNWCWmvoeXaHQKBgQDUkEjjulr5omsBbw6kwch3WCg3cjRny/YK\nbrn3oHbL9wz45boDGgUBmYAXcAo/oli4haTByze6492rMOMy9mFC0QmWMYcTBCci\nRz7cVH8ETk2Sa5ueeWRuGEQf28z3X1v3pO5tTNJ1Lbb5h0pmdtQvnBQbBsyzW3TB\n71nHDhrs8wKBgEtzPq/z8mF0h/as3x5/sHbPUNwlmdtXzskWHebC/azH/j0rkxWz\nPu5x+yhgmos+fFu5kbkO0l8Bcf4RxrZmslTRFBrTon2bXe3lpI6RiwzHlAy1/5dX\nXf2IK3C5O5PTectgHzVyDvKMAwmzAoTpXuGxr6f/+s96Bnn6E4gMzwytAoGBAKIJ\np3bqLcXU+WtrZKdWDeJkcqvpxGdHxTSoud06FrVfjCUEwqrwn9ZbVJkJUNa3hJiN\nUE5nAwHWCLoil1/XD8emoH89HDHz3X01AIdnZjg7FMlEfKnu8g83Ml9y6Cm/KNV8\nhkEN6fVntu87Ig1AEnqEqZL8uPkVA8l/E1o5t27fAoGAUEJhFlsSlAbpATIFuQGK\nMmgDlcHKjCOjhd2MjhGpJRiWY5Rvw6e0hKigTKoSSO6uLSf0p/mRb8oYg9LJgfRk\nUDIyGa4ptEuDnhBf+1dLYfaaOaIeF+PhSAVub32/wv2hZ7OslhujsF2JKeTw4Jkp\n7iG3e+96XohjjfRvGSVGO80=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-urefe@sitex-defenitive-app.iam.gserviceaccount.com",
+  "client_id": "104225269670903316851",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-urefe%40sitex-defenitive-app.iam.gserviceaccount.com"
+}

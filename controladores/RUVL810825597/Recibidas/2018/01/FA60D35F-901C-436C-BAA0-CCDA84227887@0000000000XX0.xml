@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" Moneda="MXN" TipoCambio="1" SubTotal="26262.07" Total="30464.00" LugarExpedicion="64820" TipoDeComprobante="E" MetodoPago="PPD" CondicionesDePago="No identificado" Serie="NBO" Folio="255" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Fecha="2018-01-16T19:05:12" NoCertificado="00001000000406183208" Certificado="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" Sello="qUa2DF7KRBqxwiq+t/TfNFCuXHFFpDbgoxGRNsSUURyS5FWrdSfatqKIsYf2QAGGgkwYs9pn6C/0dO4+rKdtJr3IfWxTtS8cBC5ZzbYMThMz/IQVu001xYW3oW5vrqKmo3Gy0YB9bESHJJmWHVIz0Zy+4YIVDfPBIqZj9znXvSFdky+480JYuPi81Dk059q+MVwZaxuZG9fu4CMS87U89zLx+WtkSltbmmQI2bQ9SxIsoF9ZXT01Ez7rCt/Q0K7NX9TCtDIcXsUNdCurXc3z52XKOEBFhqEjeUrohtE1F3kqgqPaqn/OKJugtLgUdzeOlBQuEkBYQppBV4/Z2ybWFw==" FormaPago="99">
+  <cfdi:CfdiRelacionados TipoRelacion="03">
+    <cfdi:CfdiRelacionado UUID="C2435457-3AE6-40B3-B592-122CFC63B508" />
+  </cfdi:CfdiRelacionados>
+  <cfdi:Emisor Rfc="PRL1103158E7" Nombre="PROVEEDORA DE RINES Y LLANTAS MONTERREY, S.A. DE C.V." RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="RUVL810825597" Nombre="LUISA MARIA RUIZ VARGAS" UsoCFDI="G02" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ValorUnitario="603.4483" Descripcion="FLETE" Importe="603.4483" Unidad="Pieza" NoIdentificacion="FLE01" ClaveProdServ="01010101" ClaveUnidad="H87" Cantidad="1.0000">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="603.4483" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="96.5517" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ValorUnitario="875.8621" Descripcion="15X7 4-100 PRO WHEELS Mod: PRO685 ET32 CB73.1 MGM-MF" Importe="3503.4484" Unidad="Pieza" NoIdentificacion="R1541100M1-4775" ClaveProdServ="25171900" ClaveUnidad="H87" Cantidad="4.0000">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3503.4484" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="560.5517" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ValorUnitario="1112.0690" Descripcion="16X7 5-112 PRO WHEELS Mod: PRO196 ET38 CB73.1 MGM-MF+UL" Importe="4448.2760" Unidad="Pieza" NoIdentificacion="R1651112M1-4781" ClaveProdServ="25171900" ClaveUnidad="H87" Cantidad="4.0000">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4448.2760" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="711.7242" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ValorUnitario="1163.7931" Descripcion="17X7.5 4-100 PRO WHEELS Mod: PRO208 ET35 CB73.1 GM-MF" Importe="4655.1724" Unidad="Pieza" NoIdentificacion="R1741100M1-4783" ClaveProdServ="25171900" ClaveUnidad="H87" Cantidad="4.0000">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4655.1724" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="744.8276" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ValorUnitario="1163.7931" Descripcion="17X8 4-100 PRO WHEELS Mod: PRO659 ET35 CB73.1 BMF" Importe="4655.1724" Unidad="Pieza" NoIdentificacion="R1741100M1-4776" ClaveProdServ="25171900" ClaveUnidad="H87" Cantidad="4.0000">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4655.1724" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="744.8276" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ValorUnitario="1422.4138" Descripcion="18X7.5 5-112 PRO WHEELS Mod: PROX0035 ET43 CB73.1 BMF" Importe="5689.6552" Unidad="Pieza" NoIdentificacion="R1851112M1-4793" ClaveProdServ="25171900" ClaveUnidad="H87" Cantidad="4.0000">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="5689.6552" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="910.3448" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ValorUnitario="676.7241" Descripcion="15X6.5 4-108 PRO WHEELS Mod: PRO196 ET35 CB73.1 BMF-UL" Importe="2706.8964" Unidad="Pieza" NoIdentificacion="R1541108M1-4812" ClaveProdServ="25171900" ClaveUnidad="H87" Cantidad="4.0000">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="2706.8964" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="433.1034" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="4201.93">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="4201.93" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="FA60D35F-901C-436C-BAA0-CCDA84227887" FechaTimbrado="2018-01-16T19:05:46" RfcProvCertif="IAD121214B34" SelloCFD="qUa2DF7KRBqxwiq+t/TfNFCuXHFFpDbgoxGRNsSUURyS5FWrdSfatqKIsYf2QAGGgkwYs9pn6C/0dO4+rKdtJr3IfWxTtS8cBC5ZzbYMThMz/IQVu001xYW3oW5vrqKmo3Gy0YB9bESHJJmWHVIz0Zy+4YIVDfPBIqZj9znXvSFdky+480JYuPi81Dk059q+MVwZaxuZG9fu4CMS87U89zLx+WtkSltbmmQI2bQ9SxIsoF9ZXT01Ez7rCt/Q0K7NX9TCtDIcXsUNdCurXc3z52XKOEBFhqEjeUrohtE1F3kqgqPaqn/OKJugtLgUdzeOlBQuEkBYQppBV4/Z2ybWFw==" NoCertificadoSAT="00001000000403442064" SelloSAT="K1lPHWSs0ppVcmR1FQbJnlsulsQPcdSho5KTmuFmALfYoqFjSYu7RUutcAMNvkTAjum6zgQtUJoV9He7wxpppip3z567tb1wsfAHJdV3KoFYyt3NQVszqOkdRyAfavHTMdrakJxVXm58gYA+c/gJ+GhbfDoKNMyCiPRRvevY23nglZGrRt9oYO1hm8ZUM5raMZ6baTeXserOgeCeX3lHozoOo/7Fuf8bXexMwubaCvFfpySj1QWlbf6OHQK2nPzyzYlUEY9upD/7SwmC242Q+R+WvcX4ZbOQCA1FcDjAINuirdBvY4Zt/kLP4boAvZosTVQgZlfHf8CqTFX/0mZMCw==" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" Version="3.3" Serie="BF" Folio="3547" Fecha="2018-01-10T11:52:31" Sello="nSekuBV7T0yeyl1SudaCtVU97yJlmiZXq2/WKFsKkId+s0eht8LNh8lqKiCGiyjUIgbZyz5X4Nbe5imkt/cT5N3VAiXTw0YZ7S7v21/fN4bbno+4uMf6Q2Yb2cpDnzgUeuOWqReq0Mhm68ihLm9sG6y8vZcgMyytu9jzejyvliY=" FormaPago="01" NoCertificado="00001000000306213713" Certificado="MIIEWjCCA0KgAwIBAgIUMDAwMDEwMDAwMDAzMDYyMTM3MTMwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xNTAzMDQyMjQ2MTRaFw0xOTAzMDQyMjQ2MTRaMIGmMR0wGwYDVQQDExRHVUlMRUJBTERPIFJVSVogQ1JVWjEdMBsGA1UEKRMUR1VJTEVCQUxETyBSVUlaIENSVVoxHTAbBgNVBAoTFEdVSUxFQkFMRE8gUlVJWiBDUlVaMRYwFAYDVQQtEw1SVUNHNjgwODEwQkcxMRswGQYDVQQFExJSVUNHNjgwODEwSFBMWlJMMDIxEjAQBgNVBAsTCUdSVVBPIExDSDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0MhPyCdUUqEOig3eQlfeHgBdFjqh2/Ehb7v684XyOfEil0q/eiXM6GJuVRc+oSZhiI7D9RX0Ciw8epfmVLybDvF7edU2RoaO3MzzhAYFIm5kCJWiyk1zvuCjVQfAYst8WICA2oU0+fHrf2rssBSL4Ir7187/CATepvbDkkecTecCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAH1np/4JwtmwaBdY59mKI7a6IvkjdkjMYzE307vsbX/ib8wu9D3rRXvwD9CZqpJ/pcbzOkwBKyBQqxjFAk/BzKNcdJ/TuG1BSI8SwOwMLb1+vy4VTYCh0XWsQTeVv2CE9eA6QjptBiJU8+JJnwUvCPUy5SeBoP21CQBKIWWB/V0Hv1ZY0iPobhfjiTUCiG32Tr21bVyy5fvZzjlpzWiLXaH+kuSOwlbhVYJWw3+dRYEQQPehPhF7ydot28xeY5Y2rATZAwznNVrgHtRkDx+/O//zminhn9dLpf5HTPtmtK6ZxRoXVkbSvYrTfhHx1vhVBPjX1DQ1Dw59spqe7ESPdXQ=" SubTotal="1077.58" Moneda="MXN" Total="1249.99" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="29000">
+  <cfdi:Emisor Rfc="RUCG680810BG1" Nombre="Guilebaldo Ruiz Cruz" RegimenFiscal="612" />
+  <cfdi:Receptor Rfc="RUVL810825597" Nombre="RUIZ VARGAS LUISA MARIA" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="25172004" NoIdentificacion="7000075-1" Cantidad="2" ClaveUnidad="H87" Unidad="PZA" Descripcion="Grob Stratus, Cirrus 99-06 Tras" ValorUnitario="538.79" Importe="1077.58">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1077.58" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="172.4128" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="172.41">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="172.41" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.1" UUID="261B9D7B-39CF-FA45-A473-E780B9691F2F" FechaTimbrado="2018-01-10T11:52:42" RfcProvCertif="SCD110105654" SelloCFD="nSekuBV7T0yeyl1SudaCtVU97yJlmiZXq2/WKFsKkId+s0eht8LNh8lqKiCGiyjUIgbZyz5X4Nbe5imkt/cT5N3VAiXTw0YZ7S7v21/fN4bbno+4uMf6Q2Yb2cpDnzgUeuOWqReq0Mhm68ihLm9sG6y8vZcgMyytu9jzejyvliY=" NoCertificadoSAT="00001000000401041203" SelloSAT="B1MT8AJgCljPKpq1r1IG/mcsX0ebX/Wi199CJI5DtJyntzRJ6/1my13zS9ZxGPaEzMqp/3VRVLZcLjSIuXbjbdY1OV26+MqdKmVHmdbKwEH5ml8XOoItAXFGJUou06DmbhGCHKroLw22+jnhAeVKN25MA1OR0N1fVMZcDh1jYNaFIHJNqA7rHYh/WXDcEsjqycvnmHNgReMg6e+RLTMAuKUkdSjTYg8BK6JdXhasHji/Jk6d+wXG1mO2b5W9S0yyj7iyf0R0NjxPYNPU1MWRavKpXREUU7s0mlzZWapzfDMeuyumqr9nlbUoSG7vZ/K1ZwoWgIJ7UbifDWY14zc9zA==" />
+</cfdi:Complemento></cfdi:Comprobante>

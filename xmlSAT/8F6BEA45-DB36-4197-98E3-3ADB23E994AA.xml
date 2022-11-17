@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3  http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Serie="B" Folio="19838" Fecha="2018-05-04T16:12:59" Sello="Tdswu2Cuh2y+HNvvoyPrCo/5jEbLhjJuwv3kUNA+bBE3kujTnvYn4VVUos9bgauqlqgJ2USBJktt3YLIwPlHUsqP4yOLDNwtxLtDaZbL4GHQ9y2IbRRbd05geDIavSbmFhKcmP4/7dubyBqeWTq1nFk2FiRocu+g7RjEvgCbLiDG4WtMaMkopaa+ZGkhXMoN+AkVA3l9R03X45IbmXWD6//nScxUgCbU/09R4rgEm/GxOpmabkI0o8qSATn8XE6+MYPyZ3yYUGTn0i6RiKcVDG71/dCS103+d3J5ETICwkJLGOv4uVTiDVMpBGN7NzBROKdEZm15Pwy2o6bnQ5+3dQ==" FormaPago="03" NoCertificado="00001000000405963608" Certificado="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" SubTotal="6396.55" Moneda="MXN" Total="7420.00" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="29080">
+<cfdi:Emisor Rfc="CDC060203989" Nombre="COMERCIALIZADORA DURALON DE CHIAPAS S.A. DE C.V." RegimenFiscal="601" />
+<cfdi:Receptor Rfc="RUVL810825597" Nombre="Luisa Maria Ruiz Vargas" UsoCFDI="G03" />
+<cfdi:Conceptos>
+<cfdi:Concepto ClaveProdServ="30111601" Cantidad="20.00" ClaveUnidad="EA" Unidad="BULTO" Descripcion="CEMENTO GRIS 50KG TOLTECA EXTRA" ValorUnitario="159.48" Importe="3189.66">
+<cfdi:Impuestos>
+<cfdi:Traslados>
+<cfdi:Traslado Base="3189.66" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="510.34" />
+</cfdi:Traslados>
+</cfdi:Impuestos>
+</cfdi:Concepto>
+<cfdi:Concepto ClaveProdServ="30102400" Cantidad="10.00" ClaveUnidad="EA" Unidad="PZA" Descripcion="Varilla Corrugada de 3/8&quot; 12 M.L." ValorUnitario="113.79" Importe="1137.93">
+<cfdi:Impuestos>
+<cfdi:Traslados>
+<cfdi:Traslado Base="1137.93" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="182.07" />
+</cfdi:Traslados>
+</cfdi:Impuestos>
+</cfdi:Concepto>
+<cfdi:Concepto ClaveProdServ="01010101" Cantidad="10.00" ClaveUnidad="EA" Unidad="PZA" Descripcion="ARMEX 15X20 DE 6ML" ValorUnitario="155.17" Importe="1551.72">
+<cfdi:Impuestos>
+<cfdi:Traslados>
+<cfdi:Traslado Base="1551.72" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="248.28" />
+</cfdi:Traslados>
+</cfdi:Impuestos>
+</cfdi:Concepto>
+<cfdi:Concepto ClaveProdServ="60124412" Cantidad="20.00" ClaveUnidad="EA" Unidad="KILO" Descripcion="ALAMBRE RECOCIDO (ALAMBRITO)" ValorUnitario="25.86" Importe="517.24">
+<cfdi:Impuestos>
+<cfdi:Traslados>
+<cfdi:Traslado Base="517.24" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="82.76" />
+</cfdi:Traslados>
+</cfdi:Impuestos>
+</cfdi:Concepto>
+</cfdi:Conceptos>
+<cfdi:Impuestos TotalImpuestosTrasladados="1023.45">
+<cfdi:Traslados>
+<cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1023.45" />
+</cfdi:Traslados>
+</cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="8F6BEA45-DB36-4197-98E3-3ADB23E994AA" FechaTimbrado="2018-05-04T16:13:02" SelloCFD="Tdswu2Cuh2y+HNvvoyPrCo/5jEbLhjJuwv3kUNA+bBE3kujTnvYn4VVUos9bgauqlqgJ2USBJktt3YLIwPlHUsqP4yOLDNwtxLtDaZbL4GHQ9y2IbRRbd05geDIavSbmFhKcmP4/7dubyBqeWTq1nFk2FiRocu+g7RjEvgCbLiDG4WtMaMkopaa+ZGkhXMoN+AkVA3l9R03X45IbmXWD6//nScxUgCbU/09R4rgEm/GxOpmabkI0o8qSATn8XE6+MYPyZ3yYUGTn0i6RiKcVDG71/dCS103+d3J5ETICwkJLGOv4uVTiDVMpBGN7NzBROKdEZm15Pwy2o6bnQ5+3dQ==" NoCertificadoSAT="00001000000404477432" SelloSAT="N6fjsBcBj2vybIAqs+NFmduTqXYtNBmekb67T7sTP79lnaIjHiubgvYvUTqkAA2wQa2DF7FYZwHUC60oQ73q9s697vszoFGlkCm+oGEWXKEj2P5lYwL6GAP8ztcDwG2RrDEZfqPPYoaAk0IynwegdLZ7il3qTkpCXhCAQMaMVnSAiFP3yfTP70leTr/KXPK2NEWyv4UvHXIGfXp5aPIMHvIH4BPkLfsc0gB+xe+b8RefgtwP48VM+iAIacKLzDdtKXOA2BnsEVO7k4IjkinDP5Zdccl3YIrXPuBia8cgI1OV/mHNx/zW8hM4sC1Psk0IqtS/7bmfk1vKgmJkkdHIeQ==" RfcProvCertif="EME000602QR9" /></cfdi:Complemento></cfdi:Comprobante>

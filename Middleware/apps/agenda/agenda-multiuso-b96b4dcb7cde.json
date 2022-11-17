@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "agenda-multiuso",
+  "private_key_id": "b96b4dcb7cdee22e9998f834ced358dad16dcf47",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC8Cn54BlCsGvDN\nVcbrbOoL6mE7fhUVA+Rn9Gpm39eZfFpU4Qsls4UpJRpjWnKlfcPZ862fMhoGXFt9\nZUBW3jlyJQ3ofvTmI7Vlw9IC/aAtvn3OKgZigd5AG/n6gY9RLMrXnuVpZMfgI59M\nH+m2qO6piox4Ia2tNlSv+zq/NWNcjUV7jmcD540b2d9CbY2xiN/CoN8rtcq+OfRo\nW8DgwuabOXOEHRXqHJNLycesFQp4wPbVwHPZol3A7h+gCCf8D5zqS1M7/0Ul4XF8\nZRKpaUoONxAN5z6+rfnVH67ABZ9+OQ7A9qlMKF7XTmoBpKZkuFujQodE/C7Vz+wk\n449t3ubRAgMBAAECggEACfvGpimzq8eMZGJ6+rHgJTzO58E0bla0ED7eTVLyF/CN\nvTbriBdlaP9SzNaXAqlQNiilXa/jyNWrd9dh2JrY0vIbsG3ZI8TekyYX5te/Yt5b\nwI/joeRCQAYcOgwZ51Xo+RSzGmri38gUY47IMk36yd6UwaYMGgep7GP6xP8ZJOc1\n4v8G1RtU4HW4qffeawnutFgx/6S/Tqz6tbbdDJGbOtHnZLhGlCKVcmYn/lLUKS3Z\ngQZPgJvOETMxgbF3Yqb2voRg09Gf+lGcWB/x+HYfNU6jJ+5xNUQk0H3oah4vVoBG\nT2NYEdzjg8tRAYmlCEglOsVuRs/gXHsJ60I3mO1oYQKBgQDpcYCtCfC6BSUmNcCH\n0v4lfXoG/2lNmUx0ZeTuzVrwICZ5AmCEr7OFAmgT1w80sMuszwsgCf0YVkGZ1jxA\njRdTmLf6bkQeP+M24qY8NFAwwTrg/5RxPhVjhPjnEbyD4yR/ULiogXiz/F3Jos6i\nVTHDFqKnK3yxdD1+8p2ebyE+uQKBgQDONejzwkG5UQGGV92p30B5SLo5aaQn11K1\njp3n289GdfzamntSee3sjeh19ULdnbndZ1xywT1C/Qeg6JbQlIDrqR6PWBcPgY7v\nwjn+RIhUdZKI2QMTRZBgtGEhgzNoJUfIFAr7lu4akEZkMqTTniKujdOhi0TD4Bbn\nTpbPQDic2QKBgCgDFVwTZRhtQ1XORsbBCmCgpibG5mSvjuQwhtHLjvezewSovKRh\nfTKiG/aymN+eIfrnre965s+iETJt/vvNcx8YAQjCl5hbuPUyWe3dxZTludLQ27+h\nNYdORl9MsfQlHZ9Y1Z3EO00WR3kFF8fJNHNM0Oo4UPIVi2jT6uI6CAe5AoGAV0e0\nKPBw1xo1VgJ8vPjUlkE1KTXQmFhoFpaduVRtP/qSoog+aGNZVAWgfcTon1qyH8cu\n9xdZcbAdeXrY0sH4a0ayu6NiZ1rEADEqULf7KBx3gFqyFYcdHAFdF00sBgm5fzMU\njvaMI0wrrx9MapGFRnKbP8XtviZsK001QdWB4MkCgYAdEI+uFdbIh2OafO6JOx9r\nHwnreDqgBs30bRh8uNhoEpxF3FYpAA4ro/qjSLptuacR/DmZsqfhERGKJJSQqjQ1\ncrdzSmJBi2He9o7w4+WXTb6bNu7OTNvEyXoEHuxnMa4JOYPT5pENWnE4HINzrs81\nO/LbCwsN5O0WH1NJeNZEXQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-ewdm4@agenda-multiuso.iam.gserviceaccount.com",
+  "client_id": "116915217896743790574",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ewdm4%40agenda-multiuso.iam.gserviceaccount.com"
+}

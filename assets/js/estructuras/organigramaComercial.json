@@ -1,0 +1,81 @@
+[
+    {
+        "key":1,
+        "puesto": "Presidente Ejecutivo"
+    },
+    {
+        "key":2,
+        "parent": 1,
+        "puesto": "Jefe de Operaciones"
+    },
+    {
+        "key": 3,
+        "parent": 1,
+        "puesto": "Gerente de Ventas"
+    },
+    {
+        "key": 4,
+        "parent": 1,
+        "puesto": "Gerente de Almacén(Accesorios/Colisión/Rines)"
+    },
+    {
+        "key": 5,
+        "parent": 1,
+        "puesto": "Gerente de Compras"
+    },
+    {
+        "key":6,
+        "parent":1,
+        "puesto": "Gerente de Task Force"
+    },
+    {
+        "key": 7,
+        "parent":1,
+        "puesto": "Gerente de TI"
+    },
+    {
+        "key":9,
+        "parent":1,
+        "puesto": "Gerente de Almacén (Llantas) "
+    },
+    {
+        "key":8,
+        "parent":3,
+        "puesto": "Jefe de Sucursales"
+    },
+    {
+        "key":10,
+        "parent":  9,
+        "puesto": "Auxiliar de Almacén"
+    },
+    {
+        "key":11,
+        "parent":9,
+        "puesto": "Chofer"
+    },
+    {
+        "key":12,
+        "parent":4,
+        "puesto": "Auxiliar de Almacén"
+    },
+    {
+        "key": 13,
+        "parent": 4,
+        "puesto": "Chofer"
+    },
+    {
+        "key" : 14,
+        "parent":6,
+        "puesto": "Instalador"
+    },
+    {
+        "key": 15,
+        "parent": 7,
+        "puesto": "Desarrollador"
+    },
+    {
+        "key": 16,
+        "parent": 7,
+        "puesto": "Analista de Hardware y Comunicaciones"
+    }
+]

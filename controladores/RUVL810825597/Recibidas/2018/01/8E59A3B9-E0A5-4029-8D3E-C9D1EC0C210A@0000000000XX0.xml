@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante Version="3.3" Fecha="2018-01-09T05:57:01" Sello="n4fmWUzqh0wR3ymDLMQ48sjf7rQ7tnBnX8zQFfqsnY6GAEStOgnaOhUnD8DZflsOlJy3pWsrBrvLJEFDOwcBj/N5B0phUN4ZjOQaMSCwgSZ0hTNZqNhSswlE5lWJuEpQXkg6hbQLHGHoQVIfOhFkXQKcMeAmtugf47a56lq0KlC4GnSXAVI7WsVPHzDYlrB2TFIhDYuFl59E/TBhG5hyMVB5agbd/ATm9KoEBDZfAApnGTWEltGoZn8Zf3YJ1eFef8fwPBCerH8tfoggEl9zBk3+Awo8vBB8EeTvFLHX/MF7ZPvjBabxDd3tjcxXsSMUEnqr7JhkAHYOtMeSrliang==" FormaPago="99" NoCertificado="00001000000404131490" Certificado="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" CondicionesDePago="60 DIAS" SubTotal="13513.50" Total="15675.66" MetodoPago="PPD" TipoDeComprobante="I" Moneda="MXN" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" TipoCambio="1.0" LugarExpedicion="07020" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:catCFDI="http://www.sat.gob.mx/sitio_internet/cfd/catalogos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tdCFDI="http://www.sat.gob.mx/sitio_internet/cfd/tipoDatos/tdCFDI">
+  <cfdi:Emisor Rfc="MET090309KB1" Nombre="Market Expert Tire S de RL de CV" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="RUVL810825597" Nombre="LUISA MARIA RUIZ VARGAS" UsoCFDI="G01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="13101601" Cantidad="22.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 195/60 R15 88V RADBURG POWER AUTO" ValorUnitario="450.45" Importe="9909.90">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="9909.90" Impuesto="002" TipoFactor="Tasa" Importe="1585.58" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  81  3954  7002595" />
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="13101601" Cantidad="8.0" Unidad="PZA" ClaveUnidad="H87" Descripcion="Llanta 195/60 R15 88V RADBURG POWER AUTO" ValorUnitario="450.45" Importe="3603.60">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3603.60" Impuesto="002" TipoFactor="Tasa" Importe="576.58" TasaOCuota="0.160000" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  81  3954  7002728" />
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosRetenidos="0.00" TotalImpuestosTrasladados="2162.16">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" Importe="2162.16" TipoFactor="Tasa" TasaOCuota="0.160000" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="8E59A3B9-E0A5-4029-8D3E-C9D1EC0C210A" FechaTimbrado="2018-01-09T17:57:01" RfcProvCertif="INT020124V62" SelloCFD="n4fmWUzqh0wR3ymDLMQ48sjf7rQ7tnBnX8zQFfqsnY6GAEStOgnaOhUnD8DZflsOlJy3pWsrBrvLJEFDOwcBj/N5B0phUN4ZjOQaMSCwgSZ0hTNZqNhSswlE5lWJuEpQXkg6hbQLHGHoQVIfOhFkXQKcMeAmtugf47a56lq0KlC4GnSXAVI7WsVPHzDYlrB2TFIhDYuFl59E/TBhG5hyMVB5agbd/ATm9KoEBDZfAApnGTWEltGoZn8Zf3YJ1eFef8fwPBCerH8tfoggEl9zBk3+Awo8vBB8EeTvFLHX/MF7ZPvjBabxDd3tjcxXsSMUEnqr7JhkAHYOtMeSrliang==" NoCertificadoSAT="00001000000404598147" SelloSAT="ZhUjKyfO3WARNetKE83ra485NZFNdc2PxeeAKPhSMMAjR6OsJDwR2VXcs3iD4ni6KGQ+XxN2SqgKLkFlgYsmmIUGuiUH429k/fWVgELwnQ7A2kCfeexvN8PSMreqNeRrKJutCHgzYDPD0lMTy/a/2eUeJWWs6MuhCA2YWAHwMPEMe9+dMGtj4Je0B2AVoWsTawM0J9SZHmlHtyH6/K28CzxxMpFCHKjHHQp0bppuo8hpEKTsRdqDBZoSb/sc2O5XdwueliHww5Z4J/HQqNuHFhLASlqTuNoquUSH7uvTEEOkT3A4DZ89fbGLR6FxEoVCK0hFJzCY7WtAoVLJ+3gGog==" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

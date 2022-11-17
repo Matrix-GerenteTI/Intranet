@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Serie="XEKC" Folio="310329" Fecha="2018-01-12T17:35:32" Sello="QuDbGadP5XgIkNxFKgL6Bk17SA54ZNfUzEx1+txj1GTKqqq/oWGxGAGI+/ETqROda+cgxOKbJEcxuA/khGBF2ekmVGld9lMJsRQuAIggnORWliMNHMyy8LeUd7WX8gTaBHnFzGfMFv8KlHwM3tyTBOARyMLtY6Yn6nIC+FwqUZN4ptOph2HVXohRutP9VL3wK++oqoylIuUFcZdNujXHvzNElnWSyG5l3D3lfoUJsW4kM7KqKjlgsgKKYyV6P4IT9Oxxsp6/r/oESJmv2JnEdTbQdIS8AYXnbdeQWtAvn9furwS0qRdsRGXrvieK3tL7uhueTDjHrGbwDBJIM8lAvw==" FormaPago="01" NoCertificado="00001000000401465532" Certificado="MIIGHTCCBAWgAwIBAgIUMDAwMDEwMDAwMDA0MDE0NjU1MzIwDQYJKoZIhvcNAQELBQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3RyYWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRyaWJ1eWVudGUwHhcNMTYwMjE2MjE1OTQxWhcNMjAwMjE2MjE1OTQxWjCBvTEfMB0GA1UEAxMWUFJPUElNRVggUyBERSBSTCBERSBDVjEfMB0GA1UEKRMWUFJPUElNRVggUyBERSBSTCBERSBDVjEfMB0GA1UEChMWUFJPUElNRVggUyBERSBSTCBERSBDVjElMCMGA1UELRMcUFJPODQwNDIzU0c4IC8gUk9DUzcwMDYxN0RFMjEeMBwGA1UEBRMVIC8gUk9DUzcwMDYxN0hERkRSTDAwMREwDwYDVQQLEwhQcm9waW1leDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKmmIOhomy+uVS6BSBYtF74JEDml6Kmio0O8/u3mPQW3jJcAzIcpkxr2i/7NNi7ixiq9XSSU1gGfcwoai3TYiVy10cnOPwAF883w8KYYT1cCN41vpDhdj8nnTLN4e9QQmdNseWeD+mQ/Vq7sgd9r7wyptxAEISjN9pa1PTQGp/ywMpFKyvkpxg3BklYR3fds+E2XmdERdLiZoZvlS1+eGSYFrKckbQMXPlTDNHyk7hV6p31etw+HOar2l+GT+nG71ghjgm1G212u3/Jj6YCqSSRi/yQp/qdCDDBtpTSfwmu6rtaCwf8PD7VUosGkJ2tMOqEMGlrO1Q/ouCzqs+pZGKUCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQELBQADggIBAIUYNP1nyOJUOlc2ppVl2h52+vBDLBh2wKgql4EHbAnwP+/rinPw9Qhd52liMjZQW8hRzUbLDVkL6B5b+2MmK4G5qX86RDQ24np/gw8DCR0779xHLo6TlAx+ikBr9ARNXxErec5kSb1D5SaPfSwVqnKU/xlQOq3TBb5bo+yegjAQtESebXnOKU4e8WwhN7UTbGV25yvjRr2gNKAF1cQazANi49ZPCvOLkJgAa51IdTxJVvnksjwc4eNIslBEq7ge8iSijbncdGsKOwg3hWdvBKMCuGyPzT/RGjJ0ql8kILibVtYhQbJldD40qX230J18aSYarguTH7cNqpXnaayUKYMhNDK08Xug6k5Q9j+EMYN86gfh9TUOS0fy+G/yMJi9ey0+6C77WdQAP8gov+NO6sd+GTw+o1UwMouybv2xraKdnRv1seWfBJqnFZSZ/8b3QYNF01UkngVe0TnDjQ8+nHCKcd351DuJgf32nPvz3crfnSyTM72bltX0vCqnn56LPL8qTN2STNCBtXeVka4/D0iTI0HXv8XrdQsUJFWbaIK0QAe1l2mcn4rXUI3mYqf+zpTqcjci4Ww87Y4lY0KK9ODFRraVIQXBRC/SMmyzZqRwosG9EKVVA3AMEf7vn0oUtRAckHJIjD28QsEVXmEZ0l0HwaggJOlC55EibS5dmVxC" SubTotal="823.65" Moneda="MXN" Total="938.00" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="29110">
+  <cfdi:Emisor Nombre="Propimex S. de R.L. de C.V." Rfc="PRO840423SG8" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="RUVL810825597" Nombre="LUISA MARIA RUIZ VARGAS" UsoCFDI="G01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="50202306" NoIdentificacion="7501055305629" Cantidad="13.00" ClaveUnidad="XBO" Unidad="Botella" Descripcion="SPRITE 600 ML PET NR 12 G" ValorUnitario="9.483077" Importe="123.28">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="123.28" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="19.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50202306" NoIdentificacion="75007614" Cantidad="27.00" ClaveUnidad="XBO" Unidad="Botella" Descripcion="COCA COLA 600 ML 24 PK" ValorUnitario="11.207037" Importe="302.59">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="302.59" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="48.41" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50202306" NoIdentificacion="7501055339983" Cantidad="5.00" ClaveUnidad="XBO" Unidad="Botella" Descripcion="SIDRAL 600 ML PET NR 12 G" ValorUnitario="9.482" Importe="47.41">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="47.41" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="7.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50202306" NoIdentificacion="7501055332175" Cantidad="25.00" ClaveUnidad="XBO" Unidad="Botella" Descripcion="COCA COLA 355 ML CHOBY 12 PACK" ValorUnitario="6.8964" Importe="172.41">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="172.41" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="27.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50202306" NoIdentificacion="7501055320639" Cantidad="8.00" ClaveUnidad="XBO" Unidad="Botella" Descripcion="CC Sin Azucar 600ml 12pk" ValorUnitario="8.62" Importe="68.96">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="68.96" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="11.04" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50202301" NoIdentificacion="7501055307906" Cantidad="6.00" ClaveUnidad="XBO" Unidad="Botella" Descripcion="CIEL 600 ML PET NR 12 G" ValorUnitario="9.00" Importe="54.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="54.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50202306" NoIdentificacion="7501055337415" Cantidad="5.00" ClaveUnidad="XBO" Unidad="Botella" Descripcion="VLLEFRU UVA BOT 600m NR PET 12p" ValorUnitario="11.00" Importe="55.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="55.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosRetenidos="0.00" TotalImpuestosTrasladados="114.35">
+    <cfdi:Retenciones>
+      <cfdi:Retencion Impuesto="002" Importe="0.00" />
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="114.35" />
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.00" Importe="0.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="21713310-527e-46bb-97ad-cfc6af966b07" FechaTimbrado="2018-01-12T17:35:35" RfcProvCertif="AUR100128NN3" SelloCFD="QuDbGadP5XgIkNxFKgL6Bk17SA54ZNfUzEx1+txj1GTKqqq/oWGxGAGI+/ETqROda+cgxOKbJEcxuA/khGBF2ekmVGld9lMJsRQuAIggnORWliMNHMyy8LeUd7WX8gTaBHnFzGfMFv8KlHwM3tyTBOARyMLtY6Yn6nIC+FwqUZN4ptOph2HVXohRutP9VL3wK++oqoylIuUFcZdNujXHvzNElnWSyG5l3D3lfoUJsW4kM7KqKjlgsgKKYyV6P4IT9Oxxsp6/r/oESJmv2JnEdTbQdIS8AYXnbdeQWtAvn9furwS0qRdsRGXrvieK3tL7uhueTDjHrGbwDBJIM8lAvw==" NoCertificadoSAT="00001000000404624465" SelloSAT="kjtKZp4L8PFwXuTjhCKavfCWn/Tad3fYgTJ10ObsYGE5HR/2unZKfQgfJq2iHOojUYhNHGUYj5y8p5wjnmdar671wR5AtuFT5I5Vi28gp9G9gg5MOa8aejo9/c9Phtt+na1wTkNDHWWnqgwkFWxlpPmJsJpoV4vzE+js5ujQkqHhp8OfJByN0kqDpldKbVx5fEcYLLJelBwkVeu//3h0zt14jm3AP2GwqhIJbQ7FSXq6UFdGR3vbrBuCUPIS6iEGTzKcvxp72A2gJFjYlNCXe323WajzX1/2wOTxw+7TRh0ZmAuQ3LLJNDSk8Dr71S9o8nHdrCVlY05DXSeJueQWZg==" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
+

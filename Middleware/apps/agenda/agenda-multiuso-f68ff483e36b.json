@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "agenda-multiuso",
+  "private_key_id": "f68ff483e36baeded182e446f2eb54d60143db3f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC+XL7eROLLZ2cO\nLldH/3PnZRz0tlFlqU7MnIWsecMrlkxfWm6tifRLS9/oX3g2dbQgdgYyP7tyCCZ/\nkJQV9wG1+Pkj69KhWTmnF52u9cv9+B41GbZ+PsTnbNcayOx0Fiwaun9PIllC3But\niJ1K7v4OlShUf7XnHkYokUeQe1eUAdQIWoYcYhC1MwhhwKGQR96MIxaKHlB7FD4m\ng558iuf8XBGNO2is/Mgw+y8FlK4hpn3KDX0sy0KtNCDB5EjzQClvbYmoP8SButeb\nVVKg1fyPKJSe6aSra2NjQ7rKlChzEXl0riDv7P6V8HLabh+vrBUE84+PgzNwRyU4\n5k8xQLY3AgMBAAECggEAHQO739r2CnSvQ30StpmcC+fgevgS/gDJTuyIf1prwgf9\nigcZmX/OaW+eKCftBbf5BX2Xwi7unhnZ7FWYDKUCcL8LEkuOZiNYYzx5P0Kdng8k\nY4mQxDtC/dccDiwTxjne7RAB+YjNvCAaY9/Pwa0dshFP/Vkd26VEokhKdR4nohpF\nyXk8k8fbqQcdSEIj0q42WRs+U24aT5J/PkdBAnfTI91SAjsoH9HWPusMf/KFobgV\n5vdXt0sH118O7fNe1owHwN61GCajipa8PYDSjg3UItcX9IcZBj63FAMFznrGf9l7\nTW4T4wIer6/hNSvUSxkcoTXGa/w4ZpWgSHkaHSVrKQKBgQDsJkVeheivmcd4csld\nn3yBJXc7XLCPDuTJd89MbYyHax3nifzgcf/Svm6/RAUlNEuyIsldqP1nCF2IfGbQ\nRrLgKGIXa1oy7zyY7TwitlZMHnBBAq3Iw2vMBHcuhC4k9UEYNvnxPhVhoS2uGAuI\n4e+6UfyRCDn/yDd9EP1xSIKtmwKBgQDOXSyaZtH29UP7/3w47NI085x32dgegzRU\ncqugDWIh1mbJvTK77E+BaMbVHZ3Yn+ncni/8zEmCtCqfN2mdbU4NxXt+XRe0jIPC\nYJJN9JYid/eH7Vh/RvUgb9bUWq5c0Li/K61wHywDuudKnTKZ6BI3OK6uUYBlH7fv\nWTVaGNUxlQKBgQCjxDKtR35DcQjE/g2pcLX+NgZG05PZ0gFVulG3de1T6DQX4zjM\nSiKYetoAqGJNF8Q66CbvXgdF0aZTxbnjTHQ2QastBJTL598FStg+VmboaN9+JiZw\nqR1zodEpIB+EH9UhvtZ8t4pKZ2Vva1tsdQs0EjFuPt9CBA5/HC42xothawKBgQCu\n632GNwdcfJMuxGWIXvzjE2eak5XEb1RpDHX7ibyXkAO6ltutPOY7fBOly5/jYdE6\nRv/IGWVqG8tRAAhO/7q8o5tFBiW0zbJVjcQVve+Qsf2oQv/TitL2trXzdBX96JHg\nwWYW9uU5GDE7JrogiPz/v9UZP05E6Tjg8c3uW8RCbQKBgGb5wNZ2pJTB3/asF4Gx\ndld1EmE0SNLJQPYDJVxh3jvoeLPgoso+mEkucgajejS1LBPCkxoaJsEQmrCbqlGN\nLDMqr2tnVUX6vNLhvCTR9lDlZ0tb2rMwgd/vmidXwmWUwXQDU1qn38VC+H7Pjn0I\nto12UTOxFwjCK0UHKFDLYqPx\n-----END PRIVATE KEY-----\n",
+  "client_email": "notificaciones-agendas@agenda-multiuso.iam.gserviceaccount.com",
+  "client_id": "112041271843699947213",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/notificaciones-agendas%40agenda-multiuso.iam.gserviceaccount.com"
+}

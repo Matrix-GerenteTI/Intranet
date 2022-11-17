@@ -1,0 +1,18 @@
+[
+    {
+        "key": 1,
+        "puesto": "VP.  de Administración y Finanzas"
+    }, {
+        "key": 2,
+        "parent": 1,
+        "puesto": "Gerente de Administración"
+    }, {
+        "key": 3,
+        "parent": 2,
+        "puesto": "Analista de ingresos"
+    }, {
+        "key": 4,
+        "parent": 2,
+        "puesto": "Analista de RH"
+    }
+]

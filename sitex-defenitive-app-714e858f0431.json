@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sitex-defenitive-app",
+  "private_key_id": "714e858f04312bbeaebb6c2abe9a9ad92d3f1195",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCigzdPaqmQ5doH\ntyPhdssxPCpYb2I3OpD89+7FUiIxvsIp21j6jzhWeMkENwZoUy27Nk4MdhKcqzfs\nuvLLgoOb75/88rGDa/syBPeMW6uATJW3BciFCRe5EcTNjtqm3Uqu0ncISjoccVxt\nrwiyKGyFAwjkAaphqh4sih2YZZDbWNr4mECOU/zjE8eQZFef665xLR6Ymt/Uhv6B\n1HiWxx9Kj4Yunojdc6lIAoBmY8SDodV55hLOQYzjk+JnSh+0xP2ts3TKYk/OUwK6\nl0zva+X/8+3o9UKuSykQ/+95DqCPhV4T6M0U8zEb4nQhkW0EOuyNtfpHeyW6tGFq\nODiAXBa3AgMBAAECggEABnnLFO+PpTX7i64pEF1u+F3I5DBADipXx7TLf3Jn6WqM\nCyXx9D4LxSpX/EKDD1otKtYdoxJ7aGHMPzMt5J0lSGvyiJ5VI4MEhfg7swyeF2U1\n3A6vcFmt59KE8Jn+LYMI7FF3q81lZmfAAqDkbFD/DgfSbV+BnhWs0SKJzl5RuOPP\nyGOoApTw+hEYQH5FLZY5Z8BxD2TmXTfqQSJT14KgRnm02ep6F3NoeZQe45P1/UPZ\nX/FVwoVvNruW8S1rZE8wgT5WRWX/th1XfpYyeOrBOonRb+1AW2Iqwj9P3GsTWMrV\n7UIZx8kOUeXhx4kmF7eVDL9T9vLv0cy2odPtHfM1HQKBgQDNiQkwmRXKeb7MWqBG\nQdUicIYF2NVs68zBI0mCLqFwfJrBNc8fmpausrufq4iOJVMvJY+cO3SHM1SChxLQ\nik24cEkzMhRFb2JAapZif/lN3uSquJwd9j2LgVuKtXJrko7gs607kuZ7OvwYxfTV\na0iCArfJdTjFAGJZ5cYrFfe4GwKBgQDKafoq8PvG+NZ+dfjWz1HnUWTMmPTFY1VG\nCjsSdW7huFe+4dbo2gW3e/nt2J9cFkXDtY+X9086tIfyc1IQZ9LMOyB9H7Q5UKwU\nav3SdNEgwFm3krNmPMfaybd/mefPP4GFWyHuJ9S55vUw0mEstgtKA61lF5MgZfbS\nL6VHBOa9lQKBgQCtr/4aGWO2xQcdfgAvHvbTsa8wRbql3uYa2I0H/AvlGQdV+vjb\nRjHL07KGDdjJ9nTDRMSFTCD/F7t0ylx16kofcJQLNWi3/JZUxT3sYyT0T0WBl5wm\nHa6Is3n+T7MvgJxI+s2LqGoo/QGIldB+gbi2VUGmdu7QW7DBM1Exm9DIvQKBgDqD\nMjcxnIbjLhY2gi2Olu2YgNwIJ1HcKi1qDbODUP9dK7hZTqfXRqnI4/HWmhKjuZ0e\nohja/ANLZrU2kvV9Hdm+CeFBxfZ/lI7+cstgy4d9MzI27TdTwK5Fe48ebX1irU1g\nj8lpqDvpQN3RIxgqs868i2Zaz0QhVZ1i+pMyHoWVAoGBAInv+OO8I9kLDim7i5hP\ndaVYkzXasjKKgO7fo+LGbES94SBQw6NHCMPC34quoVmMfJwRBsBtGM/xIjYVSmmH\nGaMLmJ3XXeyAtdK2l1XU7VFt5IezVrEWDa37sHrX02EVcTSuythSR23osiOGTwpX\nTd9okUV3EWNHtg73DZNqwB/+\n-----END PRIVATE KEY-----\n",
+  "client_email": "sitex-defenitive-app@appspot.gserviceaccount.com",
+  "client_id": "110618643238969116967",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sitex-defenitive-app%40appspot.gserviceaccount.com"
+}

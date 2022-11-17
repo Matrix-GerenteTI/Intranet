@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:pago10="http://www.sat.gob.mx/Pagos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="MIIGHzCCBAegAwIBAgIUMDAwMDEwMDAwMDA0MDE1NTY3MzYwDQYJKoZIhvcNAQELBQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3RyYWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRyaWJ1eWVudGUwHhcNMTYwMjI1MTgwMzIwWhcNMjAwMjI1MTgwMzIwWjCBvzEhMB8GA1UEAxMYQUxETyBBVVRPUEFSVEVTIFNBIERFIENWMSEwHwYDVQQpExhBTERPIEFVVE9QQVJURVMgU0EgREUgQ1YxITAfBgNVBAoTGEFMRE8gQVVUT1BBUlRFUyBTQSBERSBDVjElMCMGA1UELRMcQUFVMDEwMjE2MkQ5IC8gU0FDUzY0MTAxOU1JMDEeMBwGA1UEBRMVIC8gU0FDUzY0MTAxOUhKQ05STDAxMQ0wCwYDVQQLEwRXT09EMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq5hTCVx5/RcQ3zlQ4y44uss6JIJDChqfCD7/8IYRE/SAXOF1aWkTzB3INNLo7XOkEhdD/ux1/pQaRRatlpA11G4OI+MVc3f3x2te+OAwF2Y1ccXNVu2Q7n5R4P/gsVx22cnhz5k2aWX6RDFhbcfd9MjbsD43XLWpHhxtPboRyxNQlYw7i7NrGmBQpKPZCkN1pRZvzKzuc/XjA1Wtu8Z7fSdMM7PaeLUiuD3UPd5+mUWoUS77GDSdVv2yZ3gPNzMNIgSCvv3q/T4s0sGlIAsMhboyhJg/mtQA/0OgHu8+X0edAlSx5wuPOYZ0qFf+W18pfgOUFCNzbTpV9leVZMF/qQIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAgEAKgVIbVzbeu6imOJGFoRzIi828LmZ63kD+Vl2G+vYCKGysxDsAnbzp98Bt3Ukbv+AnbNFmKi28A0Z2ME4JqD6w1BU5/DicBK84IkbBBwxzlAk7a+mPxlkxGQfw8hufqjZiMTDRXcoO8ww6y8RPmhncH/lVJdo7gqZ/MZ7YRqY+Lp35OA6qW4l1luUZlaX/FhHL4VUPR3iJgEa/irMDQNUqofqRJuXS8QCzEblPBf3nWnKC1ZQ0vf6kr2LdaIpZjjs/bZspVblPttatFV0XYQZvvtWvNOHV/kky7Vev2/PUnlvbnehZmzQ/HicfBAwGf/Xm9pdItQga4IvKray4Dtrq8e/C12etOmEagZoq9fd5T9UCcBLqXTKloUarQimBFzh1dE18dC4cL55rM8GDKFv3CZusieiq2yPzvcKD2lr0N+BYMjzqD3YRndzhhDS5lyD/Ct/tENBVYL85wgGRj2jZ6B5np417ILCzc64h2QiV4bfgZLV89qLa17LGq2RziCMRBurusbkidfP4GGsjD6rrwRuV2ODQcX0Vnzpi4bSz0G6p6DY1uwUv2hPEHuOurnOwHyPi5eAsjL/fw841uUfjSogVmunv2dZwrtxFhYTTV5j72bYgwi1e3LdMutXVYEIRdjyavwArNeMGllvkIN2yINjZR+KZ7OKDeXvnRqkbGk=" Fecha="2018-01-19T20:28:22" Folio="1020858" FormaPago="99" LugarExpedicion="45220" MetodoPago="PPD" Moneda="MXN" NoCertificado="00001000000401556736" Sello="ZL+6C4tjhots8ajo3BTXtoI6SpNhyT49QY0nld0AjuRHkWssBKwZR2iiTvV1ILvit7Ft7FUXFxoscCIuYLTYO/IQ8PltPZhBIJ27uEUZHu0/HeVQFFoOYbx7QcHFAAFDTEhcRUmrhs1ogExOfEKGevG42Qosv/mQaEf9pGDK2SKVmNXCFCdGkHD3TmdAyIqZGhEnsmDJkWZUUWd0iO8Cf6fz2i8Iwj+LPYP4iSXxnexr4XEnG8gf/kEhG6O3yqn/LYlYqk5jhCfn8O1CoAYvQMCVBVjNNxkRcTPzRWCrbi8aDjYyG1UGpAZEXMvLqwbylSYjxrgLCbutWnFJ5dDVzw==" Serie="BC" SubTotal="36639.00" TipoDeComprobante="I" Total="42501.24" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/Pagos http://www.sat.gob.mx/sitio_internet/cfd/Pagos/Pagos10.xsd">
+  <cfdi:Emisor Nombre="Aldo autopartes, S.A. de C.V." RegimenFiscal="601" Rfc="AAU0102162D9" />
+  <cfdi:Receptor Nombre="LUISA MARIA RUIZ VARGAS" Rfc="RUVL810825597" UsoCFDI="G01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="25172600" ClaveUnidad="H87" Descripcion="N6OR865 - BEDLINER NISSAN PU D21 86.5-97 C CORTA/ K CAB/ FRONTIER 01-05 K CAB6.0 C/RIEL AMER T154 2017.10.13" Importe="4239.00" Unidad="PIEZA" ValorUnitario="2119.50">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4239.00" Importe="678.24" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  84  3035  7004644" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="4.00" ClaveProdServ="25172600" ClaveUnidad="H87" Descripcion="ND5OR94 - BEDLINER NISSAN PU D21/ D22 94-15 3266 DOBLE CAB 5 C/RIEL ALD T154 2017.08.25" Importe="8100.00" Unidad="PIEZA" ValorUnitario="2025.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="8100.00" Importe="1296.00" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  84  3035  7003884" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2.00" ClaveProdServ="25172600" ClaveUnidad="H87" Descripcion="NF5OR99 - BEDLINER FRONTIER PU 01-12 3266 DOBLE CAB 5.0 C/RIEL 2017.08.25" Importe="4050.00" Unidad="PIEZA" ValorUnitario="2025.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4050.00" Importe="648.00" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  84  3035  7003884" />
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="10.00" ClaveProdServ="25172600" ClaveUnidad="H87" Descripcion="NN5OR15 - BEDLINER NISSAN PU NP300/ FRONTIER 16-17 3266 DOBLE CAB 5.0 C/RIEL ALD T156 2017.08.25" Importe="20250.00" Unidad="PIEZA" ValorUnitario="2025.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="20250.00" Importe="3240.00" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+      <cfdi:InformacionAduanera NumeroPedimento="17  84  3035  7003884" />
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="5862.24">
+    <cfdi:Traslados>
+      <cfdi:Traslado Importe="5862.24" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" FechaTimbrado="2018-01-19T20:29:35" NoCertificadoSAT="00001000000405607284" RfcProvCertif="FCG840618N51" SelloCFD="ZL+6C4tjhots8ajo3BTXtoI6SpNhyT49QY0nld0AjuRHkWssBKwZR2iiTvV1ILvit7Ft7FUXFxoscCIuYLTYO/IQ8PltPZhBIJ27uEUZHu0/HeVQFFoOYbx7QcHFAAFDTEhcRUmrhs1ogExOfEKGevG42Qosv/mQaEf9pGDK2SKVmNXCFCdGkHD3TmdAyIqZGhEnsmDJkWZUUWd0iO8Cf6fz2i8Iwj+LPYP4iSXxnexr4XEnG8gf/kEhG6O3yqn/LYlYqk5jhCfn8O1CoAYvQMCVBVjNNxkRcTPzRWCrbi8aDjYyG1UGpAZEXMvLqwbylSYjxrgLCbutWnFJ5dDVzw==" SelloSAT="d2pLQce0DtEEg4HqRQ5YtW6K6LrrEWdWyFrrL1HynV2kG4OZB2qFVavjn978UfB+B2fUg5qMHj2Sd4ZyHpQF7mP2YDzg3jT8cvMYbg+7bXMwIN9ZlwYGTST45nOJkdG+COvWdV3Mti8hKluCgW/KfBiDJKXaW4dNfXJQrVarRMSWawob4/7TjtLiUFNSgTKaoVYkU82xzBQ1PmZ/t2FyYBEa3c349qarFgk+uK/BdxkSa9QtiIXMQE8Cm7nGkyVSgFTxMJFItqR+9+32xWqyOmbVQEASIKgO5zTZ6146o45J4LdlwL44cMKPoJIzF/SUDYUJK1xVsNZZD54H48Lv6g==" UUID="43019CD2-5FA9-4A9E-9953-A248193E1384" Version="1.1" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/timbrefiscaldigital/TimbreFiscalDigitalv11.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
+

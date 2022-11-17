@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="3.3" LugarExpedicion="29080" Folio="85" Fecha="2018-05-11T09:12:21" FormaPago="01" MetodoPago="PUE" TipoDeComprobante="I" Moneda="MXN" TipoCambio="1" SubTotal="818.00" Total="948.88" NoCertificado="00001000000304663795" Certificado="MIIEZjCCA06gAwIBAgIUMDAwMDEwMDAwMDAzMDQ2NjM3OTUwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xNDA3MTIxODQ0NDZaFw0xODA3MTIxODQ0NDZaMIGyMSIwIAYDVQQDExlHRVJBUkRPIEFOWkEgUEVSRVogRFVBUlRFMSIwIAYDVQQpExlHRVJBUkRPIEFOWkEgUEVSRVogRFVBUlRFMSIwIAYDVQQKExlHRVJBUkRPIEFOWkEgUEVSRVogRFVBUlRFMRYwFAYDVQQtEw1BQVBHNTkwMTA1TE0wMRswGQYDVQQFExJBQVBHNTkwMTA1SENTTlJSMDYxDzANBgNVBAsTBk1BVFJJWjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxc/WQ/nrZl9vpJ7Y556DUOKTelWrfIAYqvEGTPLjtFeugLsxuDISi/i5TRvc2fjlSqeAZa4GYSRKJftM5bdzTjNBGdHrPwLtOexJQq2D2OMoqoeE5V8sXCuUc3fcBsfczG0fD5FuOyN0h+QFDhhsu7lmcIacW81HLN+j/8ti8L0CAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBACJvXm6QseDC06LGT2ja05sweIIzGAcHkl30upvNmsixajNxV47EgEfF0TI0gALwDQ/UQsLxpD3xmeAY6YKalh50bNoOjJ0CKxyEPT450uO4dKzIay5yg/w2nrdHUG0Uaqah7Ehra4mB4nJAAp0jXZUMwfnZbN0BPh/sCJEf00HKMCJdO774CakPHAJ1AFdLrX5zHdSNb1j4GUKPbNlgscNfl9rTWd0XusECWm9z7cIMCUYVGL2ysf9QMSVl6UWXNBYxEEMLy8F4gBTHTbSLpc+FDboZ4kNgF6N2xqQE+GxIoOEgmsD2NvLajEAiP9fZuGRLLvYs3WEusWqKLy5Tjo4=" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Sello="jVEz7fSwnHdyz3oqhnXYRHe6vG9QpYcQfZ/X801mwTwxiQKYsP4GAM80q1isVmmk7gecB3IsF5osNUOsROZVYnltn8hS4RbLl0Ksqv6uA+stzNATz1aBZ+L7imUqcCy4szHBB2WiTqkvNBzrcGnYlNHS1S0aZPBikkOOCN0VPGU=">
+  <cfdi:Emisor Rfc="AAPG590105LM0" Nombre="GERARDO ANZA PEREZ DUARTE" RegimenFiscal="612" />
+  <cfdi:Receptor Rfc="RUVL810825597" Nombre="LUISA MARÍA RUIZ VARGAS" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="78181500" NoIdentificacion="MO: SERVICIO" Cantidad="1" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="CAMBIO DE ACEITE Y FILTRO,LIMPIEZA Y/O CAMBIO DE FILTRO DE CAJA, LAVADO DE CARBURADOR, LAVADO Y AJUSTES DE CADENA DE TRANSMICION, ENGRASADO DE BALEROS Y EJES DELANTEROS Y TRASERO, LIMPIEZA, REVISION Y AJUSTE DE FRENO DELANTERO Y TRASERO, LUBRICACION DE CHICOTES DE EMBRAGUE, FRENO Y ACELERADOR. REVICION DE YUGO DE DIRECCION Y EJE DE ORQUILLA DE RUEDA TRASERA(SOLO AJUSTE). REVICION DE LUCES, LAVADO DE MOTOCICLETA" ValorUnitario="350.00" Importe="350.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="350.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="56" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="78181500" NoIdentificacion="1124-1145" Cantidad="1" ClaveUnidad="H87" Unidad="Pieza" Descripcion="CAMBIO DE SUICH DE ARRANQUE" ValorUnitario="50.00" Importe="50.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="50.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="8" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="26101732" NoIdentificacion="C7HSA" Cantidad="1" ClaveUnidad="H87" Unidad="Pieza" Descripcion="BUJIA C7HSA" ValorUnitario="45.00" Importe="45.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="45.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="7.2" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="15121501" NoIdentificacion="CARBU CLEN" Cantidad="1" ClaveUnidad="H87" Unidad="Pieza" Descripcion="LIMPIADOR DE CARBURADOR" ValorUnitario="45.00" Importe="45.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="45.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="7.2" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="25101801" NoIdentificacion="2245-1152" Cantidad="1" ClaveUnidad="H87" Unidad="Pieza" Descripcion="SUICH DE ARRANQUE YAMAHA YBR" ValorUnitario="328.00" Importe="328.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="328.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="52.48" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="130.88">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="130.88" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" FechaTimbrado="2018-05-11T09:13:22" SelloCFD="jVEz7fSwnHdyz3oqhnXYRHe6vG9QpYcQfZ/X801mwTwxiQKYsP4GAM80q1isVmmk7gecB3IsF5osNUOsROZVYnltn8hS4RbLl0Ksqv6uA+stzNATz1aBZ+L7imUqcCy4szHBB2WiTqkvNBzrcGnYlNHS1S0aZPBikkOOCN0VPGU=" UUID="4F9974DD-0957-FB32-E55F-232F9BF5DDD1" NoCertificadoSAT="00001000000402636111" RfcProvCertif="SAD110722MQA" SelloSAT="pECsU8K6/GS1n5qS0QWpLxavO/v6wrwQMEYHtd/ShlOSnfbg9mR3wHtigGNm3vKVwJAJQq+3781+iuXqttcgmahmS8pIx10AfMIB4OXgKCM6CLIAPbEXPAOuPp0Mx87h2UawsfHR9neOF6xqf6XA0Gc00f4pDiZLUg3GOoZfgrP47G1TZNB5xdLztf3Uykt2uQnBJC346qphFQaCYI7uOKQIt2oKsWy6SKLOgYimvkk8e3n9vRA0Yc5saDnFrKS/pw3/bOOuSG/kv5su+R5HvVxLV7UkANqEG+mb7Bkn8fl6qjwhNjGhcvcPYh15fOKwsVHvAGQ8iNzIZu3N0u6pCQ==" /></cfdi:Complemento></cfdi:Comprobante>

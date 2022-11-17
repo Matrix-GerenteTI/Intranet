@@ -1,0 +1,49 @@
+[
+    {"key":1,"puesto":"Presidente Ejecutivo"},
+    {
+        "key": 2,
+        "parent": 1,
+        "puesto": "Jefe de Operaciones"
+    },
+    {
+        "key":3,
+        "parent":1,
+        "puesto": "VP. Admon. y Fin."
+    },
+    {
+        "key":4,
+        "parent":1,
+        "puesto":"Gerente de Ventas"
+    },
+    {
+        "key":5,
+        "parent":1,
+        "puesto": "Gerente de Almacen Llantas"
+    },
+    {
+        "key":6,
+        "parent":1,
+        "puesto": "Gerente de Almacen(Accesorios/Colisión/Rines)"
+    },
+    {
+        "key":7,
+        "parent":1,
+        "puesto": "Gerente de Compras"
+    },
+    {
+        "key":8,
+        "parent":1,
+        "puesto":"Gerente Task Force"
+    },
+    {
+        "key":9,
+        "parent":1,
+        "puesto": "Gerente de TI"
+    },
+    {
+        "key":10,
+        "parent": 3,
+        "puesto": "Gerente de Administración"
+    }
+
+]
