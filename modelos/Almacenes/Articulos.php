@@ -476,7 +476,7 @@ class Articulos extends FirebirdDB
 		$queryArticulo.= "	RAXA.CTOPROMEDIO as COSTO,A2.DESCRIPCION AS ALMACEN
                             from 	   cfg_articulos CFGA 
                                     inner join ref_artxalmacen RAXA on CFGA.id=RAXA.fk1mcfg_articulos 
-                                    inner join cfg_almacenes A2 on A2.id=RAXA.fk1mcfg_almacenes 
+                                    inner join cfg_almacenes A2 on A2.id=RAXA.fk1mcfg_almacenes
                             where 	CFGA.itemservicio=''
                                         AND 		CFGA.familia NOT IN ('APARTADO','SERVICIO')
                                         AND  ( CFGA.CODIGOARTICULO LIKE '%$codigo%'  OR CFGA.DESCRIPCION LIKE '%$codigo%' ) AND (RAXA.existotal-RAXA.exispedidos-RAXA.exisproceso) > 0 
@@ -488,6 +488,19 @@ class Articulos extends FirebirdDB
         $exeArticulo = self::fireSelect($queryArticulo);
 
 		//echo $queryArticulo;
+        return $exeArticulo;
+    }
+
+    public function buscarCostoUltimo($codigo)
+    {
+        //ORIGINAL
+        // $query = "SELECT rd.COSTO, rd.CODIGO, rc.FECHA FROM REF_DETCOMPRASTRASPREGS rd INNER JOIN REF_COMPRASTRASPREGS rc ON rc.ID=rd.FKPADREF_COMPRASTRASPREGS 
+        // WHERE rc.STATUS='COMPRA EMITIDO' AND rd.CODIGO = '$codigo' ORDER BY rc.FECHA DESC";
+
+        $query = "SELECT rd.COSTO * 1.16 as COSTO, rd.CODIGO, rc.FECHA FROM REF_DETCOMPRASTRASPREGS rd INNER JOIN REF_COMPRASTRASPREGS rc ON rc.ID=rd.FKPADREF_COMPRASTRASPREGS 
+        WHERE rc.STATUS in ('ENTRADA EMITIDO', 'COMPRA EMITIDO', 'TRASPASO EMITIDO') AND rd.CODIGO = '$codigo' ORDER BY rc.FECHA desc";
+
+        $exeArticulo = self::fireSelect($query);
         return $exeArticulo;
     }
 
