@@ -131,6 +131,18 @@ class Articulos extends FirebirdDB
 
     }
 
+    public function obtenerValuados( $famila , $almacen )
+    {
+        $queryValuado = "SELECT *,PREDICTION.inventario.CTOPROMEDIO AS PREMECOS,PREDICTION.inventario.IDARTICULO AS IDARTICULO FROM  prediction.inventario 
+                                        LEFT JOIN prediction.precios ON prediction.inventario.IDARTICULO = prediction.precios.IDARTICULO
+                                        WHERE almacen like '%$almacen%' and FAMILIA = '$famila'
+                                        ORDER BY id desc";
+
+        $mysqlConexion  = new DB;
+        return  $mysqlConexion->selectVal( $queryValuado );
+
+    }
+
     public function getPoliticaPrecios( $familia , $subfamilia, $llanta ){
         $conexion = new mysqli('127.0.0.1','sestrada','M@tr1x2017','dbnomina');
         mysqli_query($conexion,"SET NAMES 'utf8");

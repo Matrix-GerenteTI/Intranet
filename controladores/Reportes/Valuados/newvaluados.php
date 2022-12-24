@@ -207,6 +207,7 @@ class Valuados extends prepareExcel
 
         //aqui mandar a los métodos
         if($familia == 'LLANTA'){
+            // var_dump("hereee");
             $this->generarLlantas($data);
 
         }
@@ -775,8 +776,8 @@ class Valuados extends prepareExcel
         
         // verificar si fam == llanta o rin y descartar esos
         if($familia != 'LLANTA' || $familia != 'RIN'){
-            var_dump($familia. " aqui");
-            $valuadoTerminado->save("VALUADO $familia $id.xlsx");
+            // var_dump($familia. " aqui");
+            // $valuadoTerminado->save("VALUADO $familia $id.xlsx");
         }
 
         $articulos->close();
@@ -892,11 +893,12 @@ class Valuados extends prepareExcel
         $stock = 0;
 
         $listaArticulosDesagrupados = $articulos->getValuadoSucursalMysql( $familia, $almacen) ;
+        // $listaArticulosDesagrupados = $articulos->obtenerValuados( $familia, $almacen) ;
 
         $listaArticulosAgrupados = array();
         if ( $group == 0) {
             foreach($listaArticulosDesagrupados as $i => $articulo){
-                $listaArticulosDesagrupados[$i] = $this->configuraPrecios($articulo);                
+                $listaArticulosDesagrupados[$i] = $this->configuraPrecios($articulo);
             }
         } else {
             foreach ($listaArticulosDesagrupados as $i => $articulo) {
@@ -949,16 +951,27 @@ class Valuados extends prepareExcel
         
         $libroEdicion->setCellValue("Q7", 'TOTAL');
         
+        $libroEdicion->setCellValue("R7", 'PVP1');
+        $libroEdicion->setCellValue("S7", '%');
+        $libroEdicion->setCellValue("T7", 'PVP2');
+        $libroEdicion->setCellValue("U7", '%');
+        $libroEdicion->setCellValue("V7", 'PVP3');
+        $libroEdicion->setCellValue("W7", '%');
+        $libroEdicion->setCellValue("X7", 'PVP4');
+        $libroEdicion->setCellValue("Y7", '%');
+        $libroEdicion->setCellValue("Z7", 'PVP5');
+        $libroEdicion->setCellValue("AA7", '%');
+
 
         $libroEdicion->mergeCells('G7:L7');
         $libroEdicion->mergeCells('M7:N7');
         $libroEdicion->mergeCells('O7:P7');
         $libroEdicion->mergeCells('Q7:Q8');
 
-        $libroEdicion->getStyle("A7:Q7")->applyFromArray( $this->labelBold);
-        $libroEdicion->getStyle("A7:Q7")->applyFromArray( $this->centrarTexto);
-        $libroEdicion->getStyle("A7:Q7")->applyFromArray( $this->setColorText('ffffff', 11));
-        $libroEdicion->getStyle("A7:Q7")->getFill()->applyFromArray( $this->setColorFill("073763"));
+        $libroEdicion->getStyle("A7:AA7")->applyFromArray( $this->labelBold);
+        $libroEdicion->getStyle("A7:AA7")->applyFromArray( $this->centrarTexto);
+        $libroEdicion->getStyle("A7:AA7")->applyFromArray( $this->setColorText('ffffff', 11));
+        $libroEdicion->getStyle("A7:AA7")->getFill()->applyFromArray( $this->setColorFill("073763"));
 
 
         $libroEdicion->mergeCells('A7:A8');
@@ -973,27 +986,33 @@ class Valuados extends prepareExcel
         $trend = 0;
         $i = 9;
         $colorRow = false;
-        // $arrayColumnPVP = array('',array('O','P','Q'),array('R','S','T'),array('U','V','W'),array('X','Y','Z'),array('AA','AB','AC'));
         foreach ($listaArticulosDesagrupados as $codigo => $articulo) {
 
-            if ( $colorRow) {
-                $libroEdicion->getStyle("A$i:Q$i")->getFill()->applyFromArray( $this->setColorFill("f0f5f5")  );
+            $nombreArt[$i] = $articulo['DESCRIP'];
+            $codigoArt[$i] = $articulo['CODIGOART'];
+            $marcaArt[$i]= $articulo['MARCA'];
+            
+            if($colorRow){
+                $libroEdicion->getStyle("A$i:AA$i")->getFill()->applyFromArray( $this->setColorFill("f0f5f5")  );
             }
-			$libroEdicion->getStyle("A$i:Q$i")->getAlignment()->applyFromArray(array('vertical' => PHPExcel_Style_Alignment::VERTICAL_CENTER,));
-            $libroEdicion->setCellValue("A$i", $articulo['CODIGOART']);
-            $libroEdicion->setCellValue("B$i", mb_convert_encoding($articulo['DESCRIP'], 'UTF-8', 'ISO-8859-1'));
-            $libroEdicion->setCellValue("C$i",$articulo['MARCA']);
-            // $libroEdicion->setCellValue("D$i",$articulo['MARCA']);
-            // $libroEdicion->setCellValue("H$i",$articulo['MARCA']);
+			$libroEdicion->getStyle("A$i:AA$i")->getAlignment()->applyFromArray(array('vertical' => PHPExcel_Style_Alignment::VERTICAL_CENTER,));
 
-            if ( $familia  == 'LLANTA' ) {
+            if($nombreArt[$i-1] == $articulo['DESCRIP'] && $codigoArt[$i-1] == $articulo['CODIGOART'] &&  $marcaArt[$i-1] == $articulo['MARCA']){
+                $i = $i-1;
+                $libroEdicion->setCellValue("A$i", $articulo['CODIGOART']);
+                $libroEdicion->setCellValue("B$i", mb_convert_encoding($articulo['DESCRIP'], 'UTF-8', 'ISO-8859-1'));
+                $libroEdicion->setCellValue("C$i",$articulo['MARCA']);
+                // $libroEdicion->setCellValue("D$i",$articulo['MARCA']);
+                // $libroEdicion->setCellValue("H$i",$articulo['MARCA']);
+    
+                // if ( $familia  == 'LLANTA' ) {
                     $descripcionSplitted = explode(" ", utf8_decode($articulo['DESCRIP']));
                     // $libroEdicion->setCellValue("E$i", $descripcionSplitted[0]);
                     $datosLlanta = explode('/', $descripcionSplitted[0]);
                     $anchoLlanta = $datosLlanta[0];
                     $altoLlanta = $datosLlanta[1];
                     $rinLlanta = $datosLlanta[2];
-
+    
                     $libroEdicion->setCellValue("D$i", $anchoLlanta);
                     $libroEdicion->setCellValue("E$i", $altoLlanta);
                     $libroEdicion->setCellValue("F$i", $rinLlanta);
@@ -1005,116 +1024,542 @@ class Valuados extends prepareExcel
                         } 
                         $nnn++;
                     }
-                    // $libroEdicion->setCellValue("G$i", $modelo ); //$articulo['SUBFAM3']);
+                // }   
+                
+                //aqui comparar el primer recorrido, eliminar los campos de stock y almacen
+                $stockArt = 0;
+                $cantidadArt = [];
+                if ($articulo['ALMACEN'] == 'MATRIX LAURELES') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("G$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("G$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX 5A') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("H$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("H$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX AMBAR') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("I$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("I$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX GENESIS') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("J$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("J$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX LIBRAMIENTO') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("K$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("K$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX PALMERAS') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("L$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("L$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX SAN RAMON') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("M$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("M$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX MERC ALTOS') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("N$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("N$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX 2AOTE') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("O$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("O$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX BLVD') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("P$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("P$i", $stockArt);
+                    }
+                }
+                        
+                $totalArt = array_sum($cantidadArt);
+                $libroEdicion->setCellValue("Q$i","=SUM(G$i:P$i)");
+    
+                $cantidadArt = [];
+                
+                //STOCK
+                // if ( $displayStock == 1) {
+                // 	$libroEdicion->setCellValue("I$i",$articulo['STOCK']);
+                // 	$libroEdicion->getStyle("I$i")->applyFromArray( $this->centrarTexto);
+                // }
+    
+    
+                //
+                $expMedida = explode(" ", $articulo['DESCRIP']);
+                $configPrecios = $articulos->getPoliticaPrecios($articulo['FAMILIA'],$expMedida[0],'');
+    
+                if(is_array($configPrecios)){
+                    // if($articulo['FAMILIA']=='LLANTA'){
+                        if(!in_array($articulo['IDARTICULO'],$arrIDS)){
+                            $arrIDS[] = $articulo['IDARTICULO'];
+                            $trend++;
+                            //Formateo de espacios
+                            $txtFile.= $this->formatEspacios($articulo['IDARTICULO'],20);
+                            $txtFile.= $this->formatEspacios(number_format($articulo['PREMECOS'],2,'.',''),15);
+                            $txtFile.= $this->formatEspacios(number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp1']/100))),2,'.',''),15);
+                            $txtFile.= $this->formatEspacios(number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp2']/100))),2,'.',''),15);
+                            $txtFile.= $this->formatEspacios(number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp3']/100))),2,'.',''),15);
+                            $txtFile.= $this->formatEspacios(number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp4']/100))),2,'.',''),15);
+                            $txtFile.= $this->formatEspacios(number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp5']/100))),2,'.',''),15);
+                            //$txtFile.= chr(13).chr(10);
+                        }
+                    // }
+    
+                    $preciosVenta = [];
+    
+                    $costoPromedioConIva = number_format($articulo['PREMECOS'] * 1.16, 2);
                     
-            }   
-            
-            $stockArt = 0;
-            $cantidadArt = [];
-            if ($articulo['ALMACEN'] == 'MATRIX LAURELES') {
-                if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
-                    $libroEdicion->setCellValue("G$i", $articulo['STOCK']);
-                    array_push($cantidadArt, $articulo['STOCK']);
+                
+                    if(in_array('1',$arrPVPS)){
+                        $tmpPVP1 = (float) number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp1']/100))),2,'.','');
+                        $libroEdicion->setCellValue("R$i",'$'.$tmpPVP1);
+                        array_push( $preciosVenta , [ 'precio' => $tmpPVP1 , 'numero' => 1] );
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("S$i","=ABS((O$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado = number_format(($tmpPVP1 / $costoConIva) - 1, 2);
+                            $resultado = $resultado * 100;
+                            $resultado = abs($resultado);
+                            $libroEdicion->setCellValue("S$i", $resultado.'%');
+                        }
+                    }
+                    if(in_array('2',$arrPVPS)){
+                        $tmpPVP2 = (float) number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp2']/100))),2,'.','');
+                        array_push( $preciosVenta , [ 'precio' => $tmpPVP2 , 'numero' => 2] );
+                        $libroEdicion->setCellValue("T$i",'$'.$tmpPVP2);
+                        if($utilidad==1){
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado2 = number_format(($tmpPVP2 / $costoConIva) - 1, 2);
+                            $resultado2 = $resultado2 * 100;
+                            $resultado2 = abs($resultado2);
+                            $libroEdicion->setCellValue("U$i", $resultado2.'%');
+                        }
+                    }
+                    if(in_array('3',$arrPVPS)){
+                        $tmpPVP3 = (float) number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp3']/100))),2,'.','');
+                        array_push( $preciosVenta , [ 'precio' => $tmpPVP3 , 'numero' => 3] );
+                        $libroEdicion->setCellValue("V$i",'$'.$tmpPVP3);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("W$i","=ABS((U$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado3 = number_format(($tmpPVP3 / $costoConIva) - 1, 2);
+                            $resultado3 = $resultado3 * 100;
+                            $resultado3 = abs($resultado3);
+                            $libroEdicion->setCellValue("W$i", $resultado3.'%');
+                        }
+                    }
+                    if(in_array('4',$arrPVPS)){
+                        $tmpPVP4 = (float) number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp4']/100))),2,'.','');
+                        array_push( $preciosVenta , [ 'precio' => $tmpPVP4 , 'numero' => 4] );
+                        $libroEdicion->setCellValue("X$i",'$'.$tmpPVP4);
+                        if($utilidad==1){
+                        // $libroEdicion->setCellValue("Y$i","=ABS((X$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado4 = number_format(($tmpPVP4 / $costoConIva) - 1, 2);
+                            $resultado4 = $resultado4 * 100;
+                            $resultado4 = abs($resultado4);
+                            $libroEdicion->setCellValue("Y$i", $resultado4.'%');
+                        }
+                    }
+                    if(in_array('5',$arrPVPS)){
+                        $tmpPVP6 = (float) number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp5']/100))),2,'.','');
+                        array_push( $preciosVenta , [ 'precio' => $tmpPVP5 , 'numero' => 5] );
+                        $libroEdicion->setCellValue("Z$i",$tmpPVP5);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("AA$i","=ABS((AA$i/L$i) - 1)");
+                        }
+                    }
+    
                 }
-                else {
-                    $libroEdicion->setCellValue("G$i", $stockArt);
+                else{
+    
+                    if(in_array('1',$arrPVPS)){
+                        $libroEdicion->setCellValue("R$i",'$'.$articulo['PVP1']);
+                        array_push( $preciosVenta , [ 'precio' => $articulo['PVP1'] , 'numero' => 1] );
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("S$i","=ABS((O$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado = number_format(($articulo['PVP1'] / $costoConIva) - 1, 2);
+                            $resultado = $resultado * 100;
+                            $resultado = abs($resultado);
+                            $libroEdicion->setCellValue("S$i", $resultado.'%');
+                        }
+                    }
+                    if(in_array('2',$arrPVPS)){
+                        array_push( $preciosVenta , [ 'precio' => $articulo['PVP2'] , 'numero' => 2] );
+                        $libroEdicion->setCellValue("T$i",'$'.$articulo['PVP2']);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("U$i","=ABS((R$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado2 = number_format(($$articulo['PVP2'] / $costoConIva) - 1, 2);
+                            $resultado2 = $resultado2 * 100;
+                            $resultado2 = abs($resultado2);
+                            $libroEdicion->setCellValue("U$i", $resultado2.'%');
+                        }
+                    }
+                    if(in_array('3',$arrPVPS)){
+                        array_push( $preciosVenta , [ 'precio' => $articulo['PVP3'] , 'numero' => 3] );
+                        $libroEdicion->setCellValue("V$i",'$'.$articulo['PVP3']);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("W$i","=ABS((U$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado3 = number_format(($articulo['PVP3'] / $costoConIva) - 1, 2);
+                            $resultado3 = $resultado3 * 100;
+                            $resultado3 = abs($resultado3);
+                            $libroEdicion->setCellValue("W$i", $resultado3.'%');
+                        }
+                    }
+                    if(in_array('4',$arrPVPS)){
+                        array_push( $preciosVenta , [ 'precio' => $articulo['PVP4'] , 'numero' => 4] );
+                        $libroEdicion->setCellValue("X$i",$articulo['PVP4']);   $libroEdicion->getColumnDimension('Y')->setVisible(false);
+                        if($utilidad==1){
+                        //    $libroEdicion->setCellValue("Y$i","=ABS((X$i/L$i) - 1)");
+                        }
+                    }
+                    if(in_array('5',$arrPVPS)){
+                        array_push( $preciosVenta , [ 'precio' => $articulo['PVP5'] , 'numero' => 5] );
+                        $libroEdicion->setCellValue("Z$i",'$'.$articulo['PVP5']);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("AA$i","=ABS((AA$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado5 = number_format(($articulo['PVP5'] / $costoConIva) - 1, 2);
+                            $resultado5 = $resultado5 * 100;
+                            $resultado5 = abs($resultado5);
+                            $libroEdicion->setCellValue("Y$i", $resultado5.'%');
+                        }
+                    }  
                 }
             }
-            if ($articulo['ALMACEN'] == 'MATRIX 5A') {
-                if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
-                    $libroEdicion->setCellValue("H$i", $articulo['STOCK']);
-                    array_push($cantidadArt, $articulo['STOCK']);
+
+            else{
+                $libroEdicion->setCellValue("A$i", $articulo['CODIGOART']);
+                $libroEdicion->setCellValue("B$i", mb_convert_encoding($articulo['DESCRIP'], 'UTF-8', 'ISO-8859-1'));
+                $libroEdicion->setCellValue("C$i",$articulo['MARCA']);
+                // $libroEdicion->setCellValue("D$i",$articulo['MARCA']);
+                // $libroEdicion->setCellValue("H$i",$articulo['MARCA']);
+    
+                // if ( $familia  == 'LLANTA' ) {
+                    $descripcionSplitted = explode(" ", utf8_decode($articulo['DESCRIP']));
+                    // $libroEdicion->setCellValue("E$i", $descripcionSplitted[0]);
+                    $datosLlanta = explode('/', $descripcionSplitted[0]);
+                    $anchoLlanta = $datosLlanta[0];
+                    $altoLlanta = $datosLlanta[1];
+                    $rinLlanta = $datosLlanta[2];
+    
+                    $libroEdicion->setCellValue("D$i", $anchoLlanta);
+                    $libroEdicion->setCellValue("E$i", $altoLlanta);
+                    $libroEdicion->setCellValue("F$i", $rinLlanta);
+                    $modelo = '';
+                    $nnn = 1;
+                    foreach($descripcionSplitted as $txt){
+                        if($nnn > 2){
+                            $modelo.= $txt;
+                        } 
+                        $nnn++;
+                    }
+                // }   
+                
+                //aqui comparar el primer recorrido, eliminar los campos de stock y almacen
+                $stockArt = 0;
+                $cantidadArt = [];
+                if ($articulo['ALMACEN'] == 'MATRIX LAURELES') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("G$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("G$i", $stockArt);
+                    }
                 }
-                else {
-                    $libroEdicion->setCellValue("H$i", $stockArt);
+                if ($articulo['ALMACEN'] == 'MATRIX 5A') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("H$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("H$i", $stockArt);
+                    }
                 }
-            }
-            if ($articulo['ALMACEN'] == 'MATRIX AMBAR') {
-                if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
-                    $libroEdicion->setCellValue("I$i", $articulo['STOCK']);
-                    array_push($cantidadArt, $articulo['STOCK']);
+                if ($articulo['ALMACEN'] == 'MATRIX AMBAR') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("I$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("I$i", $stockArt);
+                    }
                 }
-                else {
-                    $libroEdicion->setCellValue("I$i", $stockArt);
+                if ($articulo['ALMACEN'] == 'MATRIX GENESIS') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("J$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("J$i", $stockArt);
+                    }
                 }
-            }
-            if ($articulo['ALMACEN'] == 'MATRIX GENESIS') {
-                if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
-                    $libroEdicion->setCellValue("J$i", $articulo['STOCK']);
-                    array_push($cantidadArt, $articulo['STOCK']);
+                if ($articulo['ALMACEN'] == 'MATRIX LIBRAMIENTO') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("K$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("K$i", $stockArt);
+                    }
                 }
-                else {
-                    $libroEdicion->setCellValue("J$i", $stockArt);
+                if ($articulo['ALMACEN'] == 'MATRIX PALMERAS') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("L$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("L$i", $stockArt);
+                    }
                 }
-            }
-            if ($articulo['ALMACEN'] == 'MATRIX LIBRAMIENTO') {
-                if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
-                    $libroEdicion->setCellValue("K$i", $articulo['STOCK']);
-                    array_push($cantidadArt, $articulo['STOCK']);
+                if ($articulo['ALMACEN'] == 'MATRIX SAN RAMON') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("M$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("M$i", $stockArt);
+                    }
                 }
-                else {
-                    $libroEdicion->setCellValue("K$i", $stockArt);
+                if ($articulo['ALMACEN'] == 'MATRIX MERC ALTOS') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("N$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("N$i", $stockArt);
+                    }
                 }
-            }
-            if ($articulo['ALMACEN'] == 'MATRIX PALMERAS') {
-                if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
-                    $libroEdicion->setCellValue("L$i", $articulo['STOCK']);
-                    array_push($cantidadArt, $articulo['STOCK']);
+                if ($articulo['ALMACEN'] == 'MATRIX 2AOTE') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("O$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("O$i", $stockArt);
+                    }
                 }
-                else {
-                    $libroEdicion->setCellValue("L$i", $stockArt);
+                if ($articulo['ALMACEN'] == 'MATRIX BLVD') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("P$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("P$i", $stockArt);
+                    }
                 }
-            }
-            if ($articulo['ALMACEN'] == 'MATRIX SAN RAMON') {
-                if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
-                    $libroEdicion->setCellValue("M$i", $articulo['STOCK']);
-                    array_push($cantidadArt, $articulo['STOCK']);
-                }
-                else {
-                    $libroEdicion->setCellValue("M$i", $stockArt);
-                }
-            }
-            if ($articulo['ALMACEN'] == 'MATRIX MERC ALTOS') {
-                if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
-                    $libroEdicion->setCellValue("N$i", $articulo['STOCK']);
-                    array_push($cantidadArt, $articulo['STOCK']);
-                }
-                else {
-                    $libroEdicion->setCellValue("N$i", $stockArt);
-                }
-            }
-            if ($articulo['ALMACEN'] == 'MATRIX 2AOTE') {
-                if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
-                    $libroEdicion->setCellValue("O$i", $articulo['STOCK']);
-                    array_push($cantidadArt, $articulo['STOCK']);
-                }
-                else {
-                    $libroEdicion->setCellValue("O$i", $stockArt);
-                }
-            }
-            if ($articulo['ALMACEN'] == 'MATRIX BLVD') {
-                if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
-                    $libroEdicion->setCellValue("P$i", $articulo['STOCK']);
-                    array_push($cantidadArt, $articulo['STOCK']);
-                }
-                else {
-                    $libroEdicion->setCellValue("P$i", $stockArt);
-                }
-            }
+                        
+                $totalArt = array_sum($cantidadArt);
+                $libroEdicion->setCellValue("Q$i","=SUM(G$i:P$i)");
+    
+                $cantidadArt = [];
+                
+                //STOCK
+                // if ( $displayStock == 1) {
+                // 	$libroEdicion->setCellValue("I$i",$articulo['STOCK']);
+                // 	$libroEdicion->getStyle("I$i")->applyFromArray( $this->centrarTexto);
+                // }
+    
+    
+                //
+                $expMedida = explode(" ", $articulo['DESCRIP']);
+                $configPrecios = $articulos->getPoliticaPrecios($articulo['FAMILIA'],$expMedida[0],'');
+    
+                if(is_array($configPrecios)){
+                    // if($articulo['FAMILIA']=='LLANTA'){
+                        if(!in_array($articulo['IDARTICULO'],$arrIDS)){
+                            $arrIDS[] = $articulo['IDARTICULO'];
+                            $trend++;
+                            //Formateo de espacios
+                            $txtFile.= $this->formatEspacios($articulo['IDARTICULO'],20);
+                            $txtFile.= $this->formatEspacios(number_format($articulo['PREMECOS'],2,'.',''),15);
+                            $txtFile.= $this->formatEspacios(number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp1']/100))),2,'.',''),15);
+                            $txtFile.= $this->formatEspacios(number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp2']/100))),2,'.',''),15);
+                            $txtFile.= $this->formatEspacios(number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp3']/100))),2,'.',''),15);
+                            $txtFile.= $this->formatEspacios(number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp4']/100))),2,'.',''),15);
+                            $txtFile.= $this->formatEspacios(number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp5']/100))),2,'.',''),15);
+                            //$txtFile.= chr(13).chr(10);
+                        }
+                    // }
+    
+                    $preciosVenta = [];
+    
+                    $costoPromedioConIva = number_format($articulo['PREMECOS'] * 1.16, 2);
                     
-            $totalArt = array_sum($cantidadArt);
-            $libroEdicion->setCellValue("Q$i",$totalArt);
-
-            $cantidadArt = [];
-            
-            //STOCK
-			// if ( $displayStock == 1) {
-			// 	$libroEdicion->setCellValue("I$i",$articulo['STOCK']);
-			// 	$libroEdicion->getStyle("I$i")->applyFromArray( $this->centrarTexto);
-			// }
-
-
-            //
+                
+                    if(in_array('1',$arrPVPS)){
+                        $tmpPVP1 = (float) number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp1']/100))),2,'.','');
+                        $libroEdicion->setCellValue("R$i",'$'.$tmpPVP1);
+                        array_push( $preciosVenta , [ 'precio' => $tmpPVP1 , 'numero' => 1] );
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("S$i","=ABS((O$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado = number_format(($tmpPVP1 / $costoConIva) - 1, 2);
+                            $resultado = $resultado * 100;
+                            $resultado = abs($resultado);
+                            $libroEdicion->setCellValue("S$i", $resultado.'%');
+                        }
+                    }
+                    if(in_array('2',$arrPVPS)){
+                        $tmpPVP2 = (float) number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp2']/100))),2,'.','');
+                        array_push( $preciosVenta , [ 'precio' => $tmpPVP2 , 'numero' => 2] );
+                        $libroEdicion->setCellValue("T$i",'$'.$tmpPVP2);
+                        if($utilidad==1){
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado2 = number_format(($tmpPVP2 / $costoConIva) - 1, 2);
+                            $resultado2 = $resultado2 * 100;
+                            $resultado2 = abs($resultado2);
+                            $libroEdicion->setCellValue("U$i", $resultado2.'%');
+                        }
+                    }
+                    if(in_array('3',$arrPVPS)){
+                        $tmpPVP3 = (float) number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp3']/100))),2,'.','');
+                        array_push( $preciosVenta , [ 'precio' => $tmpPVP3 , 'numero' => 3] );
+                        $libroEdicion->setCellValue("V$i",'$'.$tmpPVP3);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("W$i","=ABS((U$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado3 = number_format(($tmpPVP3 / $costoConIva) - 1, 2);
+                            $resultado3 = $resultado3 * 100;
+                            $resultado3 = abs($resultado3);
+                            $libroEdicion->setCellValue("W$i", $resultado3.'%');
+                        }
+                    }
+                    if(in_array('4',$arrPVPS)){
+                        $tmpPVP4 = (float) number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp4']/100))),2,'.','');
+                        array_push( $preciosVenta , [ 'precio' => $tmpPVP4 , 'numero' => 4] );
+                        $libroEdicion->setCellValue("X$i",'$'.$tmpPVP4);
+                        if($utilidad==1){
+                        // $libroEdicion->setCellValue("Y$i","=ABS((X$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado4 = number_format(($tmpPVP4 / $costoConIva) - 1, 2);
+                            $resultado4 = $resultado4 * 100;
+                            $resultado4 = abs($resultado4);
+                            $libroEdicion->setCellValue("Y$i", $resultado4.'%');
+                        }
+                    }
+                    if(in_array('5',$arrPVPS)){
+                        $tmpPVP6 = (float) number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp5']/100))),2,'.','');
+                        array_push( $preciosVenta , [ 'precio' => $tmpPVP5 , 'numero' => 5] );
+                        $libroEdicion->setCellValue("Z$i",$tmpPVP5);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("AA$i","=ABS((AA$i/L$i) - 1)");
+                        }
+                    }
+    
+                }
+                else{
+    
+                    if(in_array('1',$arrPVPS)){
+                        $libroEdicion->setCellValue("R$i",'$'.$articulo['PVP1']);
+                        array_push( $preciosVenta , [ 'precio' => $articulo['PVP1'] , 'numero' => 1] );
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("S$i","=ABS((O$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado = number_format(($articulo['PVP1'] / $costoConIva) - 1, 2);
+                            $resultado = $resultado * 100;
+                            $resultado = abs($resultado);
+                            $libroEdicion->setCellValue("S$i", $resultado.'%');
+                        }
+                    }
+                    if(in_array('2',$arrPVPS)){
+                        array_push( $preciosVenta , [ 'precio' => $articulo['PVP2'] , 'numero' => 2] );
+                        $libroEdicion->setCellValue("T$i",'$'.$articulo['PVP2']);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("U$i","=ABS((R$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado2 = number_format(($$articulo['PVP2'] / $costoConIva) - 1, 2);
+                            $resultado2 = $resultado2 * 100;
+                            $resultado2 = abs($resultado2);
+                            $libroEdicion->setCellValue("U$i", $resultado2.'%');
+                        }
+                    }
+                    if(in_array('3',$arrPVPS)){
+                        array_push( $preciosVenta , [ 'precio' => $articulo['PVP3'] , 'numero' => 3] );
+                        $libroEdicion->setCellValue("V$i",'$'.$articulo['PVP3']);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("W$i","=ABS((U$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado3 = number_format(($articulo['PVP3'] / $costoConIva) - 1, 2);
+                            $resultado3 = $resultado3 * 100;
+                            $resultado3 = abs($resultado3);
+                            $libroEdicion->setCellValue("W$i", $resultado3.'%');
+                        }
+                    }
+                    if(in_array('4',$arrPVPS)){
+                        array_push( $preciosVenta , [ 'precio' => $articulo['PVP4'] , 'numero' => 4] );
+                        $libroEdicion->setCellValue("X$i",$articulo['PVP4']);   $libroEdicion->getColumnDimension('Y')->setVisible(false);
+                        if($utilidad==1){
+                        //    $libroEdicion->setCellValue("Y$i","=ABS((X$i/L$i) - 1)");
+                        }
+                    }
+                    if(in_array('5',$arrPVPS)){
+                        array_push( $preciosVenta , [ 'precio' => $articulo['PVP5'] , 'numero' => 5] );
+                        $libroEdicion->setCellValue("Z$i",'$'.$articulo['PVP5']);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("AA$i","=ABS((AA$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado5 = number_format(($articulo['PVP5'] / $costoConIva) - 1, 2);
+                            $resultado5 = $resultado5 * 100;
+                            $resultado5 = abs($resultado5);
+                            $libroEdicion->setCellValue("Y$i", $resultado5.'%');
+                        }
+                    }  
+                }
+            }
+            // $libroEdicion->setCellValue("F$i", $i+1);
 
             $libroEdicion->getRowDimension($i)->setRowHeight(30);
 
@@ -1126,6 +1571,17 @@ class Valuados extends prepareExcel
             $i++; 
         }
 
+        $libroEdicion->getStyle("R$i")->getNumberFormat()->setFormatCode("$#,##0.00;-$#,##0.00");
+        $libroEdicion->getStyle("T$i")->getNumberFormat()->setFormatCode("$#,##0.00;-$#,##0.00");
+        $libroEdicion->getStyle("V$i")->getNumberFormat()->setFormatCode("$#,##0.00;-$#,##0.00");
+        $libroEdicion->getStyle("X$i")->getNumberFormat()->setFormatCode("$#,##0.00;-$#,##0.00");
+        $libroEdicion->getStyle("Z$i")->getNumberFormat()->setFormatCode("$#,##0.00;-$#,##0.00");
+
+        $libroEdicion->getStyle("S$i")->getNumberFormat()->setFormatCode('0%;[Red]-0%');
+        $libroEdicion->getStyle("U$i")->getNumberFormat()->setFormatCode('0%;[Red]-0%');
+        $libroEdicion->getStyle("W$i")->getNumberFormat()->setFormatCode('0%;[Red]-0%');
+        $libroEdicion->getStyle("Y$i")->getNumberFormat()->setFormatCode('0%;[Red]-0%');
+        $libroEdicion->getStyle("AA$i")->getNumberFormat()->setFormatCode('0%;[Red]-0%');
 
         $libroEdicion->getColumnDimension('A')->setAutoSize(false);
         $libroEdicion->getColumnDimension('A')->setWidth("15");
@@ -1138,33 +1594,33 @@ class Valuados extends prepareExcel
         $libroEdicion->getColumnDimension('E')->setAutoSize(false);
         $libroEdicion->getColumnDimension('E')->setWidth("15");
         $libroEdicion->getColumnDimension('F')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('F')->setWidth("20");
+        $libroEdicion->getColumnDimension('F')->setWidth("15");
         $libroEdicion->getColumnDimension('G')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('G')->setWidth("20");
+        $libroEdicion->getColumnDimension('G')->setWidth("15");
         $libroEdicion->getColumnDimension('H')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('H')->setWidth("20");
+        $libroEdicion->getColumnDimension('H')->setWidth("15");
         $libroEdicion->getColumnDimension('I')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('I')->setWidth("20");
+        $libroEdicion->getColumnDimension('I')->setWidth("15");
         $libroEdicion->getColumnDimension('J')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('J')->setWidth("20");
+        $libroEdicion->getColumnDimension('J')->setWidth("15");
         $libroEdicion->getColumnDimension('K')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('K')->setWidth("20");
+        $libroEdicion->getColumnDimension('K')->setWidth("15");
         $libroEdicion->getColumnDimension('L')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('L')->setWidth("20");
+        $libroEdicion->getColumnDimension('L')->setWidth("15");
         $libroEdicion->getColumnDimension('M')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('M')->setWidth("20");
+        $libroEdicion->getColumnDimension('M')->setWidth("15");
         $libroEdicion->getColumnDimension('N')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('N')->setWidth("20");
+        $libroEdicion->getColumnDimension('N')->setWidth("15");
         $libroEdicion->getColumnDimension('O')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('O')->setWidth("20");
+        $libroEdicion->getColumnDimension('O')->setWidth("15");
         $libroEdicion->getColumnDimension('P')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('P')->setWidth("20");
+        $libroEdicion->getColumnDimension('P')->setWidth("15");
         
 
         $libroEdicion->setShowGridlines(false);
         $valuadoTerminado = new PHPExcel_Writer_Excel2007( $this->libro );
         $valuadoTerminado->setPreCalculateFormulas(true);
-        $valuadoTerminado->save("VALUADO $familia $id.xlsx");
+        $valuadoTerminado->save("VALUADO TEST $familia $id.xlsx");
 
         $articulos->close();
 
@@ -1245,6 +1701,16 @@ class Valuados extends prepareExcel
         
         $libroEdicion->setCellValue("Q7", 'TOTAL');
         
+        $libroEdicion->setCellValue("R7", 'PVP1');
+        $libroEdicion->setCellValue("S7", '%');
+        $libroEdicion->setCellValue("T7", 'PVP2');
+        $libroEdicion->setCellValue("U7", '%');
+        $libroEdicion->setCellValue("V7", 'PVP3');
+        $libroEdicion->setCellValue("W7", '%');
+        $libroEdicion->setCellValue("X7", 'PVP4');
+        $libroEdicion->setCellValue("Y7", '%');
+        $libroEdicion->setCellValue("Z7", 'PVP5');
+        $libroEdicion->setCellValue("AA7", '%');
 
         $libroEdicion->mergeCells('A7:A8');
         $libroEdicion->mergeCells('B7:B8');
@@ -1255,10 +1721,10 @@ class Valuados extends prepareExcel
         $libroEdicion->mergeCells('O7:P7');
         $libroEdicion->mergeCells('Q7:Q8');
 
-        $libroEdicion->getStyle("A7:Q7")->applyFromArray( $this->labelBold);
-        $libroEdicion->getStyle("A7:Q7")->applyFromArray( $this->centrarTexto);
-        $libroEdicion->getStyle("A7:Q7")->applyFromArray( $this->setColorText('ffffff', 11));
-        $libroEdicion->getStyle("A7:Q7")->getFill()->applyFromArray( $this->setColorFill("073763"));
+        $libroEdicion->getStyle("A7:AA7")->applyFromArray( $this->labelBold);
+        $libroEdicion->getStyle("A7:AA7")->applyFromArray( $this->centrarTexto);
+        $libroEdicion->getStyle("A7:AA7")->applyFromArray( $this->setColorText('ffffff', 11));
+        $libroEdicion->getStyle("A7:AA7")->getFill()->applyFromArray( $this->setColorFill("073763"));
 
 
        
@@ -1272,130 +1738,511 @@ class Valuados extends prepareExcel
         $i = 9;
         $colorRow = false;
         foreach ($listaArticulosDesagrupados as $codigo => $articulo) {
+            $nombreArt[$i] = $articulo['DESCRIP'];
+            $codigoArt[$i] = $articulo['CODIGOART'];
+            $marcaArt[$i]= $articulo['MARCA'];
+
 
             if ( $colorRow) {
-                $libroEdicion->getStyle("A$i:Q$i")->getFill()->applyFromArray( $this->setColorFill("f0f5f5")  );
+                $libroEdicion->getStyle("A$i:AA$i")->getFill()->applyFromArray( $this->setColorFill("f0f5f5")  );
             }
-			$libroEdicion->getStyle("A$i:Q$i")->getAlignment()->applyFromArray(array('vertical' => PHPExcel_Style_Alignment::VERTICAL_CENTER,));
-            $libroEdicion->setCellValue("A$i", $articulo['CODIGOART']);
-            $libroEdicion->setCellValue("B$i", mb_convert_encoding($articulo['DESCRIP'], 'UTF-8', 'ISO-8859-1'));
-            $libroEdicion->setCellValue("C$i",$articulo['MARCA']);
-            // $libroEdicion->setCellValue("D$i",$articulo['MARCA']);
-            // $libroEdicion->setCellValue("H$i",$articulo['MARCA']);
+			$libroEdicion->getStyle("A$i:AA$i")->getAlignment()->applyFromArray(array('vertical' => PHPExcel_Style_Alignment::VERTICAL_CENTER,));
 
-            if ( $familia  == 'RIN' ) {
-                $descripcionSplitted = explode(" ", utf8_decode($articulo['DESCRIP']));
 
-                $anchoExtrac = explode("X", $descripcionSplitted[0])[1]; 
-                $diametroExtract = explode("X", $descripcionSplitted[0])[0];
-                $barrenacionExtract = $descripcionSplitted[1];
+            if($nombreArt[$i-1] == $articulo['DESCRIP'] && $codigoArt[$i-1] == $articulo['CODIGOART'] &&  $marcaArt[$i-1] == $articulo['MARCA']){
+                $i = $i-1;
+                $libroEdicion->setCellValue("A$i", $articulo['CODIGOART']);
+                $libroEdicion->setCellValue("B$i", mb_convert_encoding($articulo['DESCRIP'], 'UTF-8', 'ISO-8859-1'));
+                $libroEdicion->setCellValue("C$i",$articulo['MARCA']);
+                // $libroEdicion->setCellValue("D$i",$articulo['MARCA']);
+                // $libroEdicion->setCellValue("H$i",$articulo['MARCA']);
+    
+                // if ( $familia  == 'RIN' ) {
+                    $descripcionSplitted = explode(" ", utf8_decode($articulo['DESCRIP']));
+    
+                    $anchoExtrac = explode("X", $descripcionSplitted[0])[1]; 
+                    $diametroExtract = explode("X", $descripcionSplitted[0])[0];
+                    $barrenacionExtract = $descripcionSplitted[1];
+    
+                    $libroEdicion->setCellValue("D$i",$anchoExtrac);
+                    $libroEdicion->setCellValue("E$i",$diametroExtract);
+                    $libroEdicion->setCellValue("F$i",$barrenacionExtract);
+                    // $libroEdicion->setCellValue("H$i",$descripcionSplitted[2]);
+                // }                
+                
+    
+                $stockArt = 0;
+                $cantidadArt = [];
+                if ($articulo['ALMACEN'] == 'MATRIX LAURELES') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("G$i", $articulo['STOCK']);
+                        // array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("G$i", 0);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX 5A') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("H$i", $articulo['STOCK']);
+                        // array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("H$i", '0');
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX AMBAR') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("I$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("I$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX GENESIS') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("J$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("J$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX LIBRAMIENTO') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("K$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("K$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX PALMERAS') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("L$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("L$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX SAN RAMON') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("M$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("M$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX MERC ALTOS') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("N$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("N$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX 2AOTE') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("O$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("O$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX BLVD') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("P$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("P$i", $stockArt);
+                    }
+                }
+                
+                $totalArt = array_sum($cantidadArt);
+                // $libroEdicion->setCellValue("Q$i","=SUMA(G$i:P$i)");
+                $libroEdicion->setCellValue("Q$i","=SUM(G$i:P$i)");
+    
+                $cantidadArt = [];
+    
+    
+                $configPrecios = $articulos->getPoliticaPrecios($articulo['FAMILIA'],$articulo['SUBFAMILIA'],'');
+    
+                if(is_array($configPrecios)){
+                    $preciosVenta = [];
+                
+                    if(in_array('1',$arrPVPS)){
+                        $tmpPVP1 = (float) number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp1']/100))),2,'.','');
+                        $libroEdicion->setCellValue("R$i",'$'.$tmpPVP1 * 4);
+                        array_push( $preciosVenta , [ 'precio' => $tmpPVP1 , 'numero' => 1] );
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("S$i","=ABS((O$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado = number_format(($tmpPVP4 / $costoConIva) - 1, 2);
+                            $resultado = $resultado * 100;
+                            $resultado = abs($resultado);
+                            $libroEdicion->setCellValue("S$i", $resultado);
+                        }
+                    }
+                    if(in_array('2',$arrPVPS)){
+                        $tmpPVP2 = (float) number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp2']/100))),2,'.','');
+                        array_push( $preciosVenta , [ 'precio' => $tmpPVP2 , 'numero' => 2] );
+                        $libroEdicion->setCellValue("T$i",'$'.$tmpPVP2 * 4);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("U$i","=ABS((R$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado2 = number_format(($tmpPVP4 / $costoConIva) - 1, 2);
+                            $resultado2 = $resultado2 * 100;
+                            $resultado2 = abs($resultado2);
+                            $libroEdicion->setCellValue("U$i", $resultado2);
+                        }
+                    }
+                    if(in_array('3',$arrPVPS)){
+                        $tmpPVP3 = (float) number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp3']/100))),2,'.','');
+                        array_push( $preciosVenta , [ 'precio' => $tmpPVP3 , 'numero' => 3] );
+                        $libroEdicion->setCellValue("V$i",'$'.$tmpPVP3 * 4);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("W$i","=ABS((U$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado3 = number_format(($tmpPVP4 / $costoConIva) - 1, 2);
+                            $resultado3 = $resultado3 * 100;
+                            $resultado3 = abs($resultado3);
+                            $libroEdicion->setCellValue("W$i", $resultado3);
+                        }
+                    }
+                    if(in_array('4',$arrPVPS)){
+                        $tmpPVP4 = (float) number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp4']/100))),2,'.','');
+                        array_push( $preciosVenta , [ 'precio' => $tmpPVP4 , 'numero' => 4] );
+                        $libroEdicion->setCellValue("X$i",'$'.$tmpPVP4 * 4);
+                        if($utilidad==1){
+                        // $libroEdicion->setCellValue("Y$i","=ABS((X$i/L$i) - 1)");
+                        $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado4 = number_format(($tmpPVP4 / $costoConIva) - 1, 2);
+                            $resultado4 = $resultado4 * 100;
+                            $resultado4 = abs($resultado4);
+                            $libroEdicion->setCellValue("Y$i", $resultado4);
+                        }
+                    }
+                    if(in_array('5',$arrPVPS)){
+                        $tmpPVP6 = (float) number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp5']/100))),2,'.','');
+                        array_push( $preciosVenta , [ 'precio' => $tmpPVP5 , 'numero' => 5] );
+                        $libroEdicion->setCellValue("Z$i",'$'.$tmpPVP5 * 4);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("AA$i","=ABS((AA$i/L$i) - 1)");
+                        }
+                    }
+    
+                }else{
+    
+                    if(in_array('1',$arrPVPS)){
+                        $libroEdicion->setCellValue("R$i",'$'.$articulo['PVP1']);
+                        array_push( $preciosVenta , [ 'precio' => $articulo['PVP1'] , 'numero' => 1] );
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("S$i","=ABS((O$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado = number_format(($articulo['PVP1'] / $costoConIva) - 1, 2);
+                            $resultado = $resultado * 100;
+                            $resultado = abs($resultado);
+                            $libroEdicion->setCellValue("S$i", $resultado);
+                        }
+                    }
+                    if(in_array('2',$arrPVPS)){
+                        array_push( $preciosVenta , [ 'precio' => $articulo['PVP2'] , 'numero' => 2] );
+                        $libroEdicion->setCellValue("T$i",$articulo['PVP2']);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("U$i","=ABS((R$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado2 = number_format(($articulo['PVP2'] / $costoConIva) - 1, 2);
+                            $resultado2 = $resultado2 * 100;
+                            $resultado2 = abs($resultado2);
+                            $libroEdicion->setCellValue("S$i", $resultado2);
+                        }
+                    }
+                    if(in_array('3',$arrPVPS)){
+                        array_push( $preciosVenta , [ 'precio' => $articulo['PVP3'] , 'numero' => 3] );
+                        $libroEdicion->setCellValue("V$i",$articulo['PVP3']);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("W$i","=ABS((U$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado3 = number_format(($articulo['PVP3'] / $costoConIva) - 1, 2);
+                            $resultado3 = $resultado3 * 100;
+                            $resultado3 = abs($resultado3);
+                            $libroEdicion->setCellValue("S$i", $resultado3);
+                        }
+                    }
+                    if(in_array('4',$arrPVPS)){
+                        array_push( $preciosVenta , [ 'precio' => $articulo['PVP4'] , 'numero' => 4] );
+                        $libroEdicion->setCellValue("X$i",$articulo['PVP4']);   $libroEdicion->getColumnDimension('Y')->setVisible(false);
+                        if($utilidad==1){
+                        //    $libroEdicion->setCellValue("Y$i","=ABS((X$i/L$i) - 1)");
+                        $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado4 = number_format(($articulo['PVP4'] / $costoConIva) - 1, 2);
+                            $resultado4 = $resultado4 * 100;
+                            $resultado4 = abs($resultado4);
+                            $libroEdicion->setCellValue("S$i", $resultado4);
+                        }
+                    }
+                    if(in_array('5',$arrPVPS)){
+                        array_push( $preciosVenta , [ 'precio' => $articulo['PVP5'] , 'numero' => 5] );
+                        $libroEdicion->setCellValue("Z$i",$articulo['PVP5']);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("AA$i","=ABS((AA$i/L$i) - 1)");
+                        }
+                    }  
+                }
+            }
+            else{
+                $libroEdicion->setCellValue("A$i", $articulo['CODIGOART']);
+                $libroEdicion->setCellValue("B$i", mb_convert_encoding($articulo['DESCRIP'], 'UTF-8', 'ISO-8859-1'));
+                $libroEdicion->setCellValue("C$i",$articulo['MARCA']);
+                // $libroEdicion->setCellValue("D$i",$articulo['MARCA']);
+                // $libroEdicion->setCellValue("H$i",$articulo['MARCA']);
+    
+                // if ( $familia  == 'RIN' ) {
+                    $descripcionSplitted = explode(" ", utf8_decode($articulo['DESCRIP']));
+    
+                    $anchoExtrac = explode("X", $descripcionSplitted[0])[1]; 
+                    $diametroExtract = explode("X", $descripcionSplitted[0])[0];
+                    $barrenacionExtract = $descripcionSplitted[1];
+    
+                    $libroEdicion->setCellValue("D$i",$anchoExtrac);
+                    $libroEdicion->setCellValue("E$i",$diametroExtract);
+                    $libroEdicion->setCellValue("F$i",$barrenacionExtract);
+                    // $libroEdicion->setCellValue("H$i",$descripcionSplitted[2]);
+                // }                
+                
+    
+                $stockArt = 0;
+                $cantidadArt = [];
+                if ($articulo['ALMACEN'] == 'MATRIX LAURELES') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("G$i", $articulo['STOCK']);
+                        // array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("G$i", 0);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX 5A') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("H$i", $articulo['STOCK']);
+                        // array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("H$i", '0');
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX AMBAR') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("I$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("I$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX GENESIS') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("J$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("J$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX LIBRAMIENTO') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("K$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("K$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX PALMERAS') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("L$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("L$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX SAN RAMON') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("M$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("M$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX MERC ALTOS') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("N$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("N$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX 2AOTE') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("O$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("O$i", $stockArt);
+                    }
+                }
+                if ($articulo['ALMACEN'] == 'MATRIX BLVD') {
+                    if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
+                        $libroEdicion->setCellValue("P$i", $articulo['STOCK']);
+                        array_push($cantidadArt, $articulo['STOCK']);
+                    }
+                    else {
+                        $libroEdicion->setCellValue("P$i", $stockArt);
+                    }
+                }
+                
+                $totalArt = array_sum($cantidadArt);
+                // $libroEdicion->setCellValue("Q$i","=SUMA(G$i:P$i)");
+                $libroEdicion->setCellValue("Q$i","=SUM(G$i:P$i)");
+    
+                $cantidadArt = [];
+    
+    
+                $configPrecios = $articulos->getPoliticaPrecios($articulo['FAMILIA'],$articulo['SUBFAMILIA'],'');
+    
+                if(is_array($configPrecios)){
+                    $preciosVenta = [];
+                
+                    if(in_array('1',$arrPVPS)){
+                        $tmpPVP1 = (float) number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp1']/100))),2,'.','');
+                        $libroEdicion->setCellValue("R$i",'$'.$tmpPVP1 * 4);
+                        array_push( $preciosVenta , [ 'precio' => $tmpPVP1 , 'numero' => 1] );
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("S$i","=ABS((O$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado = number_format(($tmpPVP4 / $costoConIva) - 1, 2);
+                            $resultado = $resultado * 100;
+                            $resultado = abs($resultado);
+                            $libroEdicion->setCellValue("S$i", $resultado);
+                        }
+                    }
+                    if(in_array('2',$arrPVPS)){
+                        $tmpPVP2 = (float) number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp2']/100))),2,'.','');
+                        array_push( $preciosVenta , [ 'precio' => $tmpPVP2 , 'numero' => 2] );
+                        $libroEdicion->setCellValue("T$i",'$'.$tmpPVP2 * 4);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("U$i","=ABS((R$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado2 = number_format(($tmpPVP4 / $costoConIva) - 1, 2);
+                            $resultado2 = $resultado2 * 100;
+                            $resultado2 = abs($resultado2);
+                            $libroEdicion->setCellValue("U$i", $resultado2);
+                        }
+                    }
+                    if(in_array('3',$arrPVPS)){
+                        $tmpPVP3 = (float) number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp3']/100))),2,'.','');
+                        array_push( $preciosVenta , [ 'precio' => $tmpPVP3 , 'numero' => 3] );
+                        $libroEdicion->setCellValue("V$i",'$'.$tmpPVP3 * 4);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("W$i","=ABS((U$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado3 = number_format(($tmpPVP4 / $costoConIva) - 1, 2);
+                            $resultado3 = $resultado3 * 100;
+                            $resultado3 = abs($resultado3);
+                            $libroEdicion->setCellValue("W$i", $resultado3);
+                        }
+                    }
+                    if(in_array('4',$arrPVPS)){
+                        $tmpPVP4 = (float) number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp4']/100))),2,'.','');
+                        array_push( $preciosVenta , [ 'precio' => $tmpPVP4 , 'numero' => 4] );
+                        $libroEdicion->setCellValue("X$i",'$'.$tmpPVP4 * 4);
+                        if($utilidad==1){
+                        // $libroEdicion->setCellValue("Y$i","=ABS((X$i/L$i) - 1)");
+                        $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado4 = number_format(($tmpPVP4 / $costoConIva) - 1, 2);
+                            $resultado4 = $resultado4 * 100;
+                            $resultado4 = abs($resultado4);
+                            $libroEdicion->setCellValue("Y$i", $resultado4);
+                        }
+                    }
+                    if(in_array('5',$arrPVPS)){
+                        $tmpPVP6 = (float) number_format((($articulo['PREMECOS']*1.16) * (1 + ($configPrecios['pvp5']/100))),2,'.','');
+                        array_push( $preciosVenta , [ 'precio' => $tmpPVP5 , 'numero' => 5] );
+                        $libroEdicion->setCellValue("Z$i",'$'.$tmpPVP5 * 4);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("AA$i","=ABS((AA$i/L$i) - 1)");
+                        }
+                    }
+    
+                }else{
+    
+                    if(in_array('1',$arrPVPS)){
+                        $libroEdicion->setCellValue("R$i",'$'.$articulo['PVP1']);
+                        array_push( $preciosVenta , [ 'precio' => $articulo['PVP1'] , 'numero' => 1] );
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("S$i","=ABS((O$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado = number_format(($articulo['PVP1'] / $costoConIva) - 1, 2);
+                            $resultado = $resultado * 100;
+                            $resultado = abs($resultado);
+                            $libroEdicion->setCellValue("S$i", $resultado);
+                        }
+                    }
+                    if(in_array('2',$arrPVPS)){
+                        array_push( $preciosVenta , [ 'precio' => $articulo['PVP2'] , 'numero' => 2] );
+                        $libroEdicion->setCellValue("T$i",$articulo['PVP2']);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("U$i","=ABS((R$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado2 = number_format(($articulo['PVP2'] / $costoConIva) - 1, 2);
+                            $resultado2 = $resultado2 * 100;
+                            $resultado2 = abs($resultado2);
+                            $libroEdicion->setCellValue("S$i", $resultado2);
+                        }
+                    }
+                    if(in_array('3',$arrPVPS)){
+                        array_push( $preciosVenta , [ 'precio' => $articulo['PVP3'] , 'numero' => 3] );
+                        $libroEdicion->setCellValue("V$i",$articulo['PVP3']);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("W$i","=ABS((U$i/L$i) - 1)");
+                            $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado3 = number_format(($articulo['PVP3'] / $costoConIva) - 1, 2);
+                            $resultado3 = $resultado3 * 100;
+                            $resultado3 = abs($resultado3);
+                            $libroEdicion->setCellValue("S$i", $resultado3);
+                        }
+                    }
+                    if(in_array('4',$arrPVPS)){
+                        array_push( $preciosVenta , [ 'precio' => $articulo['PVP4'] , 'numero' => 4] );
+                        $libroEdicion->setCellValue("X$i",$articulo['PVP4']);   $libroEdicion->getColumnDimension('Y')->setVisible(false);
+                        if($utilidad==1){
+                        //    $libroEdicion->setCellValue("Y$i","=ABS((X$i/L$i) - 1)");
+                        $costoConIva = round($articulo['CTOPROMEDIO'] * 1.16, 2);
+                            $resultado4 = number_format(($articulo['PVP4'] / $costoConIva) - 1, 2);
+                            $resultado4 = $resultado4 * 100;
+                            $resultado4 = abs($resultado4);
+                            $libroEdicion->setCellValue("S$i", $resultado4);
+                        }
+                    }
+                    if(in_array('5',$arrPVPS)){
+                        array_push( $preciosVenta , [ 'precio' => $articulo['PVP5'] , 'numero' => 5] );
+                        $libroEdicion->setCellValue("Z$i",$articulo['PVP5']);
+                        if($utilidad==1){
+                            // $libroEdicion->setCellValue("AA$i","=ABS((AA$i/L$i) - 1)");
+                        }
+                    }  
+                }
 
-                $libroEdicion->setCellValue("D$i",$anchoExtrac);
-                $libroEdicion->setCellValue("E$i",$diametroExtract);
-                $libroEdicion->setCellValue("F$i",$barrenacionExtract);
-                // $libroEdicion->setCellValue("H$i",$descripcionSplitted[2]);
-            }                
-            
-
-            $stockArt = 0;
-            $cantidadArt = [];
-            if ($articulo['ALMACEN'] == 'MATRIX LAURELES') {
-                if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
-                    $libroEdicion->setCellValue("G$i", $articulo['STOCK']);
-                    array_push($cantidadArt, $articulo['STOCK']);
-                }
-                else {
-                    $libroEdicion->setCellValue("G$i", 0);
-                }
             }
-            if ($articulo['ALMACEN'] == 'MATRIX 5A') {
-                if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
-                    $libroEdicion->setCellValue("H$i", $articulo['STOCK']);
-                    array_push($cantidadArt, $articulo['STOCK']);
-                }
-                else {
-                    $libroEdicion->setCellValue("H$i", '0');
-                }
-            }
-            if ($articulo['ALMACEN'] == 'MATRIX AMBAR') {
-                if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
-                    $libroEdicion->setCellValue("I$i", $articulo['STOCK']);
-                    array_push($cantidadArt, $articulo['STOCK']);
-                }
-                else {
-                    $libroEdicion->setCellValue("I$i", $stockArt);
-                }
-            }
-            if ($articulo['ALMACEN'] == 'MATRIX GENESIS') {
-                if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
-                    $libroEdicion->setCellValue("J$i", $articulo['STOCK']);
-                    array_push($cantidadArt, $articulo['STOCK']);
-                }
-                else {
-                    $libroEdicion->setCellValue("J$i", $stockArt);
-                }
-            }
-            if ($articulo['ALMACEN'] == 'MATRIX LIBRAMIENTO') {
-                if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
-                    $libroEdicion->setCellValue("K$i", $articulo['STOCK']);
-                    array_push($cantidadArt, $articulo['STOCK']);
-                }
-                else {
-                    $libroEdicion->setCellValue("K$i", $stockArt);
-                }
-            }
-            if ($articulo['ALMACEN'] == 'MATRIX PALMERAS') {
-                if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
-                    $libroEdicion->setCellValue("L$i", $articulo['STOCK']);
-                    array_push($cantidadArt, $articulo['STOCK']);
-                }
-                else {
-                    $libroEdicion->setCellValue("L$i", $stockArt);
-                }
-            }
-            if ($articulo['ALMACEN'] == 'MATRIX SAN RAMON') {
-                if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
-                    $libroEdicion->setCellValue("M$i", $articulo['STOCK']);
-                    array_push($cantidadArt, $articulo['STOCK']);
-                }
-                else {
-                    $libroEdicion->setCellValue("M$i", $stockArt);
-                }
-            }
-            if ($articulo['ALMACEN'] == 'MATRIX MERC ALTOS') {
-                if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
-                    $libroEdicion->setCellValue("N$i", $articulo['STOCK']);
-                    array_push($cantidadArt, $articulo['STOCK']);
-                }
-                else {
-                    $libroEdicion->setCellValue("N$i", $stockArt);
-                }
-            }
-            if ($articulo['ALMACEN'] == 'MATRIX 2AOTE') {
-                if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
-                    $libroEdicion->setCellValue("O$i", $articulo['STOCK']);
-                    array_push($cantidadArt, $articulo['STOCK']);
-                }
-                else {
-                    $libroEdicion->setCellValue("O$i", $stockArt);
-                }
-            }
-            if ($articulo['ALMACEN'] == 'MATRIX BLVD') {
-                if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
-                    $libroEdicion->setCellValue("P$i", $articulo['STOCK']);
-                    array_push($cantidadArt, $articulo['STOCK']);
-                }
-                else {
-                    $libroEdicion->setCellValue("P$i", $stockArt);
-                }
-            }
-            
-            $totalArt = array_sum($cantidadArt);
-            // $libroEdicion->setCellValue("Q$i","=SUMA(G$i:P$i)");
-            $libroEdicion->setCellValue("Q$i", $totalArt);
-
-            $cantidadArt = [];
-
 			// if ( $displayStock == 1) {
 			// 	$libroEdicion->setCellValue("I$i",$articulo['STOCK']);
 			// 	$libroEdicion->getStyle("I$i")->applyFromArray( $this->centrarTexto);
@@ -1412,6 +2259,19 @@ class Valuados extends prepareExcel
         }
 
 
+        $libroEdicion->getStyle("R$i")->getNumberFormat()->setFormatCode("$#,##0.00;-$#,##0.00");
+        $libroEdicion->getStyle("T$i")->getNumberFormat()->setFormatCode("$#,##0.00;-$#,##0.00");
+        $libroEdicion->getStyle("V$i")->getNumberFormat()->setFormatCode("$#,##0.00;-$#,##0.00");
+        $libroEdicion->getStyle("X$i")->getNumberFormat()->setFormatCode("$#,##0.00;-$#,##0.00");
+        $libroEdicion->getStyle("Z$i")->getNumberFormat()->setFormatCode("$#,##0.00;-$#,##0.00");
+
+        $libroEdicion->getStyle("S$i")->getNumberFormat()->setFormatCode('0%;[Red]-0%');
+        $libroEdicion->getStyle("U$i")->getNumberFormat()->setFormatCode('0%;[Red]-0%');
+        $libroEdicion->getStyle("W$i")->getNumberFormat()->setFormatCode('0%;[Red]-0%');
+        $libroEdicion->getStyle("Y$i")->getNumberFormat()->setFormatCode('0%;[Red]-0%');
+        $libroEdicion->getStyle("AA$i")->getNumberFormat()->setFormatCode('0%;[Red]-0%');
+
+
         $libroEdicion->getColumnDimension('A')->setAutoSize(false);
         $libroEdicion->getColumnDimension('A')->setWidth("15");
         $libroEdicion->getColumnDimension('B')->setAutoSize(false);
@@ -1423,33 +2283,33 @@ class Valuados extends prepareExcel
         $libroEdicion->getColumnDimension('E')->setAutoSize(false);
         $libroEdicion->getColumnDimension('E')->setWidth("15");
         $libroEdicion->getColumnDimension('F')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('F')->setWidth("20");
+        $libroEdicion->getColumnDimension('F')->setWidth("15");
         $libroEdicion->getColumnDimension('G')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('G')->setWidth("20");
+        $libroEdicion->getColumnDimension('G')->setWidth("15");
         $libroEdicion->getColumnDimension('H')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('H')->setWidth("20");
+        $libroEdicion->getColumnDimension('H')->setWidth("15");
         $libroEdicion->getColumnDimension('I')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('I')->setWidth("20");
+        $libroEdicion->getColumnDimension('I')->setWidth("15");
         $libroEdicion->getColumnDimension('J')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('J')->setWidth("20");
+        $libroEdicion->getColumnDimension('J')->setWidth("15");
         $libroEdicion->getColumnDimension('K')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('K')->setWidth("20");
+        $libroEdicion->getColumnDimension('K')->setWidth("15");
         $libroEdicion->getColumnDimension('L')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('L')->setWidth("20");
+        $libroEdicion->getColumnDimension('L')->setWidth("15");
         $libroEdicion->getColumnDimension('M')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('M')->setWidth("20");
+        $libroEdicion->getColumnDimension('M')->setWidth("15");
         $libroEdicion->getColumnDimension('N')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('N')->setWidth("20");
+        $libroEdicion->getColumnDimension('N')->setWidth("15");
         $libroEdicion->getColumnDimension('O')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('O')->setWidth("20");
+        $libroEdicion->getColumnDimension('O')->setWidth("15");
         $libroEdicion->getColumnDimension('P')->setAutoSize(false);
-        $libroEdicion->getColumnDimension('P')->setWidth("20");
+        $libroEdicion->getColumnDimension('P')->setWidth("15");
         
 
         $libroEdicion->setShowGridlines(false);
         $valuadoTerminado = new PHPExcel_Writer_Excel2007( $this->libro );
         $valuadoTerminado->setPreCalculateFormulas(true);
-        $valuadoTerminado->save("VALUADO $familia $id.xlsx");
+        $valuadoTerminado->save("VALUADO TEST $familia $id.xlsx");
 
         $articulos->close();
     }

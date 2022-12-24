@@ -84,6 +84,17 @@ class DB
         }        
     }
 
+    public function selectVal($sentence){
+        $executeQuery = $this->conexion()->query($sentence);
+        if ($executeQuery) {
+            $registros = $executeQuery->fetch_all(MYSQLI_ASSOC);
+            return $registros;
+        }
+        else{
+            return array();
+        }
+    }
+
     public function selectnew($sentence){        
         $executeQuery = $this->conexionnew()->query($sentence);        
         if ( $executeQuery ) {
