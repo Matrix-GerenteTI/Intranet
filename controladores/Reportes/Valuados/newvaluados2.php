@@ -1684,7 +1684,7 @@ class Valuados extends prepareExcel
         $libroEdicion->setShowGridlines(false);
         $valuadoTerminado = new PHPExcel_Writer_Excel2007( $this->libro );
         $valuadoTerminado->setPreCalculateFormulas(true);
-        $valuadoTerminado->save("VALUADO $familia $id.xlsx");
+        $valuadoTerminado->save("VALUADO TEST $familia $id.xlsx");
 
         $articulos->close();
 
@@ -2505,7 +2505,7 @@ class Valuados extends prepareExcel
         $libroEdicion->setShowGridlines(false);
         $valuadoTerminado = new PHPExcel_Writer_Excel2007( $this->libro );
         $valuadoTerminado->setPreCalculateFormulas(true);
-        $valuadoTerminado->save("VALUADO $familia $id.xlsx");
+        $valuadoTerminado->save("VALUADO TEST $familia $id.xlsx");
 
         $articulos->close();
     }

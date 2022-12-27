@@ -759,7 +759,12 @@ class Valuados extends prepareExcel
         $libroEdicion->setShowGridlines(false);
         $valuadoTerminado = new PHPExcel_Writer_Excel2007( $this->libro );
         $valuadoTerminado->setPreCalculateFormulas(true);
-        $valuadoTerminado->save("VALUADO $familia $id.xlsx");
+        if($familia == 'LLANTA' || $familia == 'RIN'){
+            $valuadoTerminado->save("NO $familia $id.xlsx");
+        }
+        else{
+            $valuadoTerminado->save("VALUADO $familia $id.xlsx");
+        }
 
         $articulos->close();
  
