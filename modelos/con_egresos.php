@@ -6,6 +6,7 @@ require_once($_SERVER['DOCUMENT_ROOT']."/intranet/modelos/MySQL.php");
 class Egresos extends CMySQLi{
 	
     public function lista($opcion,$anio,$mes, $init= 0){
+		$anioPast = 2022;
 		if($opcion == 'NoFacturado'){
 			$query = "SELECT 	m.id as id,
 								IFNULL(m.docserie,'') as serie,
@@ -21,7 +22,8 @@ class Egresos extends CMySQLi{
 					  FROM 		con_movimientos m
 					  INNER JOIN con_cuentas c ON m.idcon_cuentas=c.id
 					  INNER JOIN pusuarios u ON m.usuario=u.username
-					  WHERE		YEAR(m.docfecha)=".$anio."
+					  WHERE		YEAR(m.docfecha)=".$anioPast."
+					  OR 		YEAR(m.docfecha)=".$anio."
 					  -- AND		MONTH(m.docfecha)=".$mes."
 					  -- AND		LENGTH(m.docuuid)>10
 					  AND		m.tipo=2		  
@@ -47,7 +49,8 @@ class Egresos extends CMySQLi{
 					  INNER JOIN pusuarios u ON m.usuario=u.username
 					  INNER JOIN csucursal ON csucursal.id = m.idcudn
 					  INNER JOIN con_cuentas c ON m.idcon_cuentas=c.id
-					  WHERE		YEAR(m.docfecha)=".$anio."
+					  WHERE		YEAR(m.docfecha)=".$anioPast."
+					  OR 		YEAR(m.docfecha)=".$anio."
 					  -- AND		MONTH(m.docfecha)=".$mes."
 					  AND 		m.financiero<>1
 					  AND		m.tipo=2	
@@ -76,7 +79,8 @@ class Egresos extends CMySQLi{
 					  INNER JOIN con_cuentas c ON m.idcon_cuentas=c.id
 					  INNER JOIN pusuarios u ON m.usuario=u.username
 					  INNER JOIN csucursal ON csucursal.id = m.idcudn
-					  WHERE		YEAR(m.docfecha)=".$anio."
+					  WHERE		YEAR(m.docfecha)=".$anioPast."
+					  OR 		YEAR(m.docfecha)=".$anio."
 					  -- AND		MONTH(m.docfecha)=".$mes."
 					  AND		m.financiero=1
 					  AND		m.tipo=2	
@@ -100,7 +104,8 @@ class Egresos extends CMySQLi{
 					  FROM 		con_movimientos m
 					  INNER JOIN con_cuentas c ON m.idcon_cuentas=c.id
 					  INNER JOIN pusuarios u ON m.usuario=u.username
-					  WHERE		YEAR(m.docfecha)=".$anio."
+					  WHERE		YEAR(m.docfecha)=".$anioPast."
+					  OR 		YEAR(m.docfecha)=".$anio."
 					  -- AND		MONTH(m.docfecha)=".$mes."
 					  AND		m.recurrente=1
 					  AND		m.tipo=2	
@@ -140,6 +145,7 @@ class Egresos extends CMySQLi{
 
 	public function getCuentas($anio){
 		//Revisamos si tiene permisos a nivel tipousuario
+		$anio = 2022;
 		$b1 = 0;
 		$q1 = "SELECT 	*
 				  FROM 		ptipousuariocuenta
