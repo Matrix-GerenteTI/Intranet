@@ -1728,7 +1728,6 @@ class Valuados extends prepareExcel
             $listaArticulosDesagrupados = $listaArticulosAgrupados;
         }
 
-
         
         $libroEdicion = $this->libro->getActiveSheet();
 
@@ -1747,8 +1746,8 @@ class Valuados extends prepareExcel
         $libroEdicion->setCellValue("F7",'BARRENACIÓN');
 
         $libroEdicion->setCellValue("G7", 'TUXTLA');
-        $libroEdicion->setCellValue("M7", 'SAN CRISTOBAL');
-        $libroEdicion->setCellValue("O7", 'TAPACHULA');
+        $libroEdicion->setCellValue("N7", 'SAN CRISTOBAL');
+        $libroEdicion->setCellValue("P7", 'TAPACHULA');
 
         $libroEdicion->setCellValue("G8", 'LAURELES');
         $libroEdicion->setCellValue("H8", 'QUINTA NTE');
@@ -1928,7 +1927,7 @@ class Valuados extends prepareExcel
                         $libroEdicion->setCellValue("O$i", $stockArt);
                     }
                 }
-                if ($articulo['ALMACEN'] == 'MATRIX 2AOTE') {
+                if ($articulo['ALMACEN'] == 'TAPACHULA 2AOTE') {
                     if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
                         $libroEdicion->setCellValue("P$i", $articulo['STOCK']);
                         array_push($cantidadArt, $articulo['STOCK']);
@@ -1937,7 +1936,7 @@ class Valuados extends prepareExcel
                         $libroEdicion->setCellValue("P$i", $stockArt);
                     }
                 }
-                if ($articulo['ALMACEN'] == 'MATRIX BLVD') {
+                if ($articulo['ALMACEN'] == 'TAPACHULA BLVD') {
                     if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
                         $libroEdicion->setCellValue("Q$i", $articulo['STOCK']);
                         array_push($cantidadArt, $articulo['STOCK']);
@@ -2208,7 +2207,7 @@ class Valuados extends prepareExcel
                         $libroEdicion->setCellValue("O$i", $stockArt);
                     }
                 }
-                if ($articulo['ALMACEN'] == 'MATRIX 2AOTE') {
+                if ($articulo['ALMACEN'] == 'TAPACHULA 2AOTE') {
                     if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
                         $libroEdicion->setCellValue("P$i", $articulo['STOCK']);
                         array_push($cantidadArt, $articulo['STOCK']);
@@ -2217,7 +2216,7 @@ class Valuados extends prepareExcel
                         $libroEdicion->setCellValue("P$i", $stockArt);
                     }
                 }
-                if ($articulo['ALMACEN'] == 'MATRIX BLVD') {
+                if ($articulo['ALMACEN'] == 'TAPACHULA BLVD') {
                     if($articulo['STOCK'] != '' || $articulo['STOCK'] != null){
                         $libroEdicion->setCellValue("Q$i", $articulo['STOCK']);
                         array_push($cantidadArt, $articulo['STOCK']);
